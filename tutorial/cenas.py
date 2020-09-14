@@ -23,7 +23,7 @@ LAPIS = "https://i.ytimg.com/vi/5igYewGEoFo/maxresdefault.jpg"
 
 
 STYLE["width"] = 900
-STYLE["heigth"] = 900
+STYLE["heigth"] = "900px"
 
 #cena_direita = Cena(ARCO)
 #cena_esquerda =Cena(LAPIS)
