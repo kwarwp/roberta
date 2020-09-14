@@ -10,7 +10,7 @@ Changelog
 
 """
 
-from _spy.vitollino.main  import CENA, STYLE
+from _spy.vitollino.main  import Cena, STYLE
 
 STYLE["width"] = 900 # width = 300 (default)
 STYLE["heigth"] = "900px" # min-height = "300px"
