@@ -19,3 +19,5 @@
 'error': ''''''},
 {'date': 'Mon Sep 14 2020 17:27:51.980 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
 'error': ''''''},
+{'date': 'Mon Sep 14 2020 17:27:58.577 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': ''''''},
