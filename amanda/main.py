@@ -1,6 +1,6 @@
 """     xxxxx
 
-.. codeauthor:: Angélica angelicazumpichiatti@yahoo.com.br
+.. codeauthor:: Angélica <angelicazumpichiatti@yahoo.com.br>
 Changelog
 ---------
 .. versionadded::    
