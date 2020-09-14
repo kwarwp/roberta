@@ -14,7 +14,7 @@ Changelog
        - Importação de classes de MESMO MÓDULO
 
 """
-from _spy.vitollino.main import Cena, Elemento, STYLE, Texto
+from _spy.vitollino.main import Cena, STYLE
 
 MUNDO = "http://www.pngall.com/wp-content/uploads/1/World-Map.png"
 ARCO = "https://i.ytimg.com/vi/ynxZPR27gi4/maxresdefault.jpg"
@@ -29,12 +29,12 @@ STYLE["heigth"] = "900px"
 #cena_esquerda =Cena(LAPIS)
 #cena_fundo = Cena(FUNDO, esquerda=cena_esquerda, direita=cena_direita)
 
-cena_fundo = Cena(FUNDO)
-cena_fundo.vai()
+#cena_fundo = Cena(FUNDO)
+#cena_fundo.vai()
 
-#def cria_fundo():
-    #cena_fundo = Cena(FUNDO)
-    #cena_fundo.vai()
+def cria_fundo():
+    cena_fundo = Cena(FUNDO)
+    cena_fundo.vai()
     
     
-#cria_fundo()
+cria_fundo()
