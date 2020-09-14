@@ -8,7 +8,9 @@ Changelog
     - xxx
     
 """
-numero_um = 1
-numero_dois = 2.5
-soma = numero_um + numero_dois
-print(soma)
+from _spy.vitollino.main import Cena
+STYLE["width"] = 900
+STYLE["height"] = "900px"
+FLORESTA = "https://imgur.com/a/vQzh2NP"
+floresta_verde  Cena(FLORESTA)
+floresta_verde.vai()
