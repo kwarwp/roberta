@@ -26,6 +26,8 @@ class Tutorial:
         esqu = Cena(ESQU)
         dire = Cena(DIRE)
         self.cena = Cena(CENA, direita=dire, esquerda=esqu)
+        esqu.direita = self.cena
+        dire.esquerda = self.cena
         
     def vai(self):
         self.cena.vai()
