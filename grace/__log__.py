@@ -90,3 +90,10 @@ SyntaxError: invalid syntax
      ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 14 2020 20:47:46.35 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 3
+  .. codeauthor:: maria clara < mari4cla@gmail.com >
+     ^
+SyntaxError: invalid syntax
+'''},
