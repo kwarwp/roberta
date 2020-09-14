@@ -12,8 +12,8 @@ Changelog
 
 from _spy.vitollino.main import Cena, STYLE
 
-STYLE ["with"] = 900
-STYLE ["heigh"] = "900px"
+STYLE ["with"] = 2000
+STYLE ["heigh"] = "2000px"
 
 FLORESTA = "https://image.freepik.com/vetores-gratis/folhagem-de-floresta-tropical-paisagem_23-2148271243.jpg"
 
