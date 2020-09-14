@@ -1,17 +1,7 @@
 # janese.cenas.imix.py
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""     Vitollino na UNESP 2020
+"""     
 
-.. codeauthor:: Equipe Supygirls <supygirls@gmail.com>
-
-Changelog
----------
-.. versionadded::    20.08
-       - Cenas;
-       - Texto de abertura;
-       - Elemento;
-       - Texto ao clicar no elemento;
-       - Importação de classes de MESMO MÓDULO
 
 """
 from _spy.vitollino.main import Cena, STYLE
