@@ -6,4 +6,3 @@ Changelog
 .. versionadded::    
        - xxx
 
-"""
