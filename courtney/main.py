@@ -1,6 +1,6 @@
 """     xxxxx
 
-.. codeauthor:: Sthefani <email>
+.. codeauthor:: Sthefani <Sthee_R@yahoo.com.br>
 
 Changelog
 ---------
