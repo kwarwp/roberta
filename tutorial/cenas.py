@@ -16,13 +16,13 @@ STYLE["heigth"] = "900px"
 
 #cena_direita = Cena(ARCO)
 #cena_esquerda =Cena(LAPIS)
-#cena_fundo = Cena(FUNDO, esquerda=cena_esquerda, direita=cena_direita)
+#cena_fundo = Cena(MUNDO, esquerda=cena_esquerda, direita=cena_direita)
 
 #cena_fundo = Cena(FUNDO)
 #cena_fundo.vai()
 
 def cria_fundo(*_):
-    cena_fundo = Cena(FUNDO)
+    cena_fundo = Cena(MUNDO)
     cena_fundo.vai()
     
     
