@@ -7,9 +7,11 @@
 Changelog
 ---------
 .. versionadded::    20.09
-        Descreva o que você adicionou no código.
+        Uma página com uma cena.
 
 """
+
+
 from _spy.vitollino.main import STYLE, Cena
 
 STYLE["width"] = 900 # width = 300 (default)
@@ -27,3 +29,4 @@ class Tutorial:
     
 if __name__ == "__main__":
     Tutorial().vai()
+
