@@ -1,7 +1,7 @@
 # roberta.roxanne.main.py
 """     xxxxx
 
-.. codeauthor:: 
+.. codeauthor:: Priscilla Mello <priscilamsaude@gmail.com>
 
 Changelog
 ---------
