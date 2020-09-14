@@ -10,11 +10,20 @@ Changelog
         Descreva o que você adicionou no código.
 
 """
+from _spy.vitollino.main import STYLE, Cena
+
+STYLE["width"] = 900 # width = 300 (default)
+STYLE["height"] = "900px" # min-height = "300px"
+CENA = "https://i.imgur.com/gSzqe5C.jpg"
 
 
 class Tutorial:
-    pass
+    def __init__(self):
+        self.cena = Cena(CENA)
+        
+    def vai(self):
+        self.cena.vai()
     
     
 if __name__ == "__main__":
-    Tutorial()
+    Tutorial().vai()
