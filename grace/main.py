@@ -16,5 +16,16 @@ Define uma Sala ou uma Cena vazia.
         >>> # não vai, pois a cena é nula e não deixa que se navegue para ela
         >>> print(INVENTARIO.cena == cena)
         True
-  
+    Deve ser usado quando um parâmetro requer uma cena mas não deve ter uma cena válida ali.
     """
+
+    numero_um = 1
+    numero_dois = 2.3
+    letras = "oi, bom dia"
+    
+    operacao = numero_um + letras
+    
+    print (operacao) 
+    
+    
+    
