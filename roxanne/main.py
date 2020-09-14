@@ -1,7 +1,7 @@
 # roberta.roxanne.main.py
 """     xxxxx
 
-.. codeauthor:: Emanuelle Simas <elesimas@gmail.com>
+.. codeauthor:: 
 
 Changelog
 ---------
