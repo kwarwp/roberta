@@ -25,8 +25,8 @@ LIVRO = "https://comunicamack.files.wordpress.com/2016/12/livro.png"
 STYLE["width"] = 900
 STYLE["heigth"] = 900
 
-#cena_fundo = Cena(FUNDO)
-#cena_fundo.vai()
+cena_fundo = Cena(FUNDO)
+cena_fundo.vai()
 
 #def cria_fundo():
     #cena_fundo = Cena(FUNDO)
