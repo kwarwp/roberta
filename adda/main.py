@@ -8,7 +8,7 @@ Changelog
     - xxx
     
 """
-from _spy.vitollino.main import Cena
+from _spy.vitollino.main import Cena, STYLE
 STYLE["width"] = 900
 STYLE["height"] = "900px"
 FLORESTA = "https://imgur.com/a/vQzh2NP"
