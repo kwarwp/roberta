@@ -1,9 +1,8 @@
-# roberta.amanda.main.py
-  xxxxx
+"""     xxxxx
 
-.. codeauthor:: Angelica Z  <angelicazumpichiatti@yahoo.com.br   >
-
+.. codeauthor:: Angélica angelicazumpichiatti@yahoo.com.br
 Changelog
 ---------
 .. versionadded::    
        - xxx
+
