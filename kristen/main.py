@@ -22,7 +22,7 @@ OCA = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gratispng.com%2Fpng
 
 def ambiente ():
     floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = Cena(OCA), meio = Cena(INDIO))
-    borboleta = Cena(BORBOLETA, esquerda = florest_verde
+    borboleta = Cena(BORBOLETA, esquerda = florest_verde)
 
 borboleta = Cena(MUNDO, esquerda = floresta_verde)
 oca = Cena(BORBOLETA, 
