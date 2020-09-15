@@ -24,14 +24,16 @@ LAPIS: https://http2.mlstatic.com/adesivo-parede-quarto-infantil-lapis-de-cor-on
 arco - cena(ARCO)
 lapis - cena(LAPIS)
 
-#oresta_verde - cena(Floresta,direita- mundo, esquerda - arco, meio - lapis)
+#floresta_verde - cena(floresta, direita - mundo, esquerda - arco, meio - lapis) 
 
 def ambiente():
-floresta_verde - cena(Floresta,direita- mundo, esquerda - arco, meio - lapis)
+floresta_verde - cena(Floresta, direita - mundo, esquerda - arco, meio - lapis)
 mundo - cena(MUNDO, esquerda - floresta_verde) 
 floresta_verde.vai()
 
 ambiente(): 
+
+
 
 
 
