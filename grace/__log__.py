@@ -174,3 +174,10 @@ SyntaxError: EOL while scanning string literal
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Sep 14 2020 23:05:18.444 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 35
+  ambiente(): 
+             ^
+SyntaxError: invalid syntax
+'''},
