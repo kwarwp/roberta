@@ -12,5 +12,12 @@ from _spy.vitollino.main import Cena, STYLE
 STYLE["width"] = 900
 STYLE["height"] = "900px"
 FLORESTA = "https://imgur.com/a/vQzh2NP"
-floresta_verde = Cena(FLORESTA)
+MUNDO = ""
+ARCO = ""
+LAPIS = ""
+
+mundo = Cena(MUNDO, esquerda = floresta_verde)
+arco = Cena(ARCO, direita= floresta_verde)
+
+floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio= Cena(LAPIS))
 floresta_verde.vai()
