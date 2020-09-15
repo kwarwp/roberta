@@ -20,11 +20,12 @@ BORBOLETA = "https://store-images.s-microsoft.com/image/apps.2544.13768621950225
 INDIO = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.pinterest.com%2Fpin%2F725712927435250494%2F&psig=AOvVaw0D47WV7tiAY8ct2rEipO5n&ust=1600214923381000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCd-qPv6esCFQAAAAAdAAAAABAD.jpg"
 OCA = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gratispng.com%2Fpng-4qxfp4%2F&psig=AOvVaw2F3RhnMhNl96R10vfCtcxs&ust=1600214952070000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDivLDv6esCFQAAAAAdAAAAABAD.png"
 
-def ambiente ():
-    floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = Cena(OCA), meio = Cena(INDIO))
-    borboleta = Cena(BORBOLETA, esquerda = florest_verde)
-
-borboleta = Cena(MUNDO, esquerda = floresta_verde)
-oca = Cena(BORBOLETA, diteira = floresta_verde)
-
-floresta_verde.vai()
+nome_da_cena_meio = Cena(INDIO)
+nome_da_cena_direita = Cena(BORBOLETA)
+nome_da_cena_esquerda = Cena(OCA)
+nome_da_cena = Cena(FLORESTA) # Parâmetro obrigatório
+                esquerda=nome_da_cena_esquerda, # default = NADA = SalaCenaNula()
+                direita=nome_da_cena_direita,  # default = NADA = SalaCenaNula()
+                meio=nome_da_cena_meio) # default = NADA = SalaCenaNula()
+                 )
+nome_da_cena.vai()
