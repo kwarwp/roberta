@@ -23,9 +23,6 @@ OCA = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gratispng.com%2Fpng
 nome_da_cena_meio = Cena(INDIO)
 nome_da_cena_direita = Cena(BORBOLETA)
 nome_da_cena_esquerda = Cena(OCA)
-nome_da_cena = Cena(FLORESTA) # Parâmetro obrigatório
-                esquerda=nome_da_cena_esquerda, # default = NADA = SalaCenaNula()
-                direita=nome_da_cena_direita,  # default = NADA = SalaCenaNula()
-                meio=nome_da_cena_meio) # default = NADA = SalaCenaNula()
+nome_da_cena = Cena(FLORESTA, esquerda=nome_da_cena_esquerda, direita=nome_da_cena_direita, meio=nome_da_cena_meio)
                  )
 nome_da_cena.vai()
