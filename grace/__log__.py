@@ -167,3 +167,10 @@ SyntaxError: invalid syntax
                                                                                                                                      ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Sep 14 2020 23:04:02.813 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 31
+  floresta_verde - cena(Floresta, direita - mundo, esquerda - arco, meio - lapis)
+  ^
+IndentationError: expected an indented block
+'''},
