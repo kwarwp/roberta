@@ -267,3 +267,21 @@ NameError: name 'Floresta' is not defined
     ambiente.vai()
 AttributeError: 'function' object has no attribute 'vai'
 '''},
+{'date': 'Mon Sep 14 2020 23:56:51.523 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 180
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 310
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 282
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 299
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 38
+    ambiente()
+  module <module> line 33
+    floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio = lapis)
+UnboundLocalError: local variable 'mundo' referenced before assignment
+'''},
