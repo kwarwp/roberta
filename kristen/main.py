@@ -12,8 +12,8 @@ Changelog
 
 from _spy.vitollino.main import Cena, STYLE
 
-STYLE ["width"] = 1000
-STYLE ["height"] = 1000
+STYLE ["width"] = 600
+STYLE ["height"] = 600
 
 FLORESTA = "https://image.freepik.com/vetores-gratis/folhagem-de-floresta-tropical-paisagem_23-2148271243.jpg"
 BORBOLETA = "https://store-images.s-microsoft.com/image/apps.2544.13768621950225582.167ba0c8-6eb8-47bb-96fe-278c89bf0dc9.ea440c13-fd1d-4705-b62c-9bfd9054b8b3?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg"
