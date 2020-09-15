@@ -31,12 +31,11 @@ def flora():
     cenaArco.vai()    
     cenaArco.direita = cenaFloresta
     
-    
-    cenaLapis = Cena(img = LAPIS)
     cenaFloresta.meio = cenaLapis
+    cenaLapis = Cena(img = LAPIS)    
     elementoProg = Elemento(img = PROG,                       
                      style = dict (top = 420, left = 25, height = 60, width = 55, bottom = 100))
-    cenaLapis = elementoProg
+    elementoProg.vai()
     cenaLapis.vai()    
     
     cenaFloresta.vai()
