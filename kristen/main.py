@@ -23,6 +23,6 @@ OCA = "https://i.imgur.com/JzoV9GT.png"
 nome_da_cena_meio = Cena(INDIO)
 nome_da_cena_direita = Cena(BORBOLETA)
 nome_da_cena_esquerda = Cena(OCA)
-nome_da_cena = Cena(INDIO, esquerda=nome_da_cena_esquerda, direita=nome_da_cena_direita, meio=nome_da_cena_meio)
+nome_da_cena = Cena(FLORESTA, esquerda=nome_da_cena_esquerda, direita=nome_da_cena_direita, meio=nome_da_cena_meio)
                  
 nome_da_cena.vai()
