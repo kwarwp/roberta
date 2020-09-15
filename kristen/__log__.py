@@ -43,3 +43,10 @@ NameError: name 'MUNDO' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Sep 14 2020 21:20:18.587 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  esquerda=nome_da_cena_esquerda, # default = NADA = SalaCenaNula()
+  ^
+IndentationError: unexpected indent
+'''},
