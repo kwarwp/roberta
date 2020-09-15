@@ -13,3 +13,10 @@ SyntaxError: invalid syntax
                                                          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 14 2020 21:15:27.340 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 28
+  oca = Cena(BORBOLETA, 
+            ^
+SyntaxError: Unbalanced bracket (
+'''},
