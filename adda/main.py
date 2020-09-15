@@ -27,8 +27,8 @@ def flora():
     
     cenaArco = Cena(img = ARCO)
     cenaFloresta.esquerda = cenaArco
-    cenaArco.vai()
-    
+    cenaArco.vai()    
+    cenaArco.direita = cenaFloresta
     
     cenaFloresta.vai()
 flora()
