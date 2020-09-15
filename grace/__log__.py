@@ -303,3 +303,10 @@ UnboundLocalError: local variable 'mundo' referenced before assignment
     floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio = lapis)
 UnboundLocalError: local variable 'mundo' referenced before assignment
 '''},
+{'date': 'Tue Sep 15 2020 00:08:38.159 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 33
+  floresta_verde = Cena(FLORESTA), direita = Cena(MUNDO), esquerda = Cena(ARCO), meio = Cena(LAPIS))
+                                                                                                   ^
+SyntaxError: invalid syntax
+'''},
