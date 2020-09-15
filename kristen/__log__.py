@@ -36,3 +36,10 @@ SyntaxError: Unbalanced bracket (
     borboleta = Cena(MUNDO, esquerda = floresta_verde)
 NameError: name 'MUNDO' is not defined
 '''},
+{'date': 'Mon Sep 14 2020 21:20:14.956 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  esquerda=nome_da_cena_esquerda, # default = NADA = SalaCenaNula()
+  ^
+IndentationError: unexpected indent
+'''},
