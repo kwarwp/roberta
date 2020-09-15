@@ -21,8 +21,8 @@ INDIO = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.pinterest.com%2Fpi
 OCA = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gratispng.com%2Fpng-4qxfp4%2F&psig=AOvVaw2F3RhnMhNl96R10vfCtcxs&ust=1600214952070000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDivLDv6esCFQAAAAAdAAAAABAD.png"
 
 def ambiente ():
-    floresta_verde = Cena(FLORESTA, direita = mundi, esquerda = Cena(OCA), meio = Cena(INDIO))
-    borboleta = Cena(BORBOLETA, esquerda = floresta_verde
+    floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = Cena(OCA), meio = Cena(INDIO))
+    borboleta = Cena(BORBOLETA, esquerda = florest_verde
 
 borboleta = Cena(MUNDO, esquerda = floresta_verde)
 oca = Cena(BORBOLETA, 
