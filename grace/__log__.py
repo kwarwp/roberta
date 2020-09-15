@@ -310,3 +310,7 @@ UnboundLocalError: local variable 'mundo' referenced before assignment
                                                                                                    ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Sep 15 2020 00:09:03.130 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: Cannot read property 'charAt' of undefined>
+'''},
