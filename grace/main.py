@@ -1,31 +1,31 @@
 # roberta.grace.main.py"""     xxxxx
 
-.. codeauthor:: mariaclara <mari4cla@gmail.com>
+".. codeauthor:: mariaclara <mari4cla@gmail.com>
 
-Changelog
----------
-.. versionadded::    
-       - xxx
+"Changelog
+"---------
+".. versionadded::    
+"       - xxx
 
-"""
-Define uma Sala ou uma Cena vazia.
-    .. doctest::
-        >>> cena = Cena(SalaCenaNula())  # A próxima cena
-        >>> uma_cena = Cena(SalaCenaNula(), cena)  # Cena nula à esquerda, proxima no meio
-        >>> uma_cena.vai_esquerda()  # tenta navegar para a cena à esquerda
-        >>> # não vai, pois a cena é nula e não deixa que se navegue para ela
-        >>> print(INVENTARIO.cena == cena)
-        True
-    Deve ser usado quando um parâmetro requer uma cena mas não deve ter uma cena válida ali.
-    """
 
-    numero_um = 1
-    numero_dois = 2.3
-    letras = "oi, bom dia"
-    
-    operacao = numero_um + letras
-    
-    print (operacao) 
-    
-    
-    
+
+from _spy.vitollino.main import Cena,STYLE
+
+
+
+STYLE["width"] = 900 # width = 300 (default)
+STYLE["heigth"] = "900px" # min-height = "300px"
+
+FLORESTA: https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia24412/floresta-cpt.jpg
+MUNDO: https://www.estadosecapitaisdobrasil.com/wp-content/uploads/2015/04/mapa-mundi.png?x11594
+ARCO: https://static.vecteezy.com/system/resources/previews/000/292/669/non_2x/vector-a-beautiful-rainbow-on-white-background.jpg
+LAPIS: https://http2.mlstatic.com/adesivo-parede-quarto-infantil-lapis-de-cor-onda-colorida-D_NQ_NP_913239-MLB31144572917_062019-F.jpg
+
+arco - cena(ARCO)
+lapis - cena(LAPIS)
+
+floresta_verde - cena(Floresta,direita- mundo, esquerda - arco, meio - lapis) 
+
+def ambiente():
+
+
