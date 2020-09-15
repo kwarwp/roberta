@@ -9,7 +9,7 @@ Changelog
     
 """
 from _spy.vitollino.main import Cena, STYLE
-STYLE["width"] = 900
+STYLE["width"] = 600
 STYLE["height"] = "900px"
 FLORESTA = "https://imgur.com/a/vQzh2NP"
 MUNDO = "https://i.imgur.com/KYGCskB.gifv"
