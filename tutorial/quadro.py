@@ -27,7 +27,7 @@ floresta_verde.vai()
     
     
     
-ambiente()
+
 
 
 
