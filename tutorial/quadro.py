@@ -20,12 +20,12 @@ MUNDO = "http://www.pngall.com/wp-content/uploads/1/World-Map.png"
 ARCO = "https://i.ytimg.com/vi/ynxZPR27gi4/maxresdefault.jpg"
 LAPIS = "https://i.ytimg.com/vi/5igYewGEoFo/maxresdefault.jpg"
 
-
-
-def ambiente():
-    self.floresta_verde = Cena(FLORESTA, direita = self.mundo, esquerda = arco, meio = lapis)
-    self.mundo = Cena(MUNDO, esquerda = floresta_verde)
-    self.floresta_verde.vai()
+mundo = Cena(MUNDO)
+floresta_verde = Cena(FLORESTA, direita = mundo)
+mundo.esquerda = floresta_verde
+floresta_verde.vai()
+    
+    
     
 ambiente()
 
