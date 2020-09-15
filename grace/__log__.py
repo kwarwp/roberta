@@ -153,3 +153,10 @@ SyntaxError: EOL while scanning string literal
            ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 14 2020 23:01:46.362 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  FLORESTA: 'https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia24412/floresta-cpt.jpg'
+           ^
+SyntaxError: invalid syntax
+'''},
