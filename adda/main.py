@@ -22,5 +22,7 @@ def flora():
     cenaMundo = Cena(img = MUNDO)
     cenaFloresta.direita = cenaMundo
     cenaMundo.vai()
+    
+    cenaMundo.esquerda = cenaFloresta
     cenaFloresta.vai()
 flora()
