@@ -8,13 +8,14 @@ Changelog
     - xxx
     
 """
-from _spy.vitollino.main import Cena, STYLE
+from _spy.vitollino.main import Cena, STYLE, Elemento
 STYLE["width"] = 1100
 STYLE["height"] = "600px"
 FLORESTA = "https://i.imgur.com/4lB1eyQ.jpg"
 MUNDO = "https://i.imgur.com/LpWmClc.png"
 ARCO = "https://i.imgur.com/PdAD7GC.jpg"
 LAPIS = "https://i.imgur.com/U7w5CPr.png"
+PROG = "https://i.imgur.com/MSe8jUv.gifv"
 
 def flora():
     cenaFloresta = Cena(img = FLORESTA)
@@ -33,6 +34,9 @@ def flora():
     
     cenaLapis = Cena(img = LAPIS)
     cenaFloresta.meio = cenaLapis
+    elementoProg = Elemento(img = PROG,                       
+                     style = dict (top = 420, left = 25, height = 60, width = 55, bottom = 100))
+    cenaLapis = elementoProg
     cenaLapis.vai()    
     
     cenaFloresta.vai()
