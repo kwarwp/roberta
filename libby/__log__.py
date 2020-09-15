@@ -15,3 +15,10 @@
     cachorro = Cena(imagem_esquerda)
 NameError: name 'imagem_esquerda' is not defined
 '''},
+{'date': 'Mon Sep 14 2020 21:09:00.549 GMt-0300 (-03) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  cachorro = Cena(imagem_esquerda, esquerda =Cena(FLORESTA)
+                                                             ^
+SyntaxError: invalid syntax
+'''},
