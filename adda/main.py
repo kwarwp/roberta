@@ -16,8 +16,9 @@ MUNDO = "https://i.imgur.com/KYGCskB.gifv"
 ARCO = "https://i.imgur.com/PdAD7GC.jpg"
 LAPIS = "https://i.imgur.com/U7w5CPr.png"
 
+floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco)
 mundo = Cena(MUNDO, esquerda = floresta_verde)
 arco = Cena(ARCO, direita= floresta_verde)
 
-floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio= Cena(LAPIS))
+
 floresta_verde.vai()
