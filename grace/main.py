@@ -14,7 +14,7 @@ from _spy.vitollino.main import Cena,STYLE
 
 
 
-STYLE["width"] = 900 # width = 300 (default)
+STYLE["width"] = 300 # width = 300 (default)
 STYLE["heigth"] = "900px" # min-height = "300px"
 
 FLORESTA= 'https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia24412/floresta-cpt.jpg'
