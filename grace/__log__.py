@@ -160,3 +160,10 @@ SyntaxError: invalid syntax
            ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 14 2020 23:03:11.73 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  ARCO= "https://static.vecteezy.com/system/resources/previews/000/292/669/non_2x/vector-a-beautiful-rainbow-on-white-background.jpg'
+                                                                                                                                     ^
+SyntaxError: EOL while scanning string literal
+'''},
