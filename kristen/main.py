@@ -25,6 +25,6 @@ def ambiente ():
     borboleta = Cena(BORBOLETA, esquerda = florest_verde)
 
 borboleta = Cena(MUNDO, esquerda = floresta_verde)
-oca = Cena(BORBOLETA, 
+oca = Cena(BORBOLETA, diteira = floresta_verde)
 
 floresta_verde.vai()
