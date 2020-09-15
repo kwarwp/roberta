@@ -30,7 +30,7 @@ lapis = Cena(LAPIS)
 #floresta_verde - cena(floresta, direita - mundo, esquerda - arco, meio - lapis) 
 
 def ambiente():
-      floresta_verde = Cena(FLORESTA, direita = (MUNDO), esquerda = Cena(ARCO), meio = Cena(LAPIS))
+      floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio = lapis)
       mundo = Cena(MUNDO, esquerda = floresta_verde) 
       floresta_verde.vai()
 
