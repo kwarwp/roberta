@@ -31,8 +31,9 @@ def ambiente():
 	floresta_verde = Cena(FLORESTA, direita = MUNDO, esquerda = ARCO, meio = LAPIS)
 	mundo = Cena(MUNDO, esquerda = floresta_verde) 
 	floresta_verde.vai()
+	)
 
-ambiente.vai()
+ambiente()
 
 
 
