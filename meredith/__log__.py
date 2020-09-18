@@ -67,3 +67,21 @@ UnboundLocalError: local variable 'Caminho_direito' referenced before assignment
     Caminho_direito  = Cena('https://i.pinimg.com/originals/f1/1a/18/f11a183f87fab48d6ac3024979fa2d9d.jpg', esquerdo=Floresta)
 NameError: name 'Floresta' is not defined
 '''},
+{'date': 'Fri Sep 18 2020 01:43:58.491 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 180
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 310
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 282
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 299
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 55
+    ambiente()
+  module <module> line 50
+    Floresta = Cena(Img_floresta,
+UnboundLocalError: local variable 'Caminho_direito' referenced before assignment
+'''},
