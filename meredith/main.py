@@ -47,11 +47,11 @@ Img_esquerda = 'http://getwallpapers.com/wallpaper/full/e/c/3/175329.jpg'
 Img_meio     = 'https://i.pinimg.com/736x/5f/bc/4b/5fbc4b8429bd52280463d9e5f3bc129d--character-creation-character-ideas.jpg'
 
 def ambiente():
-    caminho_direito=Cena(img_direita)
+    Caminho_direito=Cena(Img_direita)
     Floresta = Cena(Img_floresta,
                     esquerda=Caminho_direito, direita=Caminho_direito, meio=Caminho_direito)
     #Caminho_direito  = Cena(Img_direita, esquerdo=Floresta)
-    caminho_direito.esquerda(Floresta)
+    Caminho_direito.esquerda(Floresta)
     Floresta.vai()
     
 ambiente()
