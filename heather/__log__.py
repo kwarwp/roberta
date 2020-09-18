@@ -61,3 +61,10 @@ NameError: name 'operacao_um' is not defined
     opera_soma_pesos(antoni=40,lucia=30)
 NameError: name 'opera_soma_pesos' is not defined
 '''},
+{'date': 'Thu Sep 17 2020 21:16:06.176 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 32
+  """ """"
+          ^
+SyntaxError: EOL while scanning string literal
+'''},
