@@ -33,10 +33,20 @@ resto      = atrib_a // atrib_b #Maior divisor sem resto
 from _spy.vitollino.main import Cena, STYLE
 STYLE["width"] = 900
 STYLE["heigth"] = "900px"
-
+'''
 Caminho_esquerdo = Cena('http://getwallpapers.com/wallpaper/full/e/c/3/175329.jpg')
 Caminho_direito  = Cena('https://i.pinimg.com/originals/f1/1a/18/f11a183f87fab48d6ac3024979fa2d9d.jpg')
 Caminho_meio     = Cena('https://i.pinimg.com/736x/5f/bc/4b/5fbc4b8429bd52280463d9e5f3bc129d--character-creation-character-ideas.jpg')
 Floresta         = Cena('https://i.ytimg.com/vi/dL9_IQv3eGE/maxresdefault.jpg',
                         esquerda=Caminho_esquerdo, direita=Caminho_direito, meio=Caminho_meio)
 Floresta.vai()
+'''
+def ambiente():
+    Floresta = Cena('https://i.ytimg.com/vi/dL9_IQv3eGE/maxresdefault.jpg',
+                    esquerda=Caminho_direito, direita=Caminho_direito, meio=Caminho_direito)
+    Caminho_direito  = Cena('https://i.pinimg.com/originals/f1/1a/18/f11a183f87fab48d6ac3024979fa2d9d.jpg',
+                            esquerdo=Floresta)
+    Floresta.vai()
+    
+ambiente()
+                   
