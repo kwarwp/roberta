@@ -57,3 +57,7 @@ NameError: name 'lapis' is not defined
 'error': '''
 Exception: <SyntaxError: Unexpected token '{'>
 '''},
+{'date': 'Mon Sep 21 2020 19:45:19.829 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+Exception: <SyntaxError: Unexpected token '{'>
+'''},
