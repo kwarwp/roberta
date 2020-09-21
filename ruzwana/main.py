@@ -12,4 +12,4 @@ def desafio():
         MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
        
 if __name__ == "__main__":
-	desafio0()
+	desafio()
