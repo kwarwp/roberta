@@ -29,3 +29,10 @@ TypeError: 'module' object is not callable
                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 21 2020 20:29:12.63 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  def desafio0()
+                 ^
+SyntaxError: invalid syntax
+'''},
