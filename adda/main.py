@@ -42,6 +42,6 @@ def flora():
     cenaFim.vai()
     
     
-    cenaLapis.direita =
+    
     cenaFloresta.vai()
 flora()
