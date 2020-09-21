@@ -30,7 +30,14 @@ STYLE["width"] = 900
 STYLE["heigth"] = "900px" 
 
 FLORESTA = "https://cdn4.ecycle.com.br/cache/images/2018-07/50-650-floresta-amazonica.jpg"
-floresta_verde = Cena(FLORESTA)
+MUNDO = "https://exame.com/wp-content/uploads/2016/09/size_960_16_9_terral9.jpg"
+ARCO = "https://observatoriog.bol.uol.com.br/wordpress/wp-content/uploads/2019/07/Yoast-rainbow-songs-for-kids.jpg"
+LAPIS = "https://produtosassistivos.com.br/wp-content/uploads/2018/08/mcr0011-lapis-de-cor-grosso-136.jpg"
+
+mundo = Cena (MUNDO)
+arco = Cena (ARCO)
+
+floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio = Cena (LAPIS))
 floresta_verde.vai()
 
 
