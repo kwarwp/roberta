@@ -142,3 +142,10 @@ NameError: name 'cenafloresta' is not defined
     cenaLapis.esquerda = cenafloresta
 NameError: name 'cenafloresta' is not defined
 '''},
+{'date': 'Mon Sep 21 2020 20:00:55.291 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 45
+  cenaLapis.direita =
+                      ^
+SyntaxError: invalid syntax
+'''},
