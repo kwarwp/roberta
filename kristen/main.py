@@ -28,6 +28,8 @@ nome_da_cena_esquerda = Cena(OCA)
 nome_da_cena = Cena(FLORESTA, esquerda=nome_da_cena_esquerda, direita=nome_da_cena_direita, meio=nome_da_cena_meio)
 
 nome_da_cena_esquerda.direita = cenaFloresta
+nome_da_cena_esquerda.esquerda = cenaFloresta
 nome_da_cena_direita.direita = cenaFloresta
+nome_da_cena_esquerda.esquerda = cenaFloresta
 
 nome_da_cena.vai()
