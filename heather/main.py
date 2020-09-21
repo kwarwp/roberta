@@ -1,7 +1,7 @@
-# roberta.kristen.main.py
+# roberta.heather.main.py
 """     xxxxx
 
-.. codeauthor:: Lilian <lilianes93@gmail.com>
+.. codeauthor:: Hortencia e Lilian
 
 Changelog
 ---------
