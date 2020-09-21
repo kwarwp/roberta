@@ -36,8 +36,9 @@ LAPIS = "https://produtosassistivos.com.br/wp-content/uploads/2018/08/mcr0011-la
 
 mundo = Cena (MUNDO)
 arco = Cena (ARCO)
+lapis = Cena (LAPIS)
 
-floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio = Cena(LAPIS))
+floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio = lapis)
 floresta_verde.vai()
 
 
