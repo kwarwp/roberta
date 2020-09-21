@@ -15,7 +15,7 @@ def desafio0():
     TOPO_ESQUERDA = "LS"
     TOPO_DIREITA = "LO"
     TOPO_CENTRO = "JN"
-    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "JO", "FN", "AN"
+    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "JO", "FN", "JL"
     FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "AN", "AN", "AN"
 
     # O comando abaixo voce vai entender no próximo desafio
