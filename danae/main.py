@@ -10,6 +10,15 @@ Changelog
         Uma página com uma cena.
 
 """
+def main():
+    from circus.circus import circus
+
+    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+     'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
+     'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
+
+
+    circus(4, MASMORRA)
 
 
 from _spy.vitollino.main import STYLE, Cena
@@ -31,8 +40,11 @@ class Tutorial:
         
     def vai(self):
         self.cena.vai()
+
+
     
     
 if __name__ == "__main__":
-    Tutorial().vai()
+    main()
+    #Tutorial().vai()
 
