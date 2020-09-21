@@ -34,7 +34,7 @@ def ambiente():
       mundo = Cena(MUNDO, esquerda = floresta_verde) 
       floresta_verde.vai()
 
-
+floresta_verde.LAPIS = Cena(MUNDO) 
 ambiente()
 
 
