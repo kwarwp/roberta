@@ -16,11 +16,10 @@ def desafio0():
               
 def desafio1():
     MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
-            [ "AN", "AN", "AN", "AN", "AN", "AN"],
-            [ "AN", "AN", "AN", "AN", "AN", "AN"],
-            [ "AN", "AN", "AN", "AN", "AN", "AN"],
-            [ "AN", "AN", "AN", "AN", "AN", "AN"]
-            ]
+                [ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"]]
 
     circus(2, MASMORRA)
 
