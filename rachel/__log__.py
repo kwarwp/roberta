@@ -22,3 +22,10 @@ IndentationError: expected an indented block
     circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Mon Sep 21 2020 20:29:03.970 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  def desafio0()
+                 ^
+SyntaxError: invalid syntax
+'''},
