@@ -10,26 +10,20 @@ Changelog
        - xxx
 
 """
-from _spy.vitollino.main import Cena, STYLE 
-
-STYLE["width"] = 900 
-STYLE["heigth"] = "900px" 
-
-FLORESTA = "https://upload.wikimedia.org/wikipedia/commons/4/4c/Po%C3%A7a_das_Asas%2C_floresta%2C_concelho_da_Horta%2C_ilha_do_Faial%2C_A%C3%A7ores%2C_Portugal.JPG"
-MUNDO = "http://www.pngall.com/wp-content/uploads/1/World-Map.png"
-ARCO = "https://i.ytimg.com/vi/ynxZPR27gi4/maxresdefault.jpg"
-LAPIS = "https://i.ytimg.com/vi/5igYewGEoFo/maxresdefault.jpg"
-
-mundo = Cena(MUNDO)
-floresta_verde = Cena(FLORESTA, direita = mundo)
-mundo.esquerda = floresta_verde
-floresta_verde.vai()
-    
-    
-    
+#from patricia.danae.circus import Letra, Piso, Aldeia, circus
+import patricia.danae.circus
 
 
+def desafio0():
+    TOPO_ESQUERDA = "AN"
+    TOPO_DIREITA = "AN"
+    TOPO_CENTRO = "AN"
+    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "AN", "AN", "AN"
+    FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "AN", "AN", "AN"
 
+    # O comando abaixo voce vai entender no próximo desafio
+    circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
+            MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
 
-
-
+if __name__ == "__main__":
+    desafio0()
