@@ -46,14 +46,11 @@ Img_direita  = 'https://i.pinimg.com/originals/f1/1a/18/f11a183f87fab48d6ac30249
 Img_esquerda = 'http://getwallpapers.com/wallpaper/full/e/c/3/175329.jpg'
 Img_meio     = 'https://i.pinimg.com/736x/5f/bc/4b/5fbc4b8429bd52280463d9e5f3bc129d--character-creation-character-ideas.jpg'
 
-def ambiente():
-    caminho_esquerdo=Cena(Img_esquerda)
-    Floresta = Cena(Img_floresta, esquerda=caminho_esquerdo)
-    Floresta.esquerda = Floresta
-    
-    #Caminho_direito  = Cena(Img_direita, esquerdo=Floresta)
-    
-    Floresta.vai()
-    
-ambiente()
+caminho_direito  = Cena(Img_direita)
+caminho_esquerdo = Cena(Img_esquerda)
+Floresta = Cena(Img_floresta, esquerda=caminho_esquerdo)
+caminho_esquerdo.direita = Floresta
+caminho_direito.esquerda = Floresta
+Floresta.vai()
+
                    
