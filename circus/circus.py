@@ -210,6 +210,6 @@ def desafio2(lev=3):
     
 
 if __name__ == "__main__":
-    #desafio0()
-    #desafio1()
-    #desafio2()
+    desafio0()
+    desafio1()
+    desafio2()
