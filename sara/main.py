@@ -24,6 +24,6 @@ acamp_meio = Cena(ELEMENTO)
 arco_direito = Cena(ARCO)
 lapis_esquerda = Cena(LAPIS)
 nome_cena = Cena(MUNDO, esquerda=lapis_esquerda, direita = arco_direito, meio = acamp_meio)
-nome_cena.direita = MUNDO
+nome_cena.esquerda = MUNDO
 
 nome_cena.vai()
