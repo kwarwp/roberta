@@ -269,3 +269,10 @@ KeyError: O
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Sep 21 2020 20:58:03.564 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
+  ^
+IndentationError: unexpected indent
+'''},
