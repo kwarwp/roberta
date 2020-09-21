@@ -13,7 +13,7 @@ Changelog
 def main():
     from circus.circus import circus
 
-    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+    MASMORRA = {'Cahuitz': 'LE', 'Cauha': 'LS', 'Coycol': 'AN',
      'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
      'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
 
