@@ -32,6 +32,7 @@ nome_da_cena_esquerda.esquerda = nome_da_cena
 #nome_da_cena_esquerda.esquerda = cenaFloresta
 
 nome_da_cena_direita.direita = nome_da_cena
+nome_da_cena_direita.esquerda = nome_da_cena
 
 nome_da_cena_meio.esquerda = nome_da_cena
 nome_da_cena_meio.direita = nome_da_cena
