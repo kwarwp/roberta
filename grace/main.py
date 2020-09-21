@@ -30,11 +30,16 @@ LAPIS= "https://http2.mlstatic.com/adesivo-parede-quarto-infantil-lapis-de-cor-o
 #floresta_verde - cena(floresta, direita - mundo, esquerda - arco, meio - lapis) 
 
 def ambiente():
-      floresta_verde = Cena(FLORESTA, direita = Cena(MUNDO), esquerda = Cena(ARCO), meio = Cena(LAPIS))
-      mundo = Cena(MUNDO, esquerda = floresta_verde) 
-      floresta_verde.vai()
-
-floresta_verde.LAPIS = Cena(MUNDO) 
+    cena_mundo = Cena(MUNDO)
+    cena_arco = Cena(ARCO)
+    cena_lapis = Cena(LAPIS)
+    
+    floresta_verde = Cena(FLORESTA, direita = cena_mundo , esquerda = cena_arco , meio = cena_lapis )
+    cena_mundo.esquerda = cena_lapis
+    #mundo = Cena(MUNDO, esquerda = floresta_verde) 
+    floresta_verde.vai()
+    #floresta_verde.LAPIS = Cena(MUNDO) 
+    
 ambiente()
 
 
