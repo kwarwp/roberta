@@ -52,6 +52,9 @@ class Aldeia:
     ORDERED_KEYS = [['Coycol', 'Cauha', 'Tetlah'],
                     ['Huatlya', 'Zitllo', 'Micpe'],
                     ['Nenea', 'Cahuitz', 'Pallotl']]
+    KEYS = [['Coycol', 'Cauha', 'Tetlah'],
+                    ['Huatlya', 'Zitllo', 'Micpe'],
+                    ['Nenea', 'Cahuitz', 'Pallotl']]
     MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'BN', 'Coycol': 'CN',
      'Huatlya': 'DN', 'Micpe': 'EN', 'Nenea': 'FN',
      'Pallotl': 'GN', 'Tetlah': 'HN', 'Zitllo': 'IN'}
