@@ -20,7 +20,12 @@ BORBOLETA = "https://store-images.s-microsoft.com/image/apps.2544.13768621950225
 INDIO = "https://i.imgur.com/DUGXbFb.png"
 OCA = "https://i.imgur.com/JzoV9GT.png"
 
+cenaFloresta = Cena(img = FLORESTA)
+
 nome_da_cena_meio = Cena(INDIO)
+cenaBorboleta.direita = CenaFloresta
+cenaBorboleta.vai()
+
 nome_da_cena_direita = Cena(BORBOLETA)
 nome_da_cena_esquerda = Cena(OCA)
 nome_da_cena = Cena(FLORESTA, esquerda=nome_da_cena_esquerda, direita=nome_da_cena_direita, meio=nome_da_cena_meio)
