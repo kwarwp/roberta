@@ -10,15 +10,15 @@ Changelog
        - xxx
 
 """
-
+#NSLO
 from circus.circus import circus
 
 def desafio():
-    TOPO_ESQUERDA = "AN"
-    TOPO_DIREITA = "AN"
-    TOPO_CENTRO = "AN"
-    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "AN", "AN", "AN"
-    FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "AN", "AN", "AN"
+    TOPO_ESQUERDA = "LS"
+    TOPO_DIREITA = "LO"
+    TOPO_CENTRO = "JN"
+    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "JO", "FN", "JL"
+    FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "GS", "JS", "GL"
 
     # O comando abaixo voce vai entender no próximo desafio
     circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
