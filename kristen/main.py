@@ -20,18 +20,20 @@ BORBOLETA = "https://store-images.s-microsoft.com/image/apps.2544.13768621950225
 INDIO = "https://i.imgur.com/DUGXbFb.png"
 OCA = "https://i.imgur.com/JzoV9GT.png"
 
-cenaFloresta = Cena(img = FLORESTA)
+#cenaFloresta = Cena(img = FLORESTA)
 
 nome_da_cena_meio = Cena(INDIO)
 nome_da_cena_direita = Cena(BORBOLETA)
 nome_da_cena_esquerda = Cena(OCA)
 nome_da_cena = Cena(FLORESTA, esquerda=nome_da_cena_esquerda, direita=nome_da_cena_direita, meio=nome_da_cena_meio)
 
-nome_da_cena_esquerda.direita = cenaFloresta
-nome_da_cena_esquerda.esquerda = cenaFloresta
-nome_da_cena_direita.direita = cenaFloresta
-nome_da_cena_esquerda.esquerda = cenaFloresta
-nome_da_cena_meio.esquerda = cenaFloresta
-nome_da_cena_meio.direita = cenaFloresta
+nome_da_cena_esquerda.direita = nome_da_cena
+nome_da_cena_esquerda.esquerda = nome_da_cena
+#nome_da_cena_esquerda.esquerda = cenaFloresta
+
+nome_da_cena_direita.direita = nome_da_cena
+
+nome_da_cena_meio.esquerda = nome_da_cena
+nome_da_cena_meio.direita = nome_da_cena
 
 nome_da_cena.vai()
