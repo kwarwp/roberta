@@ -262,3 +262,10 @@ KeyError: O
     self.elt.pos = pos[ai[0]]
 KeyError: O
 '''},
+{'date': 'Mon Sep 21 2020 20:57:55.373 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
+  ^
+IndentationError: unexpected indent
+'''},
