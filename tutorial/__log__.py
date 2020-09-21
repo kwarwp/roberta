@@ -765,3 +765,10 @@ TypeError: 'module' object is not callable
     circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Mon Sep 21 2020 21:47:50.766 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module circus.circus line 215
+  #desafio2()
+             ^
+IndentationError: expected an indented block
+'''},
