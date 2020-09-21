@@ -238,3 +238,10 @@ Traceback (most recent call last):
     floresta_verde.vai()
 NameError: name 'floresta_verde' is not defined
 '''},
+{'date': 'Mon Sep 21 2020 01:06:33.569 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 43
+  floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio = lapis)
+  ^
+IndentationError: expected an indented block
+'''},
