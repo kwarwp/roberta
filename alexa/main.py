@@ -29,13 +29,16 @@ nome_da_cena_meio = Cena(IMAGEM_MEIO)
 nome_da_cena_direita = Cena(IMAGEM_DIREITA, direita = nome_da_cena_meio)
 nome_da_cena_esquerda = Cena(IMAGEM_ESQUERDA, direita = nome_da_cena_meio)
 
+
 nome_da_cena = Cena(IMAGEM_QUALQUER, # Parâmetro obrigatório
                 esquerda=nome_da_cena_esquerda, # default = NADA = SalaCenaNula()
                 direita=nome_da_cena_direita,  # default = NADA = SalaCenaNula()
                 meio=nome_da_cena_meio) # default = NADA = SalaCenaNula()
-nome_da_cena_esquerda.esquerda = nome_da_cena_direita
+nome_da_cena_esquerda.esquerda = nome_da_cena
 nome_da_cena_esquerda.direita = nome_da_cena_meio
-nome_da_cena_direita.direita = nome_da_cena_esquerda
+nome_da_cena_direita.direita = nome_da_cena
 nome_da_cena_direita.esquerda = nome_da_cena_meio
-
+nome_da_cena_meio.direita = nome_da_cena_direita
+nome_da_cena_meio.esquerda = nome_da_cena_esquerda
+nome_da_cena_meio.meio = nome_da_cena
 nome_da_cena.vai()
