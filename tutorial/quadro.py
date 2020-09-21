@@ -10,8 +10,8 @@ Changelog
        - xxx
 
 """
-#from patricia.danae.circus import Letra, Piso, Aldeia, circus
-import patricia.danae.circus
+from patricia.danae.circus import Letra, Piso, Aldeia, circus
+
 
 
 def desafio0():
