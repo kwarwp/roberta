@@ -23,7 +23,7 @@ def desafio0():
         MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
         
 def desafio1():
-    MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
+    MASMORRA = [[ "LN", "JN", "HN", "JN", "HN", "KN"],
                 [ "AN", "AN", "AN", "AN", "AN", "AN"],
                 [ "AN", "AN", "AN", "AN", "AN", "AN"],
                 [ "AN", "AN", "AN", "AN", "AN", "AN"],
