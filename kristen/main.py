@@ -31,5 +31,7 @@ nome_da_cena_esquerda.direita = cenaFloresta
 nome_da_cena_esquerda.esquerda = cenaFloresta
 nome_da_cena_direita.direita = cenaFloresta
 nome_da_cena_esquerda.esquerda = cenaFloresta
+nome_da_cena_meio.esquerda = cenaFloresta
+nome_da_cena_meio.direita = cenaFloresta
 
 nome_da_cena.vai()
