@@ -24,6 +24,7 @@ STYLE["heigth"] = "900px"
 cena_direita = Cena(ARCO)
 cena_esquerda =Cena(LAPIS)
 cena_fundo = Cena(MUNDO, esquerda=cena_esquerda, direita=cena_direita)
+cena_esquerda.esquerda = cena_fundo
 elemento = Elemento(ELEMENTO, w=100, h=100,x=150,y=200,vai=cena_esquerda)
 elemento.entra(cena_fundo)
 #cena_fundo = Cena(MUNDO)
