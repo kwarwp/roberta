@@ -10,7 +10,7 @@ Changelog
         Descreva o que você adicionou no código.
 
 """
-from _spy.vitollino.main import Cena, STYLE, Elemento
+from _spy.vitollino.main import Cena, STYLE
 
 MUNDO = "http://www.pngall.com/wp-content/uploads/1/World-Map.png"
 ARCO = "https://i.ytimg.com/vi/ynxZPR27gi4/maxresdefault.jpg"
@@ -24,6 +24,8 @@ STYLE["heigth"] = "900px"
 cena_direita = Cena(ARCO)
 cena_esquerda =Cena(LAPIS)
 cena_fundo = Cena(MUNDO, esquerda=cena_esquerda, direita=cena_direita)
-cena_esquerda.esquerda = cena_fundo
+
+cena_esquerda.direita = cena_fundo
+cena_direita.esquerda = cena_fundo
 cena_fundo.vai()
 
