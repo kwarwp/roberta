@@ -205,3 +205,10 @@ Traceback (most recent call last):
     floresta_verde.vai()
 NameError: name 'floresta_verde' is not defined
 '''},
+{'date': 'Mon Sep 21 2020 00:39:30.486 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 39
+  floresta_verde=Cena(FLORESTA,direita=mundo,esquerda=arco,meio-Cena(LAPIS))
+                                                                           ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
