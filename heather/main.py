@@ -25,5 +25,5 @@ def desafio0():
 
 # faça aqui a sua implementação do desafio
 if __name__ == "__main__":
-   desafio0()
+    desafio0()
     #circus(<ponha aqui o número do desafio e descomente a linha>, <parâmetro indicado>)
