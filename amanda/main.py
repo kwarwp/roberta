@@ -25,7 +25,10 @@ multiplica = numero_um * numero_dois
 
 print(multiplica)
 
-from _spy.vitollino.main import Cena
+from _spy.vitollino.main import Cena.STYLE
+STYLE["width"] = 900 
+STYLE["heigth"] = "900px" 
+
 FLORESTA = "https://cdn4.ecycle.com.br/cache/images/2018-07/50-650-floresta-amazonica.jpg"
 floresta_verde = Cena(FLORESTA)
 floresta_verde.vai()
