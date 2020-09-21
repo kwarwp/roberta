@@ -11,7 +11,7 @@ Changelog
 
 """
 #from patricia.danae.circus import Letra, Piso, Aldeia, circus
-from patricia.danae.circus import  circus
+from circus.circus import circus
 
 
 def desafio0():
