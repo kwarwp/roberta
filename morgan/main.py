@@ -9,6 +9,7 @@ def desafio0():
     TOPO_CENTRO= "AN"
     MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "AN", "AN", "AN"
     FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA = "AN", "AN","AN"
+    
     # O comando abaixo você vai entender no próximo desafio
 circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO, MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREIRA]]
 
