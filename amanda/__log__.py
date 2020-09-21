@@ -212,3 +212,10 @@ NameError: name 'floresta_verde' is not defined
                                                                            ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Mon Sep 21 2020 00:40:05.542 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 39
+  floresta_verde=Cena(FLORESTA,direita = mundo,esquerda = arco,meio-Cena(LAPIS))
+                                                                               ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
