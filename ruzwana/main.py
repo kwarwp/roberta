@@ -1,6 +1,6 @@
 # roberta.ruzwana.main.py
 from _spy.circus.circus import circus
-def desafio1():
+def desafio():
   TOPO_ESQUERDA = "AN"
   TOPO_DIREITA = "AN"
   TOPO_CENTRO = "AN"
