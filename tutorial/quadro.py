@@ -10,7 +10,9 @@ Changelog
        - xxx
 
 """
-from patricia.danae.circus import Letra, Piso, Aldeia, circus
+#from patricia.danae.circus import Letra, Piso, Aldeia, circus
+from patricia.danae.circus import  circus
+
 
 
 
