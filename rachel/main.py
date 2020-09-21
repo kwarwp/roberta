@@ -2,4 +2,5 @@
 
 from _spy.circus.circus import circus
 # faça aqui a sua implementação do desafio
-if maria_clara == "__main__": 
+if "maria_clara" == "__main__": 
+
