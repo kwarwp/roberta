@@ -10,3 +10,7 @@ Changelog
        - xxx
 
 """
+
+from circus.circus import circus
+# faça aqui a sua implementação do desafio
+if __name__ == "__main__":#circus(<ponha aqui o número do desafio e descomente a linha>, <parâmetro indicado>)
