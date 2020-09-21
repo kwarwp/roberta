@@ -27,3 +27,10 @@ SyntaxError: invalid syntax : triple string end not found
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^
 SyntaxError: invalid syntax : triple string end not found
 '''},
+{'date': 'Sun Sep 20 2020 21:21:05.272 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 3
+  .. codeauthor:: Angélica <angelicazumpichiatti@yahoo.com.br>
+     ^
+SyntaxError: invalid syntax
+'''},
