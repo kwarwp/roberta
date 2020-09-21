@@ -47,3 +47,10 @@ NameError: name 'outro' is not defined
     assert um == otro
 AssertionError: AssertionError
 '''},
+{'date': 'Mon Sep 21 2020 19:00:16.131 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  from circus.circus import circus
+  ^
+IndentationError: expected an indented block
+'''},
