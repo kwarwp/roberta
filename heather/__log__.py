@@ -109,3 +109,10 @@ TypeError: __init__() missing 1 positional argument: val
                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 21 2020 20:21:25.864 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  def desafio0()
+                 ^
+SyntaxError: invalid syntax
+'''},
