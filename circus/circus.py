@@ -175,7 +175,9 @@ def circus(desafio, solucao, tipo=0):
         Aldeia.STOR[COUNT] = ""
         Aldeia.STOR[RTAZ] = Aldeia.RT_AZIM
         Aldeia.STOR[SFAZ] = Aldeia.SF_AZIM
-        Aldeia.STOR[KEYS] = " ".join([key for line in Aldeia.ORDERED_KEYS for key in line])
+        keys = [key for line in Aldeia.ORDERED_KEYS for key in line]
+        shuffle(keys)
+        Aldeia.STOR[KEYS] = " ".join(keys)
     #Aldeia.shuffle_keys()
     STYLE.update(width=1300, height="650px")
     #Aldeia(Jogo())
