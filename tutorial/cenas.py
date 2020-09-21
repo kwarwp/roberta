@@ -25,15 +25,5 @@ cena_direita = Cena(ARCO)
 cena_esquerda =Cena(LAPIS)
 cena_fundo = Cena(MUNDO, esquerda=cena_esquerda, direita=cena_direita)
 cena_esquerda.esquerda = cena_fundo
-elemento = Elemento(ELEMENTO, w=100, h=100,x=150,y=200,vai=cena_esquerda)
-elemento.entra(cena_fundo)
-#cena_fundo = Cena(MUNDO)
 cena_fundo.vai()
 
-#def cria_fundo(*_):
-    #cena_direita = Cena(ARCO)
-    #cena_esquerda =Cena(LAPIS)
-    #cena_fundo = Cena(MUNDO, direita=cena_direita, esquerda=cena_esquerda)
-    #cena_fundo.vai()
-        
-#cria_fundo()
