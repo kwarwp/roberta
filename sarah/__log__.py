@@ -53,3 +53,7 @@ Traceback (most recent call last):
     floresta_verde = Cena(FLORESTA, direita = mundo, esquerda = arco, meio = lapis)
 NameError: name 'lapis' is not defined
 '''},
+{'date': 'Mon Sep 21 2020 19:42:32.462 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+Exception: <SyntaxError: Unexpected token '{'>
+'''},
