@@ -13,7 +13,7 @@ Changelog
 from circus.circus import circus
 def desafio0():
     TOPO_ESQUERDA = "LS"
-    TOPO_DIREITA = "LS"
+    TOPO_DIREITA = "LL"
     TOPO_CENTRO = "JN"
     MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "AN", "AN", "AN"
     FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "AN", "AN", "AN"
