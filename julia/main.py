@@ -10,11 +10,13 @@ Changelog
        - XXX
        
 """
-numero_um = 1
-numero_dois = 2.3
-letras = "Oi, mundo!"
-operacao_potencia = 2**38
+from _spy.vitollino.main import Cena, Style
 
-operacao = numero_um + numero_dois
+STYLE ["width"] = 900
+STYLE ["heigth"] = "900px"
 
-print (operacao_potencia)
+FLORESTA = "https://macmagazine.uol.com.br/wp-content/uploads/2015/04/16-floresta.jpg"
+
+floresta_verde = Cena(FLORESTA)
+
+floresta_verde.vai()
