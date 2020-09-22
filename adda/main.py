@@ -16,6 +16,7 @@ MUNDO = "https://i.imgur.com/LpWmClc.png"
 ARCO = "https://i.imgur.com/PdAD7GC.jpg"
 LAPIS = "https://i.imgur.com/U7w5CPr.png"
 FIM = "https://i.imgur.com/EJpEunb.gif"
+LINUX = "https://i.imgur.com/ym0HMHC.png"
 
 def flora():
     cenaFloresta = Cena(img = FLORESTA)
@@ -36,7 +37,7 @@ def flora():
     cenaFloresta.meio = cenaLapis   
     cenaLapis.vai()    
     
-    cenaFim = Cena(img = FIM) 
+    cenaFim = Cena(img = LINUX) 
     cenaLapis.direita = cenaFim
     cenaFim.vai() 
     
