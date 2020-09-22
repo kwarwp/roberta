@@ -35,4 +35,4 @@ def desafio2():
     circus(2, MASMORRA)
 
 if __name__ == "__main__":
-    desafio()
+    desafio2()
