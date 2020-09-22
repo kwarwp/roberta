@@ -40,7 +40,7 @@ def desafio3():
                 'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
 
 
-circus(3, MASMORRA)
+    circus(3, MASMORRA)
 
 if __name__ == "__main__":
     desafio3()
