@@ -26,11 +26,11 @@ def desafio1():
             
             
 def desafio2():
-    MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
+    MASMORRA = [[ "LS", "JN", "HN", "JN", "HN", "LO"],
+                [ "HO", "AN", "AN", "AN", "AN", "AN"],
                 [ "AN", "AN", "AN", "AN", "AN", "AN"],
-                [ "AN", "AN", "AN", "AN", "AN", "AN"],
-                [ "AN", "AN", "AN", "AN", "AN", "AN"],
-                [ "AN", "AN", "AN", "AN", "AN", "AN"]
+                [ "AN", "AN", "AN", "AN", "AN", "HL"],
+                [ "AN", "AN", "HS", "HS", "AN", "AN"]
                 ]
     circus(2, MASMORRA)
 
@@ -43,4 +43,4 @@ def desafio3():
     circus(3, MASMORRA)
 
 if __name__ == "__main__":
-    desafio3()
+    desafio2()
