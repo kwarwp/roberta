@@ -327,3 +327,10 @@ IndentationError: expected an indented block
     circus(2, MASMORRA)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Mon Sep 21 2020 21:01:08.982 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
+  ^
+IndentationError: unexpected indent
+'''},
