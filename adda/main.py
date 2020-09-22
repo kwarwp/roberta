@@ -15,7 +15,6 @@ FLORESTA = "https://i.imgur.com/4lB1eyQ.jpg"
 MUNDO = "https://i.imgur.com/LpWmClc.png"
 ARCO = "https://i.imgur.com/PdAD7GC.jpg"
 LAPIS = "https://i.imgur.com/U7w5CPr.png"
-PROG = "https://i.imgur.com/MSe8jUv.gifv"
 FIM = "https://i.imgur.com/EJpEunb.gif"
 
 def flora():
