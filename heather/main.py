@@ -30,7 +30,7 @@ def desafio1():
                 [ "AN", "AN", "AN", "AN", "AN", "AN"]
                 ]
 
-    circus(2, MASMORRA)
+    circus(2, MASMORRA, 2)
 # faça aqui a sua implementação do desafio
 if __name__ == "__main__":
     desafio1()
