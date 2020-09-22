@@ -1,7 +1,7 @@
 # roberta.julia.main.py
 """     XXXXX
 
-.. codeauthor::  Camila Silveira <camila.souzasilv@gmail.com>
+.. codeauthor::  Camila <camila.souzasilv@gmail.com>
 
 Changelog
 ---------
