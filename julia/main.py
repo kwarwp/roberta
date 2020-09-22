@@ -10,7 +10,7 @@ Changelog
        - XXX
        
 """
-from _spy.vitollino.main import Cena, Style
+from _spy.vitollino.main import Cena, STYLE
 
 STYLE ["width"] = 900
 STYLE ["heigth"] = "900px"
