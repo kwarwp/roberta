@@ -16,7 +16,7 @@ MUNDO = "https://i.imgur.com/LpWmClc.png"
 ARCO = "https://i.imgur.com/PdAD7GC.jpg"
 LAPIS = "https://i.imgur.com/U7w5CPr.png"
 PROG = "https://i.imgur.com/MSe8jUv.gifv"
-FIM = "https://i.imgur.com/EJpEunb.gifv"
+FIM = "https://i.imgur.com/EJpEunb.gif"
 
 def flora():
     cenaFloresta = Cena(img = FLORESTA)
