@@ -1,6 +1,6 @@
 # roberta.julia.main.py
-
-"""     xxxxx
+# SPDX-License-Identifier: GPL-3.0-or-later
+"""     XXXXX
 
 .. codeauthor:: Camila Silveira <camila.souzasilv@gmail.com>
 
