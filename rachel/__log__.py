@@ -334,3 +334,10 @@ TypeError: 'module' object is not callable
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Sep 21 2020 21:04:06.939 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
+  ^
+IndentationError: unexpected indent
+'''},
