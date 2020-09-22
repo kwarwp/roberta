@@ -13,7 +13,7 @@ Changelog
 #NSLO
 from circus.circus import circus
 
-def desafio():
+def desafio1():
     TOPO_ESQUERDA = "LS"
     TOPO_DIREITA = "LO"
     TOPO_CENTRO = "JN"
@@ -34,5 +34,13 @@ def desafio2():
                 ]
     circus(2, MASMORRA)
 
+def desafio3():
+    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+                'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
+                'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
+
+
+circus(3, MASMORRA)
+
 if __name__ == "__main__":
-    desafio2()
+    desafio3()
