@@ -11,7 +11,7 @@ Changelog
        
 """
 numero_um = 1
-numero_dois = 2
+numero_dois = 2.3
 letras = "Oi, mundo!"
 
 operacao = numero_um + numero_dois
