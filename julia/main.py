@@ -10,3 +10,10 @@ Changelog
        - XXX
        
 """
+numero_um = 1
+numero_dois = 2
+letras = "Oi, mundo!"
+
+operacao = numero_um + numero_dois
+
+print (operacao)
