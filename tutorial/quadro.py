@@ -22,7 +22,17 @@ def desafio0():
     # O comando abaixo voce vai entender no próximo desafio
     circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
             MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
+            
+def desafio1():
+    MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"]
+                ]
+
+    circus(2, MASMORRA,2)
 
 
 if __name__ == "__main__":
-    desafio0()
+    desafio1()
