@@ -35,7 +35,7 @@ def desafio2():
     circus(2, MASMORRA)
 
 def desafio3():
-    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+    MASMORRA = {'Cahuitz': 'LS', 'Cauha': 'AN', 'Coycol': 'AN',
                 'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
                 'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
 
@@ -43,4 +43,4 @@ def desafio3():
     circus(3, MASMORRA)
 
 if __name__ == "__main__":
-    desafio2()
+    desafio3()
