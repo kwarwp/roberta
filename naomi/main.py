@@ -30,7 +30,7 @@ def desafio2():
                 [ "HO", "AN", "FN", "FN", "BN", "IL"],
                 [ "JO", "DO", "AO", "BL", "DO", "JL"],
                 [ "IO", "AN", "AN", "AN", "AN", "HL"],
-                [ "AN", "AN", "HS", "HS", "AN", "AN"]
+                [ "AN", "JS", "HS", "HS", "JS", "AN"]
                 ]
     circus(2, MASMORRA)
 
