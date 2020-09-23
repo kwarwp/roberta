@@ -43,7 +43,7 @@ def desafio3():
 def desafio4():
     MASMORRA = {'Cahuitz': 'LO', 'Cauha': 'LS', 'Coycol': 'JS',
                 'Huatlya': 'JL', 'Micpe': 'GS', 'Nenea': 'JN',
-                'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
+                'Pallotl': 'LN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
     circus(4, MASMORRA)
 
 if __name__ == "__main__":
