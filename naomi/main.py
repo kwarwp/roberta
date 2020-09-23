@@ -19,17 +19,16 @@ def desafio1():
     FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA = "GS", "JS", "GL"
 
     # O comando abaixo voce vai entender no próximo desafio
-    circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
-            MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
-            
-            
+    circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], 
+               [MEIO_ESQUERDA, CENTRO, MEIO_DIREITA], 
+               [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
+
 def desafio2():
     MASMORRA = [[ "LS", "JN", "HN", "JN", "HN", "LO"],
                 [ "HO", "AN", "FN", "FN", "BN", "IL"],
                 [ "JO", "DO", "AO", "BL", "DO", "JL"],
                 [ "IO", "AO", "DS", "DN", "CL", "HL"],
-                [ "GS", "JS", "HS", "HS", "JS", "GL"]
-                ]
+                [ "GS", "JS", "HS", "HS", "JS", "GL"]]
     circus(2, MASMORRA)
 
 def desafio3():
@@ -50,8 +49,7 @@ def desafio5():
                 'Pallotl': "GS", 'Tetlah': "JS", 'Zitllo': "GL"}
                 #JO->LS GL->JN LS->LO
                 #JL->JO GS->FN JN->JL
-                #JS->GS LO->JS FN->GL
-                
+                #JS->GS LO->JS FN->GL     
     circus(5, MASMORRA)
 
 if __name__ == "__main__":
