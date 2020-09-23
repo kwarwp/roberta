@@ -38,16 +38,12 @@ def desafio3():
     MASMORRA = {'Cahuitz': 'JS', 'Cauha': 'JN', 'Coycol': 'LS',
                 'Huatlya': 'JO', 'Micpe': 'JL', 'Nenea': 'GS',
                 'Pallotl': 'GL', 'Tetlah': 'LO', 'Zitllo': 'FN'}
-
-
     circus(3, MASMORRA)
     
 def desafio4():
     MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
-     'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
-     'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
-
-
+                'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
+                'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
     circus(4, MASMORRA)
 
 if __name__ == "__main__":
