@@ -35,9 +35,9 @@ def desafio2():
     circus(2, MASMORRA)
 
 def desafio3():
-    MASMORRA = {'Cahuitz': 'LS', 'Cauha': 'AN', 'Coycol': 'AN',
-                'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
-                'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
+    MASMORRA = {'Cahuitz': 'JS', 'Cauha': 'JN', 'Coycol': 'LS',
+                'Huatlya': 'JO', 'Micpe': 'JL', 'Nenea': 'GS',
+                'Pallotl': 'GL', 'Tetlah': 'LN', 'Zitllo': 'AN'}
 
 
     circus(3, MASMORRA)
