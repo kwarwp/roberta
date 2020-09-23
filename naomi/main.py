@@ -29,8 +29,8 @@ def desafio2():
     MASMORRA = [[ "LS", "JN", "HN", "JN", "HN", "LO"],
                 [ "HO", "AN", "FN", "FN", "BN", "IL"],
                 [ "JO", "DO", "AO", "BL", "DO", "JL"],
-                [ "IO", "AN", "AN", "AN", "AN", "HL"],
-                [ "AN", "JS", "HS", "HS", "JS", "AN"]
+                [ "IO", "AO", "DS", "DN", "CL", "HL"],
+                [ "GS", "JS", "HS", "HS", "JS", "GL"]
                 ]
     circus(2, MASMORRA)
 
