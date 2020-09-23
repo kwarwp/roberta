@@ -14,11 +14,9 @@ Changelog
 from circus.circus import circus
 
 def desafio1():
-    TOPO_ESQUERDA = "LS"
-    TOPO_DIREITA = "LO"
-    TOPO_CENTRO = "JN"
-    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "JO", "FN", "JL"
-    FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "GS", "JS", "GL"
+    TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA    = "LS", "JN", "LO"
+    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA         = "JO", "FN", "JL"
+    FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA = "GS", "JS", "GL"
 
     # O comando abaixo voce vai entender no próximo desafio
     circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
@@ -47,9 +45,9 @@ def desafio4():
     circus(4, MASMORRA)
     
 def desafio5():
-    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
-     'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
-     'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
+    MASMORRA = {'Cahuitz': "LS", 'Cauha': "JN", 'Coycol': "LO",
+                'Huatlya': "JO", 'Micpe': "FN", 'Nenea': "JL",
+                'Pallotl': "GS", 'Tetlah': "JS", 'Zitllo': "GL"}
     circus(5, MASMORRA)
 
 if __name__ == "__main__":
