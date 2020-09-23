@@ -45,6 +45,12 @@ def desafio4():
                 'Huatlya': 'JL', 'Micpe': 'GS', 'Nenea': 'JN',
                 'Pallotl': 'JO', 'Tetlah': 'FN', 'Zitllo': 'GL'}
     circus(4, MASMORRA)
+    
+def desafio5():
+    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+     'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
+     'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
+    circus(5, MASMORRA)
 
 if __name__ == "__main__":
-    desafio4()
+    desafio5()
