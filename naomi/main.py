@@ -49,7 +49,7 @@ def desafio5():
                 'Pallotl': "GS", 'Tetlah': "JS", 'Zitllo': "GL"}
                 #JO->LS GL->JN LS->LO
                 #JL->JO GS->FN JN->JL
-                #JS->GS LO->JS FN->GL     
+                #JS->GS LO->JS FN->GL Impossível    
     circus(5, MASMORRA)
 
 if __name__ == "__main__":
