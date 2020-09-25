@@ -180,3 +180,10 @@ KeyError: O
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Fri Sep 25 2020 20:52:43.838 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 50
+  def desafio2():
+                 ^
+IndentationError: expected an indented block
+'''},
