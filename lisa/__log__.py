@@ -187,3 +187,10 @@ IndentationError: expected an indented block
                  ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Fri Sep 25 2020 20:53:01.744 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 44
+  MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+  ^
+IndentationError: expected an indented block
+'''},
