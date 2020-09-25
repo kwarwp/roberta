@@ -173,3 +173,10 @@ KeyError: O
     self.elt.pos = pos[ai[0]]
 KeyError: O
 '''},
+{'date': 'Fri Sep 25 2020 20:52:29.521 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 52
+  
+  ^
+IndentationError: expected an indented block
+'''},
