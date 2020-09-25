@@ -36,3 +36,10 @@ IndentationError: unexpected indent
     circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
 NameError: name 'TOPO_ESQUERDA' is not defined
 '''},
+{'date': 'Fri Sep 25 2020 20:29:47.578 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  MASMORRA = [[ "LS", "JN", "HN", "JN", "HN", "KO"],
+                                                                                                                                                                                                                                                                     ^
+SyntaxError: invalid syntax
+'''},
