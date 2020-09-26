@@ -308,3 +308,10 @@ KeyError: O
     self.elt.pos = pos[ai[0]]
 KeyError: O
 '''},
+{'date': 'Fri Sep 25 2020 21:16:03.627 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 38
+  MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+  ^
+IndentationError: expected an indented block
+'''},
