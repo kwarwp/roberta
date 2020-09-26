@@ -331,3 +331,10 @@ IndentationError: expected an indented block
     circus(3, MASMORRA)
 NameError: name 'MASMORRA' is not defined
 '''},
+{'date': 'Fri Sep 25 2020 21:29:32.475 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  if __name__ == "__main__":
+  ^
+IndentationError: unexpected indent
+'''},
