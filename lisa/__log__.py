@@ -338,3 +338,10 @@ NameError: name 'MASMORRA' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Fri Sep 25 2020 21:29:40.934 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  if __name__ == "__main__":
+                            ^
+IndentationError: expected an indented block
+'''},
