@@ -32,11 +32,13 @@ def desafio1():
                     ]
 
     circus(2, MASMORRA,2)
+    
+    
+def desafio2():
+    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+ 'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
+ 'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
 
 
-                # faça aqui a sua implementação do desafio
-if __name__ == "__main__":
-    desafio1()
-            #circus(<ponha aqui o número do desafio e descomente a linha>, <parâmetro indicado>)
-
+circus(3, MASMORRA)
         
