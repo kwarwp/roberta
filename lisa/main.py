@@ -1,5 +1,6 @@
 # roberta.lisa.main.py
 """     xxxxx
+
 .. codeauthor:: Luiza <luizaanjo2007@gmail.com>
 .. codeauthor:: Rodrigo Esquinelato <resquinelato@gmail.com>
 
@@ -9,36 +10,19 @@ Changelog
        - xxx
 
 """
+from _spy.circus.circus import circus
 
-from circus.circus import circus
 def desafio0():
-    TOPO_ESQUERDA = "LS"
-    TOPO_DIREITA = "LO"
-    TOPO_CENTRO = "JN"
-    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "JO", "FN", "JL"
-    FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "GS", "JS", "GL"
-    
+    TOPO_ESQUERDA = "AN"
+    TOPO_DIREITA = "AN"
+    TOPO_CENTRO = "AN"
+    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "AN", "AN", "AN"
+    FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "AN", "AN", "AN"
+
     # O comando abaixo voce vai entender no próximo desafio
     circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
-        MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
+            MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
         
 
-def desafio1():
-    MASMORRA = [[ "LS", "JN", "HN", "JN", "HN", "KO"],
-                    [ "HO", "AN", "AN", "AN", "AN", "IL"],
-                    [ "JO", "DO", "AN", "AN", "AN", "JL"],
-                    [ "IO", "ON", "AN", "AN", "AN", "HL"],
-                    [ "GS", "JS", "HS", "HS", "JS", "GL"]
-                    ]
-
-    circus(2, MASMORRA,2)
-    
-    
-def desafio2():
-    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
- 'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
- 'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
-
-
-circus(3, MASMORRA)
-        
+if __name__ == "__main__":
+     desafio0()
