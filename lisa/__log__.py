@@ -400,3 +400,10 @@ TypeError: 'module' object is not callable
                  ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Fri Sep 25 2020 21:55:18.977 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 28
+  desafio0():
+             ^
+SyntaxError: invalid syntax
+'''},
