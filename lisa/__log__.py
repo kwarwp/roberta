@@ -393,3 +393,10 @@ TypeError: 'module' object is not callable
     circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Fri Sep 25 2020 21:45:21.656 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  def desafio1():
+                 ^
+IndentationError: expected an indented block
+'''},
