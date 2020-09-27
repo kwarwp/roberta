@@ -40,5 +40,5 @@ def desafio2():
   circus(3, MASMORRA, 3)
 # faça aqui a sua implementação do desafio
 if __name__ == "__main__":
-    desafio1()
+    desafio2()
     #circus(<ponha aqui o número do desafio e descomente a linha>, <parâmetro indicado>)
