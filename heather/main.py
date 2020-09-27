@@ -30,7 +30,14 @@ def desafio1():
                 [ "GS", "JS", "HS", "HS", "JS", "GL"]
                 ]
 
-    circus(2, MASMORRA, 2)
+def desafio2():
+    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+                'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
+                'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
+
+
+
+  circus(3, MASMORRA, 3)
 # faça aqui a sua implementação do desafio
 if __name__ == "__main__":
     desafio1()
