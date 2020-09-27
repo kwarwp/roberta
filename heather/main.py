@@ -32,7 +32,7 @@ def desafio1():
 
 def desafio2():
     MASMORRA = {'Cahuitz': 'LS', 'Cauha': 'JN', 'Coycol': 'LS',
-                'Huatlya': 'JO', 'Micpe': 'FN', 'Nenea': 'JL',
+                'Huatlya': 'JO', 'Micpe': 'JL', 'Nenea': 'JL',
                 'Pallotl': 'GO', 'Tetlah': 'LO', 'Zitllo': 'GL'}
 
 
