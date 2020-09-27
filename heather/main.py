@@ -34,10 +34,13 @@ def desafio2():
     MASMORRA = {'Cahuitz': 'JS', 'Cauha': 'JN', 'Coycol': 'LS',
                 'Huatlya': 'JO', 'Micpe': 'JL', 'Nenea': 'GS',
                 'Pallotl': 'GL', 'Tetlah': 'LO', 'Zitllo': 'FN'}
+def desafio3():
+    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+                'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
+                'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
 
 
-
-    circus(3, MASMORRA, 3)
+    circus(4, MASMORRA, 4)
 
 # faça aqui a sua implementação do desafio
 if __name__ == "__main__":
