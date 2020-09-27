@@ -45,6 +45,7 @@ cena_direita = Cena(ARCO)
 cena_esquerda = Cena (LAPIS)
 cena_fundo = Cena(MUNDO, esquerda = cena_esquerda, direita = cena_direita)
 cena_esquerda.direita = cena_fundo
+cena_direita.esquerda = cena_fundo
 cena_fundo.vai()
 
 
