@@ -37,7 +37,7 @@ def desafio2():
 
 
 
-circus(3, MASMORRA)
+circus(3, MASMORRA, 3)
 # faça aqui a sua implementação do desafio
 if __name__ == "__main__":
     desafio2()
