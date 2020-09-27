@@ -428,3 +428,10 @@ KeyError: O
     self.elt.pos = pos[ai[0]]
 KeyError: O
 '''},
+{'date': 'Sun Sep 27 2020 13:23:48.640 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 40
+  circus(3, MASMORRA, 3)
+  ^
+IndentationError: unexpected indent
+'''},
