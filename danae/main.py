@@ -13,9 +13,9 @@ Changelog
 def main():
     from circus.circus import circus
 
-    MASMORRA = {'Cahuitz': 'LE', 'Cauha': 'LS', 'Coycol': 'AN',
-     'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
-     'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
+    MASMORRA = {'Cahuitz': 'LO', 'Cauha': 'JN', 'Coycol': 'LS',
+     'Huatlya': 'JO', 'Micpe': 'FN', 'Nenea': 'JL',
+     'Pallotl': 'GS', 'Tetlah': 'JS', 'Zitllo': 'GL'}
 
 
     circus(4, MASMORRA)
