@@ -26,12 +26,10 @@ def flora():
     cenaMundo.vai()
     
     cenaMundo.esquerda = cenaFloresta
-    
     cenaArco = Cena(img = ARCO)
     cenaFloresta.esquerda = cenaArco
     cenaArco.vai()    
     cenaArco.direita = cenaFloresta
-    
     
     cenaLapis = Cena(img = LAPIS) 
     cenaFloresta.meio = cenaLapis   
@@ -41,8 +39,14 @@ def flora():
     cenaFloresta.vai()
 flora()
 """
-from _spy.vitollino.main import cena
+from _spy.vitollino.main import Cena
+VARIAVEL = "https://i.imgur.com/4lB1eyQ.jpg"
 
+def ambiente():
+    floresta = Cena(VARIAVEL)
+    floresta.vai()
+    
+ambiente()
 
 
 
