@@ -13,12 +13,12 @@ Changelog
 def main():
     from circus.circus import circus
 
-    MASMORRA = {'Cahuitz': 'LO', 'Cauha': 'JN', 'Coycol': 'LS',
+    MASMORRA = {'Cahuitz': 'JS', 'Cauha': 'JN', 'Coycol': 'LS',
      'Huatlya': 'JO', 'Micpe': 'FN', 'Nenea': 'JL',
-     'Pallotl': 'GS', 'Tetlah': 'JS', 'Zitllo': 'GL'}
+     'Pallotl': 'GL', 'Tetlah': 'LO', 'Zitllo': 'FN'}
 
 
-    circus(4, MASMORRA)
+    circus(7, MASMORRA)
 
 
 from _spy.vitollino.main import STYLE, Cena
