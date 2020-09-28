@@ -21,11 +21,18 @@ def verifica():
         print("Numero não é maior que cinco")
 #verifica()
 
-animais = ["macaco","águia","pardal","leão", "cachorro"]
 
+
+"""
 for x in animais:
     #print(x)
     if x == "leão":
         break
     print(x)
+"""
+animais = ["macaco","águia","pardal","leão", "cachorro"]
 
+for x in animais:
+    if x == "leão":
+        continue
+    print(x) 
