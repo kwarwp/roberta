@@ -70,3 +70,15 @@ def ambiente ():
     borboleta = Cena (VARIAVEL)
     borboleta.vai ()
 ambiente ()
+
+
+numero = 20
+def verifica ():
+    if numero > 5:
+        print ("numero é maior que cinco")
+    elif numero = 5
+        print ("Opa! Igualdade")
+    else
+        print ("número não é maior que cinco")
+        
+verifica ()
