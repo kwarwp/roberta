@@ -51,14 +51,26 @@ Changelog
 #"""
 
 
-from _spy.vitollino.main  import Cena, STYLE
+#from _spy.vitollino.main  import Cena, STYLE
 
-VARIAVEL = "http://1.bp.blogspot.com/-lGK-NZbMSBE/UUtrchW3_-I/AAAAAAAAIs4/hsWa_5_A-1g/s1600/floresta-amazonica.jpg"
+#VARIAVEL = "http://1.bp.blogspot.com/-lGK-NZbMSBE/UUtrchW3_-I/AAAAAAAAIs4/hsWa_5_A-1g/s1600/floresta-amazonica.jpg"
 
-def ambiente():
-	floresta = Cena(VARIAVEL)
-	floresta.vai()
-ambiente()
+#def ambiente():
+	#floresta = Cena(VARIAVEL)
+	#floresta.vai()
+#ambiente()
+
+num = 16
+
+def verif():
+	if num > 40:
+	print('num é maior que 16")
+	elif num == 16:
+	print(igualdade)
+	else 
+	print("numero nao é maior que 16")
+	verif()
+
 
 
 
