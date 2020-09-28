@@ -68,7 +68,7 @@ def verif():
 	elif num == 40:
 		print("igualdade")
 	else:
-		print("numero nao é maior que 16")
+		print("num é menor que 40")
 verif()
 
 
