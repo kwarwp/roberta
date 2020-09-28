@@ -433,3 +433,10 @@ NameError: name 'floresta_verde' is not defined
         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 28 2020 19:59:01.742 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 56
+  VARIA:"https://macmagazine.uol.com.br/wp-content/uploads/2015/04/16-floresta.jpg"
+        ^
+SyntaxError: invalid syntax
+'''},
