@@ -67,8 +67,9 @@ print('id(4) =', id(4)) # id 140071085578048
 
 variavel = 'https://i.ytimg.com/vi/dL9_IQv3eGE/maxresdefault.jpg'
 
-def ambiente():
-    floresta = Cena(variavel)
-    floresta.vai()
+n = 6
+def verifica():
+    if n > 5:
+        print ("Ele é maior que 5")
     
-ambiente()
+verifica()
