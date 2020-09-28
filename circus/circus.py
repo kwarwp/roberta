@@ -45,6 +45,7 @@ class Aldeia:
     MAPING = "https://i.imgur.com/MRmfpAv.png"
     YARA = "https://i.imgur.com/RfLJEhs.png"
     TRANSP= "https://i.imgur.com/npb9Oej.png"
+    KEYS=None
     J = None
     OK_AZIM=list("NLSO")
     RT_AZIM="NLSO"
