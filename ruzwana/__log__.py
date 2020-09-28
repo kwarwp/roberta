@@ -242,3 +242,7 @@ TypeError: 'module' object is not callable
     from .circus.circus import circus
 SystemError: Parent module '' not loaded, cannot perform relative import
 '''},
+{'date': 'Mon Sep 28 2020 00:26:23.55 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <SyntaxError: Unexpected token '{'>
+'''},
