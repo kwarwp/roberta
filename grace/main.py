@@ -51,14 +51,13 @@ Changelog
 #"""
 
 
-from _spy.vitollino.main import Cena,STYLE 
+from _spy.vitollino.main  import Cena, STYLE
 
-VARIA = "https://pt.wikipedia.org/wiki/Floresta#/media/Ficheiro:Conifer_forest.jpg"
+VARIAVEL = "http://1.bp.blogspot.com/-lGK-NZbMSBE/UUtrchW3_-I/AAAAAAAAIs4/hsWa_5_A-1g/s1600/floresta-amazonica.jpg"
 
-def ambiente(): 
-    floresta = Cena(VARIA)
-    floresta.vai
-    
+def ambiente():
+	floresta = Cena(VARIAVEL)
+	floresta.vai()
 ambiente()
 
 
