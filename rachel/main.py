@@ -15,13 +15,11 @@
 #if __name__ == "__main__":
     #desafio0()
     
-    from _spy.circus.circus import circus
-
+    from circus.circus import circus
 MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
-            [ "AN", "AN", "AN", "AN", "AN", "AN"]
-            ]
+            [ "AN", "AN", "AN", "AN", "AN", "AN"]] 
 
 circus(2, MASMORRA)
