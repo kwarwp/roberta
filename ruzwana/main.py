@@ -21,15 +21,6 @@ def desafio1():
 
     circus(2, MASMORRA,2)
 
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
-	desafio0()
+	desafio1()
     
