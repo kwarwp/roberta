@@ -1,5 +1,5 @@
 # roberta.ruzwana.main.py
-from _spy.circus.circus import circus
+from circus.circus import circus
 def desafio0():
 	TOPO_ESQUERDA = "AN"
 	TOPO_DIREITA = "AN"
@@ -10,6 +10,6 @@ def desafio0():
 # O comando abaixo voce vai entender no próximo desafio
 	circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
         MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
-       
+     
 if __name__ == "__main__":
 	desafio0()
