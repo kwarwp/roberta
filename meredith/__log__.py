@@ -269,3 +269,20 @@ TypeError: 'str' object is not callable
     floresta = Cena(variavel)
 NameError: name 'variavel' is not defined
 '''},
+{'date': 'Mon Sep 28 2020 20:34:39.343 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''macaco
+Traceback (most recent call last):
+  module _core.main line 180
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 310
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 282
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 299
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 73
+    if x == leao:
+NameError: name 'leao' is not defined
+'''},
