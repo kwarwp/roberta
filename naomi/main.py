@@ -44,12 +44,16 @@ def desafio4():
     circus(4, MASMORRA)
     
 def desafio5():
-    MASMORRA = {'Cahuitz': "LS", 'Cauha': "JN", 'Coycol': "LO",
-                'Huatlya': "JO", 'Micpe': "FN", 'Nenea': "JL",
-                'Pallotl': "GS", 'Tetlah': "JS", 'Zitllo': "GL"}
+    #MASMORRA = {'Cahuitz': "LS", 'Cauha': "JN", 'Coycol': "LO",
+                #'Huatlya': "JO", 'Micpe': "FN", 'Nenea': "JL",
+                #'Pallotl': "GS", 'Tetlah': "JS", 'Zitllo': "GL"}
                 #JO->LS GL->JN LS->LO
                 #JL->JO GS->FN JN->JL
-                #JS->GS LO->JS FN->GL Impossível    
+                #JS->GS LO->JS FN->GL Impossível  
+                
+    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+                'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
+                'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
     circus(5, MASMORRA)
 
 if __name__ == "__main__":
