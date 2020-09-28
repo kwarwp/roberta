@@ -68,7 +68,7 @@ class Aldeia:
             shuffle(keys)
             rtazim = rtazim[1:] + rtazim[0]
             shuffle(sfazim)
-            count = "@@@@@"
+            count = "@@@"
             Aldeia.STOR[RTAZ] = Aldeia.RT_AZIM = rtazim
             Aldeia.STOR[SFAZ] = Aldeia.SF_AZIM = "".join(sfazim)
             Aldeia.STOR[KEYS] = " ".join(keys)
