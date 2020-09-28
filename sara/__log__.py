@@ -130,3 +130,10 @@ IndentationError: unexpected indent
         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 28 2020 20:20:04.97 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 47
+  else numero < 5:
+        ^
+SyntaxError: invalid syntax
+'''},
