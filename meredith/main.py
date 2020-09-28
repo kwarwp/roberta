@@ -53,4 +53,6 @@ caminho_esquerdo.direita = Floresta
 caminho_direito.esquerda = Floresta
 #Floresta.vai()
 
+Maria_Maia = 4
+print('id(Maria_Maia) =', id(Maria_Maia)) # id 140071085578048
                    
