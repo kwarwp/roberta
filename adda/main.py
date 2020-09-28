@@ -51,7 +51,7 @@ def ambiente():
     floresta.vai()
     
 ambiente()
-"""
+
 numero = 3
 
 def verifica():
@@ -70,7 +70,10 @@ for x in animais:
     if x == "leao":
         break
     #print(x)
+"""
 
+for x in range(9):
+    print(x)
 
 
 
