@@ -67,13 +67,8 @@ print('id(4) =', id(4)) # id 140071085578048
 
 variavel = 'https://i.ytimg.com/vi/dL9_IQv3eGE/maxresdefault.jpg'
 
-n = 3
-def verifica():
-    if n > 5:
-        print ("Ele é maior que 5")
-    elif n == 5:
-        print ("Ele é igual a 5")
-    else:
-        print ("Ele é menor que 5")
-    
-verifica()
+animais = ['macaco', 'aguia', 'pardal', 'leao', 'cachorro']
+for x in animais:
+    print (x)
+    if x == leao:
+        break
