@@ -43,8 +43,9 @@ from _spy.vitollino.main import Cena
 VARIAVEL = "https://i.imgur.com/4lB1eyQ.jpg"
 
 def ambiente():
-    floresta = Cena(VARIAVEL)
+    
     VARIAVEL = "https://i.imgur.com/LpWmClc.png"
+    floresta = Cena(VARIAVEL)
     floresta.vai()
     
 ambiente()
