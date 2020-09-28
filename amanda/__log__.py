@@ -245,3 +245,10 @@ NameError: name 'floresta_verde' is not defined
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Sep 28 2020 20:15:54.399 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 79
+  elif numero = 5
+               ^
+SyntaxError: invalid syntax
+'''},
