@@ -811,3 +811,10 @@ ImportError: cannot import name 'circus'
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Sep 28 2020 19:36:38.90 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  josefa = 5
+  ^
+IndentationError: unexpected indent
+'''},
