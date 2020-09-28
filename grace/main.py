@@ -53,7 +53,7 @@ Changelog
 
 from _spy.vitollino.main import Cena,STYLE 
 
-VARIA: "https://macmagazine.uol.com.br/wp-content/uploads/2015/04/16-floresta.jpg"
+VARIA = "https://macmagazine.uol.com.br/wp-content/uploads/2015/04/16-floresta.jpg"
 
 def ambiente(): 
     floresta = Cena(VARIA)
