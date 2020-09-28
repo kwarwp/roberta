@@ -9,7 +9,7 @@ Changelog
        - xxx
 
 """
-numero=12
+numero = 12
 
 def verifica():
     if numero > 5:
