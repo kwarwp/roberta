@@ -46,3 +46,10 @@ Traceback (most recent call last):
     floresta_amz= CENA(floresta)
 NameError: name 'CENA' is not defined
 '''},
+{'date': 'Mon Sep 28 2020 20:16:40.601 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 44
+  print ("Número é maior que cinco")
+  ^
+IndentationError: expected an indented block
+'''},
