@@ -868,3 +868,10 @@ NameError: name 'j' is not defined
     floresta.vai()
 NameError: name 'floresta' is not defined
 '''},
+{'date': 'Mon Sep 28 2020 20:04:03.572 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  print("Três é maior que cinco)
+                                ^
+SyntaxError: EOL while scanning string literal
+'''},
