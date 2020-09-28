@@ -44,6 +44,7 @@ VARIAVEL = "https://i.imgur.com/4lB1eyQ.jpg"
 
 def ambiente():
     floresta = Cena(VARIAVEL)
+    VARIAVEL = "https://i.imgur.com/LpWmClc.png"
     floresta.vai()
     
 ambiente()
