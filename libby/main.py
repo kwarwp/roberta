@@ -33,6 +33,7 @@ def verifica():
 #verifica()
 
 """
+"""
 
 animais = ['macaco', 'aguia', 'pardal', 'leao']
 
@@ -41,3 +42,4 @@ for x in animais:
     if x== 'leao':
         break
     print (x)
+"""
