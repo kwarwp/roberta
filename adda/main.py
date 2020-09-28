@@ -41,19 +41,4 @@ def flora():
     cenaFloresta.vai()
 flora()
 """
-x = "ola"
-
-def mostra_x():
-    x = "eeee"
-    j = "oooo"
-    print(x)
-print(x)
-
-
-
-
-
-
-
-
 
