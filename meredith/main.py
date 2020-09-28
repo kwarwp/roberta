@@ -55,4 +55,8 @@ caminho_direito.esquerda = Floresta
 
 Maria_Maia = 4
 print('id(Maria_Maia) =', id(Maria_Maia)) # id 140071085578048
+
+Maria_Maia= Maria_Maia + 1
+print('id(Maria_Maia_plus_um) =', id(Maria_Maia)) # id 140071085578080
+print('id(5) =', id(5)) # id 140071085578080
                    
