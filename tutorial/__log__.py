@@ -889,3 +889,10 @@ IndentationError: expected an indented block
                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 28 2020 20:15:05.687 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  elif numero = 5:
+               ^
+SyntaxError: invalid syntax
+'''},
