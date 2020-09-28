@@ -9,6 +9,7 @@ Changelog
        - xxx
 
 """
+"""
 from _spy.vitollino.main import Cena
 variavel_global = 'https://i.imgur.com/P9mWuhm.jpeg'
 
@@ -16,7 +17,8 @@ def ambiente():
     #variavel_local= 'https://i.imgur.com/lRpFqpe.jpeg'
     floresta=Cena(variavel)
     floresta.vai()
-
+"""
+"""
 
 numero =20
 
@@ -28,5 +30,13 @@ def verifica():
     else:
         print ('O numero é menor que cinco')
         
-verifica()
+#verifica()
 
+"""
+
+animais = ['macaco', 'aguia', 'pardal', 'leao']
+
+for x in animais:
+    print (x)
+    if x== 'leao':
+        print (x)
