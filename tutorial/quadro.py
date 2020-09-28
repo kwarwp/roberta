@@ -10,10 +10,18 @@ Changelog
        - xxx
 
 """
+
 numero=3
 
-if 3 > 5:
-    print("Três é maior que cinco")
+def verifica():
+    if numero > 5:
+        print("Numero é maior que cinco")
+    elif numero = 5:
+        print("Opa! Igualdade")
+    else:
+        print("Numero não é maior que cinco")
+        
+verifica()
 
 
 
