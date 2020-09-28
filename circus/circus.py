@@ -52,7 +52,7 @@ class Aldeia:
     ORDERED_KEYS = [['Coycol', 'Cauha', 'Tetlah'],
                     ['Huatlya', 'Zitllo', 'Micpe'],
                     ['Nenea', 'Cahuitz', 'Pallotl']]
-    KEYS = ORDERED_KEYS
+    KEYS = None
     MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'BN', 'Coycol': 'CN',
      'Huatlya': 'DN', 'Micpe': 'EN', 'Nenea': 'FN',
      'Pallotl': 'GN', 'Tetlah': 'HN', 'Zitllo': 'IN'}
@@ -174,6 +174,7 @@ def circus(desafio, solucao, tipo=0):
         Aldeia.STOR[RTAZ] = Aldeia.RT_AZIM
         Aldeia.STOR[SFAZ] = Aldeia.SF_AZIM
         Aldeia.STOR[KEYS] = " ".join([key for line in Aldeia.ORDERED_KEYS for key in line])
+        Aldeia.KEYS = Aldeia.STOR[KEYS]
     #Aldeia.shuffle_keys()
     STYLE.update(width=1300, height="650px")
     #Aldeia(Jogo())
