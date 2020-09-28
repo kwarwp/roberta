@@ -20,14 +20,15 @@ def verifica():
         print("Numero não é maior que cinco")
 
 #verifica()
-
+'''
 animais = ["macaco", "gato", "cachorro", "cavalo"]
 
 for x in animais:
-    print(x)
+    print(x) #inclui o gato
     if x=="gato":
         break
-    #print(x)
+    #print(x) #exclui o leão
     
 #print(animais)
+'''
 
