@@ -75,3 +75,10 @@ Traceback (most recent call last):
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Sep 28 2020 20:15:53.434 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  numero = 3
+  ^
+IndentationError: unexpected indent
+'''},
