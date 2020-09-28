@@ -167,3 +167,10 @@ SyntaxError: invalid syntax
     cenaMUNDO.direita = cenaFIM
 NameError: name 'cenaMUNDO' is not defined
 '''},
+{'date': 'Mon Sep 28 2020 19:39:23.299 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 45
+  josefa = 5
+  ^
+IndentationError: unexpected indent
+'''},
