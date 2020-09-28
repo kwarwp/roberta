@@ -16,7 +16,7 @@
     #desafio0()
     
     from circus.circus import circus
-MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
+	MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
