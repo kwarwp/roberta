@@ -57,6 +57,10 @@ numero = 3
 def verifica():
     if numero > 5:
         print("três é maior que cinco")
+    elif numero = 5:
+        print("opa! Igualdade")
+    else:
+        print("numero não é maior que cinco")
 
 verifica()
 
