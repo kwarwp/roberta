@@ -192,3 +192,10 @@ IndentationError: unexpected indent
     floresta = Cena(VARIAVEL)
 UnboundLocalError: local variable 'VARIAVEL' referenced before assignment
 '''},
+{'date': 'Mon Sep 28 2020 20:13:23.355 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 60
+  elif numero = 5:
+               ^
+SyntaxError: invalid syntax
+'''},
