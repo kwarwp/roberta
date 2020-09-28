@@ -27,7 +27,7 @@ for x in animais:
     print(x)
     if x=="gato":
         break
-    print(x)
+    #print(x)
     
 #print(animais)
 
