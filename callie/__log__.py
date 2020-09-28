@@ -68,3 +68,10 @@ Traceback (most recent call last):
   module <module> line 12
     from _spy.vitollino.main import cena
 '''},
+{'date': 'Mon Sep 28 2020 20:15:43.549 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  numero = 3
+  ^
+IndentationError: unexpected indent
+'''},
