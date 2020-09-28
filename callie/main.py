@@ -10,13 +10,13 @@ Changelog
 
 """
 
- numero=3
+numero=3
 
 def verifica():
-    if numero > 6: 
+    if numero < 6: 
         print("numero é maior que seis")
     elif numero == 6:
-        print: ("igualdade")
+        print("igualdade")
     else:
          print("numero não é maior que seis")
 
