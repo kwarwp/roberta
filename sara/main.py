@@ -42,7 +42,7 @@ numero = 3
 def verifica():
 	if numero > 5:
     	print ("Número é maior que cinco")
-    elif numero = 5:
+    elif numero == 5:
     	print ("Igualdade")
     else numero < 5:
     	print ("Número é maior que cinco")
