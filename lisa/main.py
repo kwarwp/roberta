@@ -10,6 +10,7 @@ Changelog
        - xxx
 
 """
+# Na linha 14 você chamou o _spy! O import é apenas from circus.circus import circus
 from _spy.circus.circus import circus
 
 def desafio0():
