@@ -16,10 +16,13 @@
     #desafio0()
     
     from circus.circus import circus
+def desafio0():
 	MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"]] 
 
-circus(2, MASMORRA)
+	circus(2, MASMORRA)
+if __name__ == "__main__":
+    desafio0()
