@@ -41,11 +41,13 @@ def flora():
     cenaFloresta.vai()
 flora()
 """
-Maria_Maria = 4
-    josefa = 5
-        luis = 6
-print(josefa)
+x = "ola"
 
+def mostra_x():
+    x = "eeee"
+    j = "oooo"
+    print(x)
+print(x)
 
 
 
