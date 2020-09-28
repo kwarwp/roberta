@@ -52,7 +52,7 @@ Floresta = Cena(Img_floresta, esquerda=caminho_esquerdo)
 caminho_esquerdo.direita = Floresta
 caminho_direito.esquerda = Floresta
 #Floresta.vai()
-
+'''
 Maria_Maia = 4
 print('id(Maria_Maia) =', id(Maria_Maia)) # id 140071085578048
 
@@ -63,3 +63,12 @@ print('id(5) =', id(5)) # id 140071085578080
 Josefa = 4
 print('id(Josefa) =', id(Josefa)) # id 140071085578048
 print('id(4) =', id(4)) # id 140071085578048
+'''
+
+vaiaavel = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PerfectStrawberry.jpg/220px-PerfectStrawberry.jpg'
+
+def ambiente():
+    floresta = Cena(variavel)
+    floresta.vai
+    
+ambiente()
