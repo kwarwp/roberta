@@ -39,17 +39,26 @@ def flora():
     cenaFloresta.vai()
 flora()
 """
+"""
 from _spy.vitollino.main import Cena
+#Variavel global
 VARIAVEL = "https://i.imgur.com/4lB1eyQ.jpg"
 
 def ambiente():
-    
+    #variavel local
     VARIAVEL = "https://i.imgur.com/LpWmClc.png"
     floresta = Cena(VARIAVEL)
     floresta.vai()
     
 ambiente()
+"""
+numero = 3
 
+def verifica():
+    if numero > 5:
+        print("três é maior que cinco")
+
+verifica()
 
 
 
