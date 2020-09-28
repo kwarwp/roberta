@@ -15,7 +15,7 @@ def desafio1():
     MASMORRA = [[ "LS", "JN", "HN", "JN", "HN", "LO"],
                 [ "HO", "AN", "FN", "FN", "BN", "IL"],
                 [ "JO", "DO", "AO", "BL", "DO", "JL"],
-                [ "IO", "AO", "DS", "DN", "CN", "AN"],
+                [ "IO", "AO", "DS", "DN", "CL", "HL"],
                 [ "GS", "AN", "AN", "AN", "AN", "AN"]
                 ]
 
