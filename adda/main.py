@@ -7,7 +7,7 @@ Changelog
 ..versionadded::
     - xxx
     
-"""
+
 from _spy.vitollino.main import Cena, STYLE, Elemento
 STYLE["width"] = 1100
 STYLE["height"] = "600px"
@@ -40,3 +40,18 @@ def flora():
         
     cenaFloresta.vai()
 flora()
+"""
+Maria_Maria = 4
+    josefa = 5
+        luis = 6
+print(josefa)
+
+
+
+
+
+
+
+
+
+
