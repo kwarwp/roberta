@@ -236,3 +236,10 @@ KeyError: E
     self.desafios[desafio](solucao)
 IndexError: list index out of range
 '''},
+{'date': 'Mon Sep 28 2020 20:05:35.356 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  def go()
+           ^
+SyntaxError: invalid syntax
+'''},
