@@ -426,3 +426,10 @@ NameError: name 'floresta_verde' is not defined
     floresta_verde.LAPIS = Cena(MUNDO) 
 NameError: name 'floresta_verde' is not defined
 '''},
+{'date': 'Mon Sep 28 2020 19:58:53.997 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 56
+  VARIA: "https://macmagazine.uol.com.br/wp-content/uploads/2015/04/16-floresta.jpg"
+        ^
+SyntaxError: invalid syntax
+'''},
