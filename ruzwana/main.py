@@ -13,10 +13,10 @@ circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
 
 def desafio1():    
     MASMORRA = [[ "LS", "JN", "HN", "JN", "HN", "LO"],
-                [ "HL", "AN", "FN", "FN", "BN", "IL"],
-                [ "JO", "DO", "AN", "AN", "AN", "AN"],
+                [ "HO", "AN", "FN", "FN", "BN", "IL"],
+                [ "JO", "DO", "AO", "BL", "DO", "JL"],
                 [ "AN", "AN", "AN", "AN", "AN", "AN"],
-                [ "AN", "AN", "AN", "AN", "AN", "AN"]
+                [ "GS", "AN", "AN", "AN", "AN", "AN"]
                 ]
 
     circus(2, MASMORRA,2)
