@@ -882,3 +882,10 @@ SyntaxError: EOL while scanning string literal
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Sep 28 2020 20:14:12.12 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  elif numero = 5:
+               ^
+SyntaxError: invalid syntax
+'''},
