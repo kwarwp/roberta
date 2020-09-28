@@ -48,4 +48,20 @@ cena_esquerda.direita = cena_fundo
 cena_direita.esquerda = cena_fundo
 cena_fundo.vai()
 
+from _spy.vitollino.main import Cena, STYLE
 
+FLOR = "http://obviousmag.org/em_cada_esquina/assets_c/2019/11/25bae4_o-que-fazer-quando-a-flor-do-girassol-morre-thumb-500x333-180378.jpg"
+ARARA = "https://animais.culturamix.com/blog/wp-content/gallery/Araras-Azuis%3A-Belas-e-Raras-1/Araras-Azuis-1.jpg"
+BORBOLETA = "https://pt.bcdn.biz/Files/2017/7/25/52524f4f-9ebb-48fe-9bd8-64fef7445aee.jpg"
+PRAIA ="https://guiaviajarmelhor.com.br/wp-content/uploads/2019/11/melhor-praia-do-mundo-tripadvisor-4.jpg"
+
+STYLE["width"] = 900
+STYLE["heigth"] = "900px"
+
+cena_direita = Cena(FLOR)
+cena_esquerda =Cena(ARARA)
+cena_fundo = Cena(BORBOLETA, esquerda=cena_esquerda, direita=cena_direita)
+
+cena_esquerda.direita = cena_fundo
+cena_direita.esquerda = cena_fundo
+cena_fundo.vai()
