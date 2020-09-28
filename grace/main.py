@@ -53,7 +53,7 @@ Changelog
 
 from _spy.vitollino.main import Cena,STYLE 
 
-VARIA = "https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia24412/floresta-cpt.jpg"
+VARIA = "https://pt.wikipedia.org/wiki/Floresta#/media/Ficheiro:Conifer_forest.jpg"
 
 def ambiente(): 
     floresta = Cena(VARIA)
