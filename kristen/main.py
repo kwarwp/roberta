@@ -9,15 +9,14 @@ Changelog
        - xxx
 
 """
-from _spy.vitollino.main import Cena
+numero=3
 
-VARIAVEL_GLOBAL = "https://i.pinimg.com/736x/f5/02/0d/f5020d2e11b0f570ea3087ce7f54c435.jpg"
+def verifica():
+    if numero > 5:
+        print("Numero é maior que cinco")
+    elif numero == 5:
+        print("Opa! Igualdade")
+    else:
+        print("Numero não é maior que cinco")
 
-
-
-def ambiente ():
-    floresta = Cena(VARIAVEL)
-    floreta.vai()
-
-
-ambiente()
+verifica()
