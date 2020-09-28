@@ -77,7 +77,7 @@ def verifica ():
     if numero > 5:
         print ("numero é maior que cinco")
     elif numero = 5
-        print ("Opa! Igualdade")
+        print ("número é igual a cinco")
     else
         print ("número não é maior que cinco")
         
