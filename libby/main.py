@@ -22,5 +22,6 @@ GATO= 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMQDxAQEBIWEA
 Gato = Cena(GATO)
 lemori = Cena(LEMORI)
 cachorro = Cena(CACHORRO)
+ # Abaixo o gato está sendo chamado com letra minúscula enquanto sua varável (linha 22) foi nomeado com letra maiúscula
 floresta_verde= Cena(FLORESTA, direita= lemori, esquerda= cachorro, meio = gato)
 floresta_verde.vai()
