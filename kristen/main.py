@@ -25,5 +25,9 @@ animais = ["macaco", "gato", "cachorro"]
 
 for x in animais:
     print(x)
+    if x=="gato":
+        break
+    print(x)
+    
+#print(animais)
 
-print(animais)
