@@ -1,9 +1,9 @@
 # roberta.ruzwana.main.py
 from circus.circus import circus
 
-TOPO_ESQUERDA = "AN"
-TOPO_DIREITA = "AN"
-TOPO_CENTRO = "AN"
+TOPO_ESQUERDA = "LS"
+TOPO_DIREITA = "LO"
+TOPO_CENTRO = "JN"
 MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "AN", "AN", "AN"
 FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "AN", "AN", "AN"
 
