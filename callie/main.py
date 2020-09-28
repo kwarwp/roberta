@@ -19,5 +19,12 @@ def verifica():
         print("igualdade")
     else:
          print("numero não é menor que seis")
+#verifica()
 
-verifica()
+animais = ["leão","elefante","macaco","girafa", "borboleta"]
+
+for x in animais:
+    print(x)
+    if x == "girafa":
+         continue
+    print(x)
