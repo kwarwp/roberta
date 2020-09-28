@@ -69,6 +69,6 @@ variavel = 'https://i.ytimg.com/vi/dL9_IQv3eGE/maxresdefault.jpg'
 
 def ambiente():
     floresta = Cena(variavel)
-    floresta.vai
+    floresta.vai()
     
 ambiente()
