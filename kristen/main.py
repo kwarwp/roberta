@@ -21,7 +21,7 @@ def verifica():
 
 #verifica()
 
-animais = ["macaco", "gato", "cachorro"]
+animais = ["macaco", "gato", "cachorro", "cavalo"]
 
 for x in animais:
     print(x)
