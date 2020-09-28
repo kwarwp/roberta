@@ -63,14 +63,14 @@ cena_fundo = Cena(BORBOLETA, esquerda=cena_esquerda, direita=cena_direita)
 cena_esquerda.direita = cena_fundo
 cena_direita.esquerda = cena_fundo
 cena_fundo.vai()
-
+"""
 from _spy.vitollino.main import Cena
 VARIAVEL = "https://veja.abril.com.br/wp-content/uploads/2016/05/ciencia-borboleta-danaus-plexippus-monarca-20130408-07-original1.jpeg"
 def ambiente ():
     borboleta = Cena (VARIAVEL)
     borboleta.vai ()
 ambiente ()
-
+"""
 
 numero = 20
 def verifica ():
