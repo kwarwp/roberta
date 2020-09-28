@@ -15,7 +15,8 @@
 #if __name__ == "__main__":
     #desafio0()
     
-    from circus.circus import circus
+from circus.circus import circus
+
 def desafio0():
 	MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
             [ "AN", "AN", "AN", "AN", "AN", "AN"],
