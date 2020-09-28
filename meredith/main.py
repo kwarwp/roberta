@@ -71,4 +71,4 @@ animais = ['macaco', 'aguia', 'pardal', 'leao', 'cachorro']
 for x in animais:
     print (x)
     if x == 'leao':
-        break
+        continue
