@@ -475,3 +475,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Sep 28 2020 20:20:17.629 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 67
+  print("num é maior que 16")
+  ^
+IndentationError: expected an indented block
+'''},
