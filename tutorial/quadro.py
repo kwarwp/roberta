@@ -10,19 +10,22 @@ Changelog
        - xxx
 
 """
-
-numero=3
+numero=5
 
 def verifica():
     if numero > 5:
         print("Numero é maior que cinco")
-    elif numero = 5:
+    elif numero == 5:
         print("Opa! Igualdade")
     else:
         print("Numero não é maior que cinco")
-        
-verifica()
+#verifica()
 
+animais = ["macaco","águia","pardal","leão", "cachorro"]
 
-
+for x in animais:
+    #print(x)
+    if x == "leão":
+        break
+    print(x)
 
