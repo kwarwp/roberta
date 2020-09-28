@@ -60,3 +60,6 @@ Maria_Maia= Maria_Maia + 1
 print('id(Maria_Maia_plus_um) =', id(Maria_Maia)) # id 140071085578080
 print('id(5) =', id(5)) # id 140071085578080
                    
+Josefa = 4
+print('id(Josefa) =', id(Josefa)) # id 140071085578048
+print('id(4) =', id(4)) # id 140071085578048
