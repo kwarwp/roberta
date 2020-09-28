@@ -51,6 +51,6 @@ caminho_esquerdo = Cena(Img_esquerda)
 Floresta = Cena(Img_floresta, esquerda=caminho_esquerdo)
 caminho_esquerdo.direita = Floresta
 caminho_direito.esquerda = Floresta
-Floresta.vai()
+#Floresta.vai()
 
                    
