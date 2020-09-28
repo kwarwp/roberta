@@ -65,7 +65,7 @@ print('id(Josefa) =', id(Josefa)) # id 140071085578048
 print('id(4) =', id(4)) # id 140071085578048
 '''
 
-vaiaavel = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PerfectStrawberry.jpg/220px-PerfectStrawberry.jpg'
+variavel = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PerfectStrawberry.jpg/220px-PerfectStrawberry.jpg'
 
 def ambiente():
     floresta = Cena(variavel)
