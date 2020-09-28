@@ -45,7 +45,6 @@ class Aldeia:
     MAPING = "https://i.imgur.com/MRmfpAv.png"
     YARA = "https://i.imgur.com/RfLJEhs.png"
     TRANSP= "https://i.imgur.com/npb9Oej.png"
-    KEYS=None
     J = None
     OK_AZIM=list("NLSO")
     RT_AZIM="NLSO"
@@ -53,6 +52,7 @@ class Aldeia:
     ORDERED_KEYS = [['Coycol', 'Cauha', 'Tetlah'],
                     ['Huatlya', 'Zitllo', 'Micpe'],
                     ['Nenea', 'Cahuitz', 'Pallotl']]
+    KEYS = ORDERED_KEYS
     MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'BN', 'Coycol': 'CN',
      'Huatlya': 'DN', 'Micpe': 'EN', 'Nenea': 'FN',
      'Pallotl': 'GN', 'Tetlah': 'HN', 'Zitllo': 'IN'}
