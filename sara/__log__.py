@@ -116,3 +116,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Sep 28 2020 20:19:31.730 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 45
+  elif numero == 5:
+  ^
+IndentationError: unexpected indent
+'''},
