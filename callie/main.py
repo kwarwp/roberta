@@ -14,10 +14,10 @@ numero=3
 
 def verifica():
     if numero < 6: 
-        print("numero é maior que seis")
+        print("numero é menor que seis")
     elif numero == 6:
         print("igualdade")
     else:
-         print("numero não é maior que seis")
+         print("numero não é menor que seis")
 
-verifica:
+verifica()
