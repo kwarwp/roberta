@@ -804,3 +804,10 @@ ImportError: cannot import name 'circus'
     from circus.circus import circus
 ImportError: cannot import name 'circus'
 '''},
+{'date': 'Mon Sep 28 2020 18:52:21.398 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 13
+  i = 1
+  ^
+IndentationError: unexpected indent
+'''},
