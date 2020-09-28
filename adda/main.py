@@ -38,8 +38,8 @@ def flora():
         
     cenaFloresta.vai()
 flora()
-"""
-"""
+
+
 from _spy.vitollino.main import Cena
 #Variavel global
 VARIAVEL = "https://i.imgur.com/4lB1eyQ.jpg"
