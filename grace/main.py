@@ -64,12 +64,12 @@ num = 16
 
 def verif():
 	if num > 40:
-	print("num é maior que 16")
+		print("num é maior que 16")
 	elif num == 16:
-	print(igualdade)
-	else 
-	print("numero nao é maior que 16")
-	verif()
+		print(igualdade)
+	else:
+		print("numero nao é maior que 16")
+verif()
 
 
 
