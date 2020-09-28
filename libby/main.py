@@ -22,11 +22,11 @@ numero =20
 
 def verifica():
     if numero > 5:
-        print ('O numero e maior que cinco')
+        print ('O numero é maior que cinco')
     elif numero ==5:
-        print ('O numero e igual a cinco')
+        print ('O numero é igual a cinco')
     else:
-        print ('O numero e menor que cinco')
+        print ('O numero é menor que cinco')
         
 verifica()
 
