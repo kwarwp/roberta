@@ -69,6 +69,7 @@ variavel = 'https://i.ytimg.com/vi/dL9_IQv3eGE/maxresdefault.jpg'
 
 animais = ['macaco', 'aguia', 'pardal', 'leao', 'cachorro']
 for x in animais:
-    print (x)
     if x == 'leao':
         continue
+    print (x)
+
