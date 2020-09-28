@@ -186,3 +186,31 @@ AttributeError: 'Aldeia' object has no attribute 'KEYS'
     c = [[solucao[ai] for ai in linha] for linha in Aldeia.KEYS]
 TypeError: 'NoneType' object is not iterable
 '''},
+{'date': 'Mon Sep 28 2020 16:38:02.168 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 180
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 310
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 282
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 299
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 48
+    main()
+  module <module> line 21
+    circus(4, MASMORRA)
+  module circus.circus line 180
+    Aldeia(Jogo()).circus(desafio, solucao, desafio)
+  module circus.circus line 159
+    self.desafios[desafio](solucao)
+  module circus.circus line 132
+    self.desafio0(c)
+  module circus.circus line 124
+    c = [Piso(self.cena, 10*LADO+i*LADO, j*LADO, ai ) for j, linha in enumerate(solucao) for i, ai in enumerate(linha)]
+  module circus.circus line 33
+    az = azz[ai[1]]
+KeyError: E
+'''},
