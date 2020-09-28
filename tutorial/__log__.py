@@ -875,3 +875,10 @@ NameError: name 'floresta' is not defined
                                 ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Sep 28 2020 20:05:01.835 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  print("Três é maior que cinco")
+  ^
+IndentationError: expected an indented block
+'''},
