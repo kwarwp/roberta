@@ -20,9 +20,9 @@ def verifica():
         print("Numero não é maior que cinco")
 
 #verifica()
-'''
-animais = ["macaco", "gato", "cachorro", "cavalo"]
 
+animais = ["macaco", "gato", "cachorro", "cavalo"]
+'''
 for x in animais:
     print(x) #inclui o gato
     if x=="gato":
@@ -32,3 +32,7 @@ for x in animais:
 #print(animais)
 '''
 
+for x in animais:
+    if x == "leao":
+        continue
+    print(x)
