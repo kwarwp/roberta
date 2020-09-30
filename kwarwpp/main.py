@@ -26,18 +26,8 @@ class Indio(Indio):
         self.direita()
         self.direita()
         self.anda()
-        self.anda()
         self.esquerda()
-        self.pega()
-        self.esquerda()
-        self.anda()
-        self.anda()
-        self.larga()
-        self.direita()
-        for x in range(7):
-            self.anda()
-        self.esquerda()
-        self.anda()
+        self.empurra()
         
 
 class Vitollino(Jogo):
