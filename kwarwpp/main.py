@@ -16,7 +16,7 @@ MAPA_INICIO = """
 @.....&
 .......
 ......#
-.#.p...
+.#.p.p.
 """
 
 class Kaiowa(Indio):
