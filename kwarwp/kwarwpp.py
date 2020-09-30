@@ -335,7 +335,7 @@ class Indio():
         self.indio.ocupa(ocupante)
         self.ocupante = ocupante
         
-        def empurra(self):
+    def empurra(self):
         """Objeto tenta sair, tem que consultar a vaga onde está"""
         # self.vaga.sair() # esta parte vai ser feita mais tarde.
         print("Estou tentanto empurra a tora para a posição", self.posicao[0]+self.azimute.x, self.posicao[1]+self.azimute.y)
