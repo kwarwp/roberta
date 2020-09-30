@@ -23,10 +23,17 @@ class Indio(Indio):
     def executa(self):
         """ Roteiro do índio. Conjunto de comandos para ele executar.
         """
-        self.anda()
-        self.anda()
+        self.direita()
         self.direita()
         self.anda()
+        self.anda()
+        self.esquerda()
+        self.pega()
+        self.esquerda()
+        self.anda()
+        self.anda()
+        self.larga()
+        
 
 class Vitollino(Jogo):
     """ Empacota o engenho de jogo Vitollino """
