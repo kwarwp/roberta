@@ -19,7 +19,7 @@ MAPA_INICIO = """
 .#.p..
 """
 
-class Indio(Indio):
+class India(Indio):
     def executa(self):
         """ Roteiro do índio. Conjunto de comandos para ele executar.
         """
