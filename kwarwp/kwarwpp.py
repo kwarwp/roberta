@@ -388,7 +388,7 @@ class Kwarwp():
         :param medidas: Um dicionário usado para redimensionar a tela.
     """
     
-    def __init__(self, vitollino=None, mapa=None, medidas={}, indios=()):
+    def __init__(self, vitollino=None, mapa=None, medidas={}, indios=(*args)):
         Vazio.VITOLLINO = self.v = vitollino()
         self.vitollino = vitollino
         """Referência estática para obter o engenho de jogo."""
@@ -570,7 +570,7 @@ class Kwarwp():
         return vaga
 
 
-def main(vitollino, medidas={}, mapa=None, indios=(*kwargs)):
+def main(vitollino, medidas={}, mapa=None, indios=()):
     """ Rotina principal que invoca a classe Kwarwp.
     
     :param vitollino: Empacota o engenho de jogo Vitollino.
