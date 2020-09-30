@@ -570,7 +570,7 @@ class Kwarwp():
         return vaga
 
 
-def main(vitollino, medidas={}, mapa=None, indios=()):
+def main(vitollino, medidas={}, mapa=None, indios=(*kwargs)):
     """ Rotina principal que invoca a classe Kwarwp.
     
     :param vitollino: Empacota o engenho de jogo Vitollino.
