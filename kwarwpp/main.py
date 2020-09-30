@@ -36,7 +36,7 @@ class Indio(Indio):
         self.direita()
         for x in range(7):
             self.anda()
-        self.direita()
+        self.esquerda()
         self.anda()
         
 
