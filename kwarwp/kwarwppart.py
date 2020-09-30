@@ -100,7 +100,8 @@ class Vazio():
 
             :param requistante: O ator querendo pegar o objeto.
         """
-        self.ocupante.empurrar(requisitante, azimute)
+        if type(self.ocupante) is Tora:
+            self.ocupante.empurrar(requisitante, azimute)
 
     def _valida_acessa(self, ocupante):
         """ Consulta o ocupante atual se há permissão para substituí-lo pelo novo ocupante.
@@ -312,4 +313,28 @@ class Tora(Piche):
         No caso da tora, ela age como um obstáculo e não prossegue com o protocolo.
         """
         pass
+        
+    def empurrar(self, empurrante, azimute):
+        """ Registra o empurrante para uso no procolo e inicia dispathc com a vaga.
+            :param requistante: O ator querendo pegar o objeto.
+        """
+        #print("A Tora está sendo empurrada") 
+        
+        self.empurrante = empurrante
+        # continue aqui com o início do double dispatch para ocupar a vaga na direção do azimute
+        self.vaga.acessar(self, azimute)
+        self.empurrante = NULO
+        
+    def ocupa(self, vaga):
+        """ Pedido por uma vaga para que ocupe a posição nela.
+        :param vaga: A vaga que será ocupada pelo componente.
+        No caso da tora, requisita que a vaga seja ocupada por ele.
+        Também autoriza o empurrante a ocupar a vaga onde estava.
+        """
+        # o código usual do ocupa
+        self.vaga.sai()
+        self.posicao = vaga.posicao
+        vaga.ocupou(self)
 
+        self.empurrante.ocupa(self.vaga) if self.empurrante is not NULO else None
+        self.vaga = vaga
