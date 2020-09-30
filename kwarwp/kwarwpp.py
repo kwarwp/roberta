@@ -388,7 +388,7 @@ class Kwarwp():
         :param medidas: Um dicionário usado para redimensionar a tela.
     """
     
-    def __init__(self, vitollino=None, mapa=None, medidas={}, indios=(*args)):
+    def __init__(self, vitollino=None, mapa=None, medidas={}, indios=()):
         Vazio.VITOLLINO = self.v = vitollino()
         self.vitollino = vitollino
         """Referência estática para obter o engenho de jogo."""
