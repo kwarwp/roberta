@@ -32,7 +32,7 @@ class Indio(Indio):
         """ Roteiro do índio. Conjunto de comandos para ele executar.
         """
         self.anda()
-        self.direita()
+        self.anda()
 
 class Vitollino(Jogo):
     """ Empacota o engenho de jogo Vitollino """
