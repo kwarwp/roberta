@@ -16,7 +16,7 @@ MAPA_INICIO = """
 @....&
 ......
 .....#
-.#....
+.#.p..
 """
 
 class Indio(Indio):
