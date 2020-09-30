@@ -315,3 +315,10 @@ NameError: name 'kwargs' is not defined
     from kwarwp.kwarwpp import main as kwarwp_main, Indio
 ImportError: cannot import name 'main'
 '''},
+{'date': 'Wed Sep 30 2020 17:08:37.321 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module kwarwp.kwarwpp line 339
+  """Objeto tenta sair, tem que consultar a vaga onde está"""
+  ^
+IndentationError: expected an indented block
+'''},
