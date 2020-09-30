@@ -452,7 +452,7 @@ class Kwarwp():
         """ O Kwarwp é aqui usado para falar algo que ficará escrito no céu.
         """
         self.ceu.elt.html = texto
-        pass
+        
         
     def sai(self, *_):
         """ O Kwarwp é aqui usado como uma vaga falsa, o pedido de sair é ignorado.
