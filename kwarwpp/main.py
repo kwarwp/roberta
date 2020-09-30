@@ -15,17 +15,9 @@ from kwarwp.kwarwpp import main as kwarwp_main, Indio
 MAPA_INICIO = """
 @.....&
 .......
-^.....#
+......#
 .#...p.
 """
-
-class Page(Indio):
-    def executa(self):
-        """ Roteiro do índio. Conjunto de comandos para ele executar.
-        """
-        self.anda()
-        self.direita()
-
 
 class Indio(Indio):
     def executa(self):
@@ -39,7 +31,7 @@ class Vitollino(Jogo):
     pass
 
 def main(vitollino, medidas):
-    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_INICIO, indios=(Indio , Page))
+    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_INICIO, indios=(Indio, Indio))
         
     
 if __name__ == "__main__":
