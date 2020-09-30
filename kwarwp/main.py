@@ -11,7 +11,7 @@ Changelog
 
 """
 from _spy.vitollino.main import Jogo, STYLE
-from kwarwp.kwarapp import main as kwarwp_main, Indio
+from kwarwp.kwarwpp import main as kwarwp_main, Indio
 MAPA_INICIO = """
 @....&
 ......
