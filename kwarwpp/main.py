@@ -33,6 +33,10 @@ class Indio(Indio):
         self.anda()
         self.anda()
         self.larga()
+        for x in range(7):
+            self.anda()
+        self.esquerda()
+        self.anda()
         
 
 class Vitollino(Jogo):
