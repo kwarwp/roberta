@@ -19,7 +19,7 @@ MAPA_INICIO = """
 .#.p...
 """
 
-class Indio(Indio):
+class India(Indio):
     def executa(self):
         """ Roteiro do índio. Conjunto de comandos para ele executar.
         """
@@ -39,7 +39,7 @@ class Vitollino(Jogo):
     pass
 
 def main(vitollino, medidas):
-    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_INICIO, indios=(Indio))
+    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_INICIO, indios=(Indio, India))
         
     
 if __name__ == "__main__":
