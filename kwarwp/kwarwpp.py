@@ -454,7 +454,6 @@ class Kwarwp():
         self.ceu.elt.html = texto
         
         
-        
     def sai(self, *_):
         """ O Kwarwp é aqui usado como uma vaga falsa, o pedido de sair é ignorado.
         """
