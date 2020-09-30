@@ -16,10 +16,10 @@ MAPA_INICIO = """
 @....&
 ......
 .....#
-.#.p..
+.#....
 """
 
-class Kaiowa(Indio):
+class Indio(Indio):
     def executa(self):
         """ Roteiro do índio. Conjunto de comandos para ele executar.
         """
