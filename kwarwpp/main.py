@@ -25,6 +25,8 @@ class Indio(Indio):
         """
         self.anda()
         self.anda()
+        self.direita()
+        self.anda()
 
 class Vitollino(Jogo):
     """ Empacota o engenho de jogo Vitollino """
