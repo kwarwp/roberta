@@ -15,8 +15,8 @@ from kwarwp.kwarwpp import main as kwarwp_main, Indio
 MAPA_INICIO = """
 @.....&
 .......
-......#
-.#...p.
+p.....#
+.#.....
 """
 
 class Indio(Indio):
