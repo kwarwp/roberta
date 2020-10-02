@@ -11,6 +11,7 @@ Changelog
 """
 
 from circus.circus import circus
+
 def desafio0():
     TOPO_ESQUERDA = "LS"
     TOPO_DIREITA = "LO"
@@ -30,10 +31,13 @@ def desafio1():
                 [ "GS", "JS", "HS", "HS", "JS", "GL"]
                 ]
 
-def desafio2():
+def desafio2(lev=3):
     MASMORRA = {'Cahuitz': 'JS', 'Cauha': 'JN', 'Coycol': 'LS',
                 'Huatlya': 'JO', 'Micpe': 'JL', 'Nenea': 'GS',
                 'Pallotl': 'GL', 'Tetlah': 'LO', 'Zitllo': 'FN'}
+                
+    circus(lev, MASMORRA)  
+    
 def desafio3():
     MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
                 'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
