@@ -359,3 +359,10 @@ Traceback (most recent call last):
     self.empurrante.ocupa(self.vaga) if self.empurrante is not NULO else None
 AttributeError: 'Tora' object has no attribute 'empurrante'
 '''},
+{'date': 'Fri Oct 02 2020 19:46:16.270 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 38
+  return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_INICIO, Indio)
+                                                                                  ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
