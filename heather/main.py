@@ -11,7 +11,6 @@ Changelog
 """
 
 from circus.circus import circus
-
 def desafio0():
     TOPO_ESQUERDA = "LS"
     TOPO_DIREITA = "LO"
@@ -24,20 +23,17 @@ def desafio0():
         MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
         
 def desafio1():
-    MASMORRA = [[ "LS", "JN", "HN", "JN", "HN", "KO"],
-                [ "HO", "AN", "FN", "FN", "BN", "IL"],
-                [ "JO", "DO", "AO", "CL", "DO", "JL"],
-                [ "IO", "AO", "DS", "DN", "CL", "HL"],
-                [ "GS", "JS", "HS", "HS", "JS", "GL"]
+    MASMORRA = [[ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "AN", "AN", "AN", "AN", "AN"],
+                [ "AN", "JS", "AN", "AN", "AN", "AN"]
                 ]
 
-def desafio2(lev=3):
-    MASMORRA = {'Cahuitz': 'JS', 'Cauha': 'JN', 'Coycol': 'LS',
-                'Huatlya': 'JO', 'Micpe': 'JL', 'Nenea': 'GS',
-                'Pallotl': 'GL', 'Tetlah': 'LO', 'Zitllo': 'FN'}
-                
-    circus(lev, MASMORRA)  
-    
+def desafio2():
+    MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
+                'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
+                'Pallotl': 'AN', 'Tetlah': 'AN', 'Zitllo': 'AN'}
 def desafio3():
     MASMORRA = {'Cahuitz': 'AN', 'Cauha': 'AN', 'Coycol': 'AN',
                 'Huatlya': 'AN', 'Micpe': 'AN', 'Nenea': 'AN',
@@ -48,5 +44,5 @@ def desafio3():
 
 # faça aqui a sua implementação do desafio
 if __name__ == "__main__":
-    desafio2()
+    desafio1()
     #circus(<ponha aqui o número do desafio e descomente a linha>, <parâmetro indicado>)
