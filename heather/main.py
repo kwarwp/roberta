@@ -27,7 +27,7 @@ def desafio1():
                 [ "AN", "AN", "AN", "AN", "AN", "AN"],
                 [ "AN", "AN", "AN", "AN", "AN", "AN"],
                 [ "AN", "AN", "AN", "AN", "AN", "AN"],
-                [ "AN", "JS", "AN", "AN", "AN", "AN"]
+                [ "AN", "AN", "AN", "AN", "AN", "AN"]
                 ]
 
 def desafio2():
