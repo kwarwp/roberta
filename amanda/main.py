@@ -89,4 +89,4 @@ def verifica ():
 animais = ["macaco", "águia", "pardal", "leão", "cachorro", "gato"]
 for x in animais:
     print (x)
-    print (animais)
+    if x=="leão"
