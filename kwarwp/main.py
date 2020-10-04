@@ -31,30 +31,14 @@ class Aba(Indio):
     def executa(self):
         """ Roteiro do índio. 
             Conjunto de comandos para ele executar:
-              self.anda()
-              self.direita()
-              self.esquerda()
-              self.pega()
-              self.larga()
-              self.empurra()
-              self.fala("teste")
-          
-            
         """
+        self.anda()
         self.direita()
-        
-        self.anda()
-        for passos in range(8):
-            self.pega()
-            self.esquerda()
-            self.esquerda()
-            self.larga()
-            self.esquerda()
-            self.esquerda()
-            self.anda()
-        self.anda()
-        self.anda()
-        self.anda()
+        self.esquerda(
+        self.pega()
+        self.larga()
+        self.empurra()
+        self.fala("teste")
 
 class Kaiowa(Indio):
     def executa(self):
