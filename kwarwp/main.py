@@ -38,7 +38,6 @@ class Kaiowa(Indio):
             self.pega()
             self.esquerda()
             self.esquerda()
-            self.esquerda()
             self.larga()
             self.esquerda()
             self.esquerda()
