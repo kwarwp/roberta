@@ -85,11 +85,15 @@ def verifica ():
         print ("número não é maior que cinco")
         
 #verifica ()
-
+"""
 animais = ["macaco", "águia", "pardal", "leão", "cachorro", "gato"]
 for x in animais:
     print (x) # inclui o leão
     if x=="leão":
         break
     print (x) #exclui o leão
+"""
+for x in range (9):
+    print (x)
+    
 
