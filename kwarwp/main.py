@@ -25,6 +25,8 @@ class Kaiowa(Indio):
         """
         self.anda()
         self.direita()
+        self.empurra()
+        self.empurra()
         self.pega()
         self.esquerda()
         self.anda()
