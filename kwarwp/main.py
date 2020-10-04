@@ -23,7 +23,7 @@ MAPA_ZERADO = """
 MAPA_TORA= """
 
 |||||||||||||
-#^.########.&
+|^.########.&
 |||||||||||||
 
 """
@@ -32,17 +32,18 @@ class Kaiowa(Indio):
     def executa(self):
         """ Roteiro do índio. Conjunto de comandos para ele executar.
         """
-        self.anda()
         self.direita()
-        self.empurra()
-        self.empurra()
-        self.pega()
-        self.esquerda()
         self.anda()
+        for passos in range(9):
+            self.pega()
+            self.esquerda()
+            self.esquerda()
+            self.esquerda()
+            self.larga()
+            self.esquerda()
+            self.esquerda()
+            self.anda()
         self.anda()
-        self.anda()
-        self.direita()
-        self.larga()
 
 
 class Vitollino(Jogo):
