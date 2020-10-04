@@ -42,7 +42,13 @@ class Aba(Indio):
 
 class Kaiowa(Indio):
     def executa(self):
-        """ Roteiro do índio. Conjunto de comandos para ele executar.
+        """ Ajude o indio a chegar na oca.
+        
+            CONSELHO DO PAGÉ:
+               "Um feitiço de meu tatara avó me ajudava a fazer tudo mais rápido.
+                O espírito dos Laços te ajudará se você o invocar corretamente:
+                     for passos in range(?):
+                         self.o_que_você_deseja()
         """
         self.direita()
         self.anda()
