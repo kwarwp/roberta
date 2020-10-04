@@ -88,7 +88,8 @@ def verifica ():
 
 animais = ["macaco", "águia", "pardal", "leão", "cachorro", "gato"]
 for x in animais:
-    print (x)
+    print (x) # inclui o leão
     if x=="leão":
         break
-        print (x)
+    print (x) #exclui o leão
+
