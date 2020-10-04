@@ -43,6 +43,7 @@ class Kaiowa(Indio):
             self.esquerda()
             self.anda()
         self.anda()
+        self.anda()
 
 
 class Vitollino(Jogo):
