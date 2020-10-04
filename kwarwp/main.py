@@ -12,11 +12,20 @@ Changelog
 """
 from _spy.vitollino.main import Jogo, STYLE
 from kwarwp.kwarwpp import main as kwarwp_main, Indio
-MAPA_INICIO = """
-@....&
-......
-..#..#
-.`^...
+MAPA_ZERADO = """
+...........
+...........
+...........
+...........
+...........
+
+"""
+MAPA_TORA= """
+.............
+|||||||||||||
+#^.#########&
+|||||||||||||
+.............
 """
 
 class Kaiowa(Indio):
@@ -41,7 +50,7 @@ class Vitollino(Jogo):
     pass
 
 def main(vitollino, medidas):
-    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_INICIO, indios=(Kaiowa,))
+    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_TORA, indios=(Kaiowa,))
         
     
 if __name__ == "__main__":
