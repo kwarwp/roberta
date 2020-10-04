@@ -91,3 +91,4 @@ for x in animais:
     print (x)
     if x=="leão":
         break
+        print (x)
