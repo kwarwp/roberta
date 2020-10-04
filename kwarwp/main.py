@@ -34,7 +34,7 @@ class Aba(Indio):
         """
         self.anda()
         self.direita()
-        self.esquerda(
+        self.esquerda()
         self.pega()
         self.larga()
         self.empurra()
@@ -64,7 +64,7 @@ class Vitollino(Jogo):
     pass
 
 def main(vitollino, medidas):
-    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_TORA, indios=(Kaiowa,))
+    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=ABA, indios=(Aba,))
         
     
 if __name__ == "__main__":
