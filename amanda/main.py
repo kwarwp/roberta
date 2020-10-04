@@ -8,7 +8,8 @@ Changelog
 ---------
 .. versionadded::    
        - xxx
-"""     
+""" 
+"""
 numero_um=1
 numero_dois=2
 letras = "Oi! Tudo bom?"
@@ -24,7 +25,8 @@ print(operacao_sub)
 multiplica = numero_um * numero_dois
 
 print(multiplica)
-
+"""
+"""
 from _spy.vitollino.main import Cena.STYLE
 STYLE["width"] = 900 
 STYLE["heigth"] = "900px" 
@@ -63,6 +65,7 @@ cena_fundo = Cena(BORBOLETA, esquerda=cena_esquerda, direita=cena_direita)
 cena_esquerda.direita = cena_fundo
 cena_direita.esquerda = cena_fundo
 cena_fundo.vai()
+"""
 """
 from _spy.vitollino.main import Cena
 VARIAVEL = "https://veja.abril.com.br/wp-content/uploads/2016/05/ciencia-borboleta-danaus-plexippus-monarca-20130408-07-original1.jpeg"
