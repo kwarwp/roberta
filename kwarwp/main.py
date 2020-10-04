@@ -44,6 +44,8 @@ class Kaiowa(Indio):
             self.anda()
         self.anda()
         self.anda()
+        self.anda()
+        self.anda()
 
 
 class Vitollino(Jogo):
