@@ -111,3 +111,10 @@ TypeError: 'undefined' object is not iterable
     return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_INICIO, indios=(Kaiowa,))
 NameError: name 'MAPA_INICIO' is not defined
 '''},
+{'date': 'Sun Oct 04 2020 20:42:13.364 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 37
+  self.esquerda(
+                                              ^
+SyntaxError: invalid syntax
+'''},
