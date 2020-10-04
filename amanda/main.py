@@ -81,4 +81,9 @@ def verifica ():
     else:
         print ("número não é maior que cinco")
         
-verifica ()
+#verifica ()
+
+animais = ["macaco", "águia", "pardal", "leão", "cachorro", "gato"]
+for x in animais:
+    print (x)
+    print (animais)
