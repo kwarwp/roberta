@@ -34,7 +34,7 @@ class Kaiowa(Indio):
         """
         self.direita()
         self.anda()
-        for passos in range(9):
+        for passos in range(8):
             self.pega()
             self.esquerda()
             self.esquerda()
@@ -42,7 +42,6 @@ class Kaiowa(Indio):
             self.esquerda()
             self.esquerda()
             self.anda()
-        self.anda()
         self.anda()
         self.anda()
         self.anda()
