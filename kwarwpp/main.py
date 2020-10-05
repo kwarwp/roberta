@@ -68,11 +68,10 @@ class Moangeko(Indio):
         self.esquerda()
         self.empurra()
         self.empurra()
-        
-
+        self.empurra()
+        self.empurra()
 
 class For(Indio):
-
     def executa(self):
         """ Ajude o indio a chegar na oca.
         
@@ -84,11 +83,12 @@ class For(Indio):
         """
         self.direita()
         self.anda()
-        self.anda()
-        for etapas in range(9):
-            self.pega()
-            self.anda()
-                    
+        for etapas in range (3):
+            self.o_que_voce_deseja()
+        self.pega()
+        self.direita()
+        self.larga()
+        
 class Apii(Indio):
     def executa(self):
         """ Ajude o indio a chegar na oca.
