@@ -85,7 +85,6 @@ class Apo(Indio):
             CONSELHO DO PAGÉ:
                "Não tente levantar a pedra. Faz mal pro umbigo"
         """
-        self.pega()
         self.empurra()
         
         
