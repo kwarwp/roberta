@@ -523,7 +523,7 @@ class Kwarwp():
         coisa.vazio.vai = lambda *_: self.o_indio.larga()
         return vaga
         
-    def pedra(self, imagem, x, y, cena):
+    def apedra(self, imagem, x, y, cena):
         """ Cria uma tora na arena do Kwarwp na posição definida.
 
         :param x: coluna em que o elemento será posicionado.
