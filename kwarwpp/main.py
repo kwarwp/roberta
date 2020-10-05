@@ -61,7 +61,9 @@ class Moangeko(Indio):
         self.esquerda()
         self.empurra()
         self.empurra()
+        self.direita()
         self.esquerda()
+        
 
 
 class For(Indio):
