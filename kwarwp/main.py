@@ -113,17 +113,7 @@ class Apa(Indio):
                          self.o_que_você_deseja()
         """
         self.anda()
-        for passos in range(8):
-            self.pega()
-            self.esquerda()
-            self.esquerda()
-            self.larga()
-            self.esquerda()
-            self.esquerda()
-            self.anda()
-        self.anda()
-        self.anda()
-        self.anda()
+        self.empurra()
 
 
 class Vitollino(Jogo):
