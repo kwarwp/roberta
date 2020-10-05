@@ -394,7 +394,7 @@ class Pedra(Piche):
         """
         pass
         
-    def empurrar(self, empurrante, azimute):
+    def empurrar(self, requisitante, azimute):
         """ Registra o empurrante para uso no procolo e inicia dispathc com a vaga.
             :param requistante: O ator querendo pegar o objeto.
         """
