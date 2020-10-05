@@ -118,3 +118,10 @@ NameError: name 'MAPA_INICIO' is not defined
                                               ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Oct 04 2020 22:40:47.588 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module kwarwp.kwarwpp line 434
+  fabrica = {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ^
+SyntaxError: invalid syntax
+'''},
