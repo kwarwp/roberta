@@ -35,8 +35,8 @@ APII = """
 ||..........|
 ||.||||||||.|
 ||......#&|.|
-|||||||||||.|
-|^.¨........|
+|||||||||.|.|
+|^.¨.........
 |||||||||||||
 """
 
@@ -99,6 +99,17 @@ class Apii(Indio):
         """
         
         self.empurra()
+        self.direita()
+        self.anda()
+        for etapas in range(6):
+            self.empurra()
+        self.esquerda()
+        self.anda()
+        self.anda()
+        
+        
+        
+        
 
 
 
@@ -107,7 +118,7 @@ class Vitollino(Jogo):
     pass
 
 def main(vitollino, medidas):
-    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=FOR , indios=(For,))
+    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=APII , indios=(Apii,))
         
     
 if __name__ == "__main__":
