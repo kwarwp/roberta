@@ -339,7 +339,7 @@ class Indio():
     def empurra(self):
         """Objeto tenta sair, tem que consultar a vaga onde está"""
         # self.vaga.sair() # esta parte vai ser feita mais tarde.
-        print("Estou tentanto empurrar para a posição", self.posicao[0]+self.azimute.x, self.posicao[1]+self.azimute.y)
+        #print("Estou tentanto empurrar para a posição", self.posicao[0]+self.azimute.x, self.posicao[1]+self.azimute.y)
         
         # de resto o código é semelhante ao _anda
         # TODO refatorar o método _anda e empurra, pois tem código duplicado
