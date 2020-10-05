@@ -87,55 +87,6 @@ class Apo(Indio):
         """
         self.pega()
         
-        self.anda()
-        
-        self.direita()
-        self.anda()
-        self.anda()
-        self.direita()
-        self.empurra()
-        
-        self.anda()
-        self.esquerda()
-        self.anda()
-        self.anda()
-        self.esquerda()
-        self.anda()
-        self.anda()
-        
-        self.empurra()
-        self.direita()
-        self.empurra()
-        self.empurra()
-        
-        self.direita()
-        self.anda()
-        self.anda()
-        
-        self.esquerda()
-        self.anda()
-        self.anda()
-        
-        self.esquerda()
-        self.anda()
-        self.anda()
-        
-        self.empurra()
-        
-        self.direita()
-        self.anda()
-        self.anda()
-        
-        self.direita()
-        self.pega()
-        self.direita()
-        self.larga()
-        
-        self.esquerda()
-        self.anda()
-        self.anda()
-        self.esquerda()
-        self.anda()
         
 
 class Apa(Indio):
