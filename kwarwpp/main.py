@@ -1,5 +1,7 @@
 # roberta.kwarwpp.main.py
 # SPDX-License-Identifier: GPL-3.0-or-later
+# roberta.kwarwp.main.py
+# SPDX-License-Identifier: GPL-3.0-or-later
 """ Jogo para ensino de programação Python.
 
 .. codeauthor:: Carlo Oliveira <carlo@ufrj.br>
@@ -12,30 +14,97 @@ Changelog
 """
 from _spy.vitollino.main import Jogo, STYLE
 from kwarwp.kwarwpp import main as kwarwp_main, Indio
-MAPA_INICIO = """
-@.....&
-.......
-p.....#
-.#.....
+
+MOANGEKO = """
+.@.........
+...........
+.....#.¨...
+...........
+.....^.....
+
+"""
+API = """
+
+|||||||||||||
+|^.########.&
+|||||||||||||
+
+"""
+API = """
+|||||||||||||
+||..........|
+||.||||||||.|
+||......#&|.|
+|||||||||||.|
+|^..........|
+|||||||||||||
+"""
+APA = """
+°°°°°.++.°°
+°°°°++°°..°
+°°.++°°°°#°
+°++°°°°°°#°
+°^°°°°°°°.C
+"""
+APO = """
+|||||.|||.|||
+|.|||¨¨..¨..|
+|¨..|.|.|.|#|
+|^|¨..|...|.&
+|||.|||||||||
 """
 
-class Indio(Indio):
+
+class Moangeko(Indio):
     def executa(self):
-        """ Roteiro do índio. Conjunto de comandos para ele executar.
+        """
+            Conjunto de comandos que o índio executa:
+        """
+        self.anda()
+        self.direita()
+        self.esquerda()
+        self.pega()
+        self.larga()
+        self.empurra()
+
+class Api(Indio):
+    def executa(self):
+        """ Ajude o indio a chegar na oca.
+        
+            CONSELHO DO PAGÉ:
+               "Há um enigma de meu tatara avô que sempre me ajudou a fazer tudo mais rápido:
+                SE PADRÕES você encontrar INVOQUE o espírito dos Laços CORRETAMENTE e ele te ajudará:
+                     for etapas in range(?):
+                         self.o_que_você_deseja()"
         """
         self.direita()
-        self.direita()
-        self.anda()
-        self.esquerda()
-        self.empurra()
         
+class Apo(Indio):
+    def executa(self):
+        """ Ajude o indio a chegar na oca.
+        
+            CONSELHO DO PAGÉ:
+               "Não tente levantar a pedra. Faz mal pro umbigo"
+        """
+        
+        self.empurra()
+
+class Apa(Indio):
+    def executa(self):
+        """ Ajude o indio a chegar na oca.
+        
+            CONSELHO DO PAGÉ:
+               "A lança está para a zarabatana, assim como a vitória está para a pedra."
+        """
+        
+
 
 class Vitollino(Jogo):
     """ Empacota o engenho de jogo Vitollino """
     pass
 
 def main(vitollino, medidas):
-    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MAPA_INICIO,indios= Indio)
+    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=MOANGEKO , indios=(Moangeko,))
         
     
 if __name__ == "__main__":
