@@ -62,9 +62,6 @@ class Moangeko(Indio):
         self.empurra()
         self.empurra()
         self.direita()
-        self.esquerda()
-        
-
 
 class For(Indio):
     def executa(self):
