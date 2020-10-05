@@ -13,9 +13,9 @@ Changelog
 from _spy.vitollino.main import Jogo, STYLE
 from kwarwp.kwarwpp import main as kwarwp_main, Indio
 MOANGEKO = """
+.@.........
 ...........
-...........
-.....#.....
+.....#.¨...
 ...........
 .....^.....
 
@@ -42,10 +42,10 @@ APO = """
 """
 APA = """
 °°°°°.++.°°
-°°°°+.°°.+°
-°°...°°°°.°
-°+.°°°°°°.°
-^.°°°°°°°.&
+°°°°++°°..°
+°°.++°°°°#°
+°++°°°°°°#°
+°^°°°°°°°.C
 """
 
 class Moangeko(Indio):
