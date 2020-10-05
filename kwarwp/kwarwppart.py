@@ -340,7 +340,7 @@ class Tora(Piche):
         self.empurrante.ocupa(self.vaga) if self.empurrante is not NULO else None
         self.vaga = vaga
 
-class Pedra(Tora):
+class Pedra(Piche):
 
 
     def pegar(self, requisitante):
