@@ -30,7 +30,7 @@ API = """
 APO = """
 |||||.|||.|||
 |.|||¨¨..¨..|
-|#..|.|.|.|#|
+|¨..|.|.|.|#|
 |^|¨..|...|.&
 |||.|||||||||
 """
@@ -86,7 +86,7 @@ class Apo(Indio):
                "Não tente levantar a pedra. Faz mal pro umbigo"
         """
         
-        self.anda()
+        self.pega()
 
 class Apa(Indio):
     def executa(self):
