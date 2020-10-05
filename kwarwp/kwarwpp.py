@@ -442,8 +442,8 @@ class Kwarwp():
         "-": Fab(self.coisa, f"{IMGUR}m91mdWi.jpg"), # SOLO_CAVERNA
         "=": Fab(self.coisa, f"{IMGUR}m91mdWi.jpg"), # SOLO_BARRO
         "#": Fab(self.atora, f"{IMGUR}0jSB27g.png"), # TORA
-        "¨": Fab(self.pedra, f"{IMGUR}Sx3OH66.png"), # PEDRA
-        "+": Fab(self.pedra, f"{IMGUR}K00K81F.png"), #VITORIAREGIA
+        "¨": Fab(self.apedra, f"{IMGUR}Sx3OH66.png"), # PEDRA
+        "+": Fab(self.apedra, f"{IMGUR}K00K81F.png"), #VITORIAREGIA
         "@": Fab(self.barra, f"{IMGUR}tLLVjfN.png"), # PICHE
         "°": Fab(self.barra, f"{IMGUR}lEo5Ool.png"), # AGUA
         "~": Fab(self.coisa, f"{IMGUR}UAETaiP.gif"), # CEU
