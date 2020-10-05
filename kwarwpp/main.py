@@ -83,11 +83,10 @@ class For(Indio):
         """
         self.direita()
         self.anda()
-        for etapas in range (3):
+        for etapas in range (5):
             self.o_que_voce_deseja()
-        self.pega()
-        self.direita()
-        self.larga()
+        
+        
         
 class Apii(Indio):
     def executa(self):
