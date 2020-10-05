@@ -59,6 +59,8 @@ class Moangeko(Indio):
         self.anda()
         self.anda()
         self.esquerda()
+        self.anda()
+        self.anda()
 
 class For(Indio):
     def executa(self):
