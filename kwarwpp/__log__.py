@@ -390,3 +390,10 @@ SyntaxError: non-keyword arg after keyword arg
     for elem in iterable:
 TypeError: 'undefined' object is not iterable
 '''},
+{'date': 'Mon Oct 05 2020 20:31:22.143 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 87
+  self.()
+        ^
+SyntaxError: invalid syntax
+'''},
