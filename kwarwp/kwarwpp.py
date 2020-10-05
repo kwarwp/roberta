@@ -532,7 +532,7 @@ class Kwarwp():
         
         Cria uma vaga vazia e coloca o componente dentro dela.
         """
-        coisa = Tora(imagem, x=0, y=0, cena=cena, taba=self)
+        coisa = Pedra(imagem, x=0, y=0, cena=cena, taba=self)
         vaga = Vazio("", x=x, y=y, cena=cena, ocupante=coisa, taba=self)
         #coisa.vazio.vai = lambda *_: self.o_indio.larga()
         return vaga
