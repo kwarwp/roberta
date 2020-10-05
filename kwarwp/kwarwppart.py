@@ -341,7 +341,7 @@ class Tora(Piche):
         self.vaga = vaga
 
 class Pedra(Piche):
-    """  A Pedra o índio pode empurrar.
+    """  A Tora é um pedaço de tronco cortado que o índio pode carregar ou empurrar.
     
         :param imagem: A figura representando o índio na posição indicada.
         :param x: Coluna em que o elemento será posicionado.
@@ -349,12 +349,17 @@ class Pedra(Piche):
         :param cena: Cena em que o elemento será posicionado.
         :param taba: Representa a taba onde o índio faz o desafio.
     """
+        
     def pegar(self, requisitante):
         """ Consulta o ocupante atual se há permissão para pegar e entregar ao requistante.
 
             :param requistante: O ator querendo pegar o objeto.
         """
-        print("Você não pode me pegar!")
+        vaga = requisitante
+        self.vaga.sai()
+        # self.posicao = vaga.posicao
+        vaga.ocupou(self)
+        self.vaga = vaga
 
     @property        
     def posicao(self):
