@@ -78,6 +78,9 @@ class JogoProxy():
                 ocupante.pos = pos
                 # print(f"AdaptaElemento pos: {self.pos}")
                 super().ocupa(ocupante) if ocupante else None
+                
+            def fala(self, texto):
+                self.elt.html = texto
 
         self.v = vitollino
         self.proxy = proxy or self
