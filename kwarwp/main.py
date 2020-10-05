@@ -12,7 +12,7 @@ Changelog
 """
 from _spy.vitollino.main import Jogo, STYLE
 from kwarwp.kwarwpp import main as kwarwp_main, Indio
-ABA = """
+MOANGEKO = """
 ...........
 ...........
 .....#.....
@@ -20,14 +20,36 @@ ABA = """
 .....^.....
 
 """
-MAPA_TORA= """
+API = """
 
 |||||||||||||
 |^.########.&
 |||||||||||||
 
 """
-class Aba(Indio):
+API = """
+
+|||||||||||||
+|^.########.&
+|||||||||||||
+
+"""
+APO = """
+|||||||||||||
+....#...#...|
+|.#.#.#.#.#.#
+|^|...|...|.&
+"""
+APA = """
+|||||||||||
+|.........|
+|......&|.|
+|.||||| |.|
+...........
+^.........|
+"""
+
+class Moangeko(Indio):
     def executa(self):
         """ Roteiro do índio. 
             Conjunto de comandos para ele executar:
@@ -40,7 +62,31 @@ class Aba(Indio):
         self.empurra()
         self.fala("teste")
 
-class Kaiowa(Indio):
+class Api(Indio):
+    def executa(self):
+        """ Ajude o indio a chegar na oca.
+        
+            CONSELHO DO PAGÉ:
+               "Um feitiço de meu tatara avó me ajudava a fazer tudo mais rápido.
+                O espírito dos Laços te ajudará se você o invocar corretamente:
+                     for passos in range(?):
+                         self.o_que_você_deseja()
+        """
+        self.direita()
+        self.anda()
+        for passos in range(8):
+            self.pega()
+            self.esquerda()
+            self.esquerda()
+            self.larga()
+            self.esquerda()
+            self.esquerda()
+            self.anda()
+        self.anda()
+        self.anda()
+        self.anda()
+        
+class Apa(Indio):
     def executa(self):
         """ Ajude o indio a chegar na oca.
         
@@ -64,13 +110,12 @@ class Kaiowa(Indio):
         self.anda()
         self.anda()
 
-
 class Vitollino(Jogo):
     """ Empacota o engenho de jogo Vitollino """
     pass
 
 def main(vitollino, medidas):
-    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=ABA, indios=(Aba,))
+    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=APO, indios=(Apa,))
         
     
 if __name__ == "__main__":
