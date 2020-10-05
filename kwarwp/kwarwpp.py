@@ -433,7 +433,7 @@ class Kwarwp():
 
         fabrica = {
         "&": Fab(self.maloc, f"{IMGUR}dZQ8liT.jpg"), # OCA
-        "*": Fab(self.maloc, f"{IMGUR}1GHzN62.png"), # CAVERNA
+        "C": Fab(self.maloc, f"{IMGUR}1GHzN62.png"), # CAVERNA
         "^": Fab(self.indio, f"{IMGUR}UCWGCKR.png"), # INDIO
         "`": Fab(self.indio, f"{IMGUR}nvrwu0r.png"), # INDIA
         "p": Fab(self.indio, f"{IMGUR}HeiupbP.png"), # PAJE
