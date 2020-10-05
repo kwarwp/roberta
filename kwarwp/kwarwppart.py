@@ -350,13 +350,6 @@ class Pedra(Piche):
         :param taba: Representa a taba onde o índio faz o desafio.
     """
         
-    def pegar(self, requisitante):
-        """ Consulta o ocupante atual se há permissão para pegar e entregar ao requistante.
-
-            :param requistante: O ator querendo pegar o objeto.
-        """
-        pass
-        
     @property        
     def posicao(self):
         """ A propriedade posição faz parte do protocolo do double dispatch com o Indio .
