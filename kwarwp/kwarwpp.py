@@ -320,7 +320,7 @@ class Indio():
             vaga = taba[destino]
             """Recupera na taba a vaga para a qual o índio irá se transferir"""
             vaga.acessa(self)
- 
+            
     def ocupou(self, ocupante):
         """ O candidato à vaga decidiu ocupá-la e efetivamente entra neste espaço.
         
@@ -433,16 +433,20 @@ class Kwarwp():
 
         fabrica = {
         "&": Fab(self.maloc, f"{IMGUR}dZQ8liT.jpg"), # OCA
+        "*": Fab(self.maloc, f"{IMGUR}1GHzN62.png"), # CAVERNA
         "^": Fab(self.indio, f"{IMGUR}UCWGCKR.png"), # INDIO
         "`": Fab(self.indio, f"{IMGUR}nvrwu0r.png"), # INDIA
         "p": Fab(self.indio, f"{IMGUR}HeiupbP.png"), # PAJE
         ".": Fab(self.vazio, f"{IMGUR}npb9Oej.png"), # VAZIO
         "_": Fab(self.coisa, f"{IMGUR}sGoKfvs.jpg"), # SOLO
+        "-": Fab(self.coisa, f"{IMGUR}m91mdWi.jpg"), # SOLO_CAVERNA
         "#": Fab(self.atora, f"{IMGUR}0jSB27g.png"), # TORA
+        "¨": Fab(self.atora, f"{IMGUR}Sx3OH66.png"), # PEDRA
         "@": Fab(self.barra, f"{IMGUR}tLLVjfN.png"), # PICHE
         "~": Fab(self.coisa, f"{IMGUR}UAETaiP.gif"), # CEU
         "*": Fab(self.coisa, f"{IMGUR}PfodQmT.gif"), # SOL
-        "|": Fab(self.coisa, f"{IMGUR}uwYPNlz.png")  # CERCA       
+        "|": Fab(self.coisa, f"{IMGUR}uwYPNlz.png")  # CERCA
+        "%": Fab(self.coisa, f"{IMGUR}prAN5mi.png")  #CERCA_ROCHOSA
         }
         """Dicionário que define o tipo e a imagem do objeto para cada elemento."""
         mapa = mapa if mapa != "" else self.mapa
