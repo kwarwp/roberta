@@ -319,7 +319,7 @@ class Tora(Piche):
         """ Registra o empurrante para uso no procolo e inicia dispathc com a vaga.
             :param requistante: O ator querendo pegar o objeto.
         """
-        print("Estou sendo empurrada") 
+        #print("Estou sendo empurrada") 
         
         self.empurrante = empurrante
         # continue aqui com o início do double dispatch para ocupar a vaga na direção do azimute
