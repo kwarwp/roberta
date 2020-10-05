@@ -86,7 +86,7 @@ class Apo(Indio):
                "Não tente levantar a pedra. Faz mal pro umbigo"
         """
         self.pega()
-        self.direita()
+        self.empurra()
         
         
 
