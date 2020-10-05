@@ -83,7 +83,6 @@ class For(Indio):
                          self.o_que_você_deseja()"
         """
         self.direita()
-        self.direita()
         self.anda()
         self.anda()
         for etapas in range(9):
