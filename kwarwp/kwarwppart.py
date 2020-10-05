@@ -359,12 +359,12 @@ class Pedra(Piche):
         :param taba: Representa a taba onde o índio faz o desafio.
     """
         
-    def pegar(self, requisitante):
-        """ Consulta o ocupante atual se há permissão para pegar e entregar ao requistante.
+    #def pegar(self, requisitante):
+        #""" Consulta o ocupante atual se há permissão para pegar e entregar ao requistante.
 
             :param requistante: O ator querendo pegar o objeto.
-        """
-        print("Você não pode me pegar!")
+        #"""
+        #print("Você não pode me pegar!")
 
     @property        
     def posicao(self):
