@@ -43,25 +43,24 @@ APA = """
 
 class Moangeko(Indio):
     def executa(self):
-        """ Roteiro do índio. 
-            Conjunto de comandos para ele executar:
+        """
+            Conjunto de comandos que o índio executa:
         """
         self.anda()
-        self.direita()
-        self.esquerda()
-        self.pega()
-        self.larga()
-        self.empurra()
-        self.fala("teste")
+        #self.direita()
+        #self.esquerda()
+        #self.pega()
+        #self.larga()
+        #self.empurra()
 
 class Api(Indio):
     def executa(self):
         """ Ajude o indio a chegar na oca.
         
             CONSELHO DO PAGÉ:
-               "Um feitiço de meu tatara avó me ajudava a fazer tudo mais rápido.
-                O espírito dos Laços te ajudará se você o invocar corretamente:
-                     for passos in range(?):
+               "Há um enigma de meu tatara avô que sempre me ajudou a fazer tudo mais rápido:
+                SE PADRÕES você encontrar INVOQUE o espírito dos Laços CORRETAMENTE e ele te ajudará:
+                     for etapas in range(?):
                          self.o_que_você_deseja()
         """
         self.direita()
