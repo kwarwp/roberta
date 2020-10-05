@@ -30,7 +30,7 @@ API = """
 APO = """
 |||||.|||.|||
 |.|||¨¨..¨..|
-|¨..|.|.|.|.|
+|¨..|.|.|.|#|
 |^|¨..|...|.&
 |||.|||||||||
 """
@@ -62,7 +62,7 @@ class Api(Indio):
                "Há um enigma de meu tatara avô que sempre me ajudou a fazer tudo mais rápido:
                 SE PADRÕES você encontrar INVOQUE o espírito dos Laços CORRETAMENTE e ele te ajudará:
                      for etapas in range(?):
-                         self.o_que_você_deseja()
+                         self.o_que_você_deseja()"
         """
         self.direita()
         self.anda()
@@ -83,37 +83,66 @@ class Apo(Indio):
         """ Ajude o indio a chegar na oca.
         
             CONSELHO DO PAGÉ:
-               "Um feitiço de meu tatara avó me ajudava a fazer tudo mais rápido.
-                O espírito dos Laços te ajudará se você o invocar corretamente:
-                     for passos in range(?):
-                         self.o_que_você_deseja()
+               "Não tente levantar a pedra. Faz mal pro umbigo"
         """
+        self.empurra()
+        self.anda()
+        
         self.direita()
         self.anda()
-        for passos in range(8):
-            self.pega()
-            self.esquerda()
-            self.esquerda()
-            self.larga()
-            self.esquerda()
-            self.esquerda()
-            self.anda()
+        self.anda()
+        self.direita()
+        self.empurra()
+        
+        self.anda()
+        self.esquerda()
         self.anda()
         self.anda()
+        self.esquerda()
         self.anda()
+        self.anda()
+        
+        self.empurra()
+        self.direita()
+        self.empurra()
+        self.empurra()
+        
+        self.direita()
+        self.anda()
+        self.anda()
+        
+        self.esquerda
+        self.anda()
+        self.anda()
+        
+        self.esquerda()
+        self.anda()
+        self.anda()
+        
+        self.empurra()
+        
+        self.direita()
+        self.anda()
+        self.anda()
+        
+        self.direita()
+        self.anda()
+        self.anda()
+        
+        self.anda()
+        self.esquerda()
+        self.anda()
+        
+        
 
 class Apa(Indio):
     def executa(self):
         """ Ajude o indio a chegar na oca.
         
             CONSELHO DO PAGÉ:
-               "Um feitiço de meu tatara avó me ajudava a fazer tudo mais rápido.
-                O espírito dos Laços te ajudará se você o invocar corretamente:
-                     for passos in range(?):
-                         self.o_que_você_deseja()
+               "A lança está para a zarabatana, assim como a vitória está para a pedra."
         """
-        self.anda()
-        self.empurra()
+        
 
 
 class Vitollino(Jogo):
@@ -121,7 +150,7 @@ class Vitollino(Jogo):
     pass
 
 def main(vitollino, medidas):
-    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=APA, indios=(Apa,))
+    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=APO, indios=(Apo,))
         
     
 if __name__ == "__main__":
