@@ -444,6 +444,7 @@ class Kwarwp():
         "#": Fab(self.atora, f"{IMGUR}0jSB27g.png"), # TORA
         "¨": Fab(self.atora, f"{IMGUR}Sx3OH66.png"), # PEDRA
         "@": Fab(self.barra, f"{IMGUR}tLLVjfN.png"), # PICHE
+        "°": Fab(self.barra, f"{IMGUR}lEo5Ool.png"), #AGUA
         "~": Fab(self.coisa, f"{IMGUR}UAETaiP.gif"), # CEU
         "*": Fab(self.coisa, f"{IMGUR}PfodQmT.gif"), # SOL
         "|": Fab(self.coisa, f"{IMGUR}uwYPNlz.png"), # CERCA
