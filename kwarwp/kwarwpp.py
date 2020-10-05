@@ -445,8 +445,9 @@ class Kwarwp():
         "@": Fab(self.barra, f"{IMGUR}tLLVjfN.png"), # PICHE
         "~": Fab(self.coisa, f"{IMGUR}UAETaiP.gif"), # CEU
         "*": Fab(self.coisa, f"{IMGUR}PfodQmT.gif"), # SOL
-        "|": Fab(self.coisa, f"{IMGUR}uwYPNlz.png"),  # CERCA
-        "%": Fab(self.coisa, f"{IMGUR}prAN5mi.png")  #CERCA_ROCHOSA
+        "|": Fab(self.coisa, f"{IMGUR}uwYPNlz.png"), # CERCA
+        "%": Fab(self.coisa, f"{IMGUR}prAN5mi.png"), #CERCA_ROCHOSA
+        "!": Fab(self.coisa, f"{IMGUR}s81hCCr.png")  #sTALAGMITE
         }
         """Dicionário que define o tipo e a imagem do objeto para cada elemento."""
         mapa = mapa if mapa != "" else self.mapa
