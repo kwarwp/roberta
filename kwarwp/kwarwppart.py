@@ -340,7 +340,7 @@ class Tora(Piche):
         self.empurrante.ocupa(self.vaga) if self.empurrante is not NULO else None
         self.vaga = vaga
 
-class Pedra(Piche):
+class Pedra(Tora):
     """  A Tora é um pedaço de tronco cortado que o índio pode carregar ou empurrar.
     
         :param imagem: A figura representando o índio na posição indicada.
@@ -355,4 +355,4 @@ class Pedra(Piche):
 
             :param requistante: O ator querendo pegar o objeto.
         """
-        pass
+        print("Você não pode pegar.")
