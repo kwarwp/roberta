@@ -338,7 +338,7 @@ class Indio():
     def empurra(self):
         """Objeto tenta sair, tem que consultar a vaga onde está"""
         # self.vaga.sair() # esta parte vai ser feita mais tarde.
-        print("Estou tentanto empurrar", self, "para a posição", self.posicao[0]+self.azimute.x, self.posicao[1]+self.azimute.y)
+        print("Estou tentanto empurrar para a posição", self.posicao[0]+self.azimute.x, self.posicao[1]+self.azimute.y)
         
         # de resto o código é semelhante ao _anda
         # TODO refatorar o método _anda e empurra, pois tem código duplicado
@@ -532,9 +532,9 @@ class Kwarwp():
         
         Cria uma vaga vazia e coloca o componente dentro dela.
         """
-        coisa = Pedra(imagem, x=0, y=0, cena=cena, taba=self)
+        coisa = Tora(imagem, x=0, y=0, cena=cena, taba=self)
         vaga = Vazio("", x=x, y=y, cena=cena, ocupante=coisa, taba=self)
-        #coisa.vazio.vai = lambda *_: self.o_indio.empurra()
+        coisa.vazio.vai = lambda *_: self.o_indio.larga()
         return vaga
         
     def maloc(self, imagem, x, y, cena):
