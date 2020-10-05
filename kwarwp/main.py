@@ -42,8 +42,8 @@ APO = """
 """
 APA = """
 |||||||||||
-|.........|
-|......&|.|
+|..--...¨.|
+|...%..&|C|
 |.||||| |.|
 ...........
 ^.........|
@@ -115,7 +115,7 @@ class Vitollino(Jogo):
     pass
 
 def main(vitollino, medidas):
-    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=APO, indios=(Apa,))
+    return kwarwp_main(vitollino=vitollino, medidas=medidas, mapa=APA, indios=(Apa,))
         
     
 if __name__ == "__main__":
