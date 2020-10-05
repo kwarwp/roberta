@@ -180,3 +180,10 @@ ImportError: cannot import name 'main'
     from kwarwp.kwarwpp import main as kwarwp_main, Indio
 ImportError: cannot import name 'main'
 '''},
+{'date': 'Mon Oct 05 2020 21:42:13.359 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module kwarwp.kwarwppart line 353
+  ​    @property        
+   ^
+SyntaxError: invalid syntax
+'''},
