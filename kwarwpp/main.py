@@ -34,9 +34,9 @@ APII = """
 |||||||||||||
 ||..........|
 ||.||||||||.|
-||......#&|.|
+||......#.|.|
 |||||||||.|.|
-|^.¨.........
+|^&¨.........
 |||||||||||||
 """
 
@@ -98,15 +98,7 @@ class Apii(Indio):
                "Não tente levantar a pedra. Faz mal pro umbigo"
         """
         
-        self.empurra()
-        self.direita()
         self.anda()
-        for etapas in range(6):
-            self.empurra()
-        self.esquerda()
-        self.anda()
-        self.anda()
-        
         
         
         
