@@ -126,13 +126,15 @@ class Apo(Indio):
         self.anda()
         
         self.direita()
-        self.anda()
-        self.anda()
+        self.pega()
+        self.direita()
+        self.larga()
         
+        self.esquerda()
+        self.anda()
         self.anda()
         self.esquerda()
         self.anda()
-        
         
 
 class Apa(Indio):
