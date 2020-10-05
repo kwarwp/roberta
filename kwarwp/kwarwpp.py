@@ -276,6 +276,7 @@ class Indio():
         :param texto: O texto a ser falado.
         """
         self.taba.fala(texto)
+        #self.ceu.elt.html = Texto
 
     def anda(self):
         """Objeto tenta sair, tem que consultar a vaga onde está"""
@@ -475,7 +476,7 @@ class Kwarwp():
         """ O Kwarwp é aqui usado para falar algo que ficará escrito no céu.
         """
         self.ceu.elt.html = texto
-        pass
+        
         
     def sai(self, *_):
         """ O Kwarwp é aqui usado como uma vaga falsa, o pedido de sair é ignorado.
@@ -534,7 +535,7 @@ class Kwarwp():
         """
         coisa = Pedra(imagem, x=0, y=0, cena=cena, taba=self)
         vaga = Vazio("", x=x, y=y, cena=cena, ocupante=coisa, taba=self)
-        #coisa.vazio.vai = lambda *_: self.o_indio.larga()
+        coisa.vazio.vai = lambda *_: self.o_indio.larga()
         return vaga
         
     def maloc(self, imagem, x, y, cena):
