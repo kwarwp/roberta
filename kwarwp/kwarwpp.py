@@ -439,8 +439,8 @@ class Kwarwp():
         "p": Fab(self.indio, f"{IMGUR}HeiupbP.png"), # PAJE
         ".": Fab(self.vazio, f"{IMGUR}npb9Oej.png"), # VAZIO
         "_": Fab(self.coisa, f"{IMGUR}sGoKfvs.jpg"), # SOLO
-        "-": Fab(self.vazio, f"{IMGUR}m91mdWi.jpg"), # SOLO_CAVERNA
-        "=": Fab(self.vazio, f"{IMGUR}m91mdWi.jpg"), # SOLO_BARRO
+        "-": Fab(self.coisa, f"{IMGUR}m91mdWi.jpg"), # SOLO_CAVERNA
+        "=": Fab(self.coisa, f"{IMGUR}m91mdWi.jpg"), # SOLO_BARRO
         "#": Fab(self.atora, f"{IMGUR}0jSB27g.png"), # TORA
         "¨": Fab(self.atora, f"{IMGUR}Sx3OH66.png"), # PEDRA
         "@": Fab(self.barra, f"{IMGUR}tLLVjfN.png"), # PICHE
