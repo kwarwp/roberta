@@ -355,11 +355,7 @@ class Pedra(Piche):
 
             :param requistante: O ator querendo pegar o objeto.
         """
-        vaga = requisitante
-        self.vaga.sai()
-        # self.posicao = vaga.posicao
-        vaga.ocupou(self)
-        self.vaga = vaga
+        pass
 
     @property        
     def posicao(self):
