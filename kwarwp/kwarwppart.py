@@ -340,7 +340,7 @@ class Tora(Piche):
         self.empurrante.ocupa(self.vaga) if self.empurrante is not NULO else None
         self.vaga = vaga
 
-class Pedra(Tora):
+class Pedra(Piche):
     """  A Pedra o índio pode empurrar.
     
         :param imagem: A figura representando o índio na posição indicada.
@@ -355,3 +355,61 @@ class Pedra(Tora):
             :param requistante: O ator querendo pegar o objeto.
         """
         print("Você não pode me pegar!")
+
+    @property        
+    def posicao(self):
+        """ A propriedade posição faz parte do protocolo do double dispatch com o Indio .
+
+        No caso da tora, retorna o a posição do atributo **self.vaga**.
+        """
+        return self.vaga.posicao
+
+    @posicao.setter        
+    def posicao(self, _):
+        """ A propriedade posição faz parte do protocolo do double dispatch com o Indio .
+
+        No caso da tora, é uma propriedade de somente leitura, não executa nada.
+        """
+        pass
+
+    @property        
+    def elt(self):
+        """ A propriedade elt faz parte do protocolo do Vitollino para anexar um elemento no outro .
+
+        No caso da tora, retorna o elt do elemento do atributo **self.vazio**.
+        """
+        return self.vazio.elt
+        
+    def _acessa(self, ocupante):
+        """ Pedido de acesso a essa posição, delegada ao ocupante pela vaga.
+        
+        :param ocupante: O componente candidato a ocupar a vaga já ocupada pelo índio.
+
+        No caso da tora, ela age como um obstáculo e não prossegue com o protocolo.
+        """
+        pass
+        
+    def empurrar(self, empurrante, azimute):
+        """ Registra o empurrante para uso no procolo e inicia dispathc com a vaga.
+            :param requistante: O ator querendo pegar o objeto.
+        """
+        print("Estou sendo empurrada") 
+        
+        self.empurrante = empurrante
+        # continue aqui com o início do double dispatch para ocupar a vaga na direção do azimute
+        self.vaga.acessar(self, azimute)
+        self.empurrante = NULO
+        
+    def ocupa(self, vaga):
+        """ Pedido por uma vaga para que ocupe a posição nela.
+        :param vaga: A vaga que será ocupada pelo componente.
+        No caso da tora, requisita que a vaga seja ocupada por ele.
+        Também autoriza o empurrante a ocupar a vaga onde estava.
+        """
+        # o código usual do ocupa
+        self.vaga.sai()
+        self.posicao = vaga.posicao
+        vaga.ocupou(self)
+
+        self.empurrante.ocupa(self.vaga) if self.empurrante is not NULO else None
+        self.vaga = vaga
