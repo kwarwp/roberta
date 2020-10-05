@@ -56,9 +56,8 @@ class Moangeko(Indio):
         """
         self.anda()
         self.direita()
-        self.anda()
-        '''
-        self.esquerda()
+        self.direita()
+        '''self.esquerda()
         self.pega()
         self.larga()
         self.empurra()'''
