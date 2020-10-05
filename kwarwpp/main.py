@@ -23,35 +23,27 @@ MOANGEKO = """
 .....^.....
 
 """
-API = """
+FOR = """
 
 |||||||||||||
 |^.########.&
 |||||||||||||
 
 """
-API = """
+APII = """
 |||||||||||||
 ||..........|
 ||.||||||||.|
 ||......#&|.|
 |||||||||||.|
-|^..........|
+|^.¨........|
 |||||||||||||
-"""
-
-APA = """
-°°°°°.++.°°
-°°°°++°°..°
-°°.++°°°°#°
-°++°°°°°°#°
-°^°°°°°°°.C
 """
 
 APO = """
 |||||.|||.|||
 |.|||¨¨..¨..|
-|¨..|.|.|.|#|
+|#|.|.|.|.|#|
 |^|¨..|...|.&
 |||.|||||||||
 """
@@ -69,7 +61,7 @@ class Moangeko(Indio):
         self.larga()
         self.empurra()
 
-class Api(Indio):
+class For(Indio):
     def executa(self):
         """ Ajude o indio a chegar na oca.
         
@@ -81,7 +73,7 @@ class Api(Indio):
         """
         self.direita()
         
-class Apo(Indio):
+class Apii(Indio):
     def executa(self):
         """ Ajude o indio a chegar na oca.
         
@@ -91,14 +83,6 @@ class Apo(Indio):
         
         self.empurra()
 
-class Apa(Indio):
-    def executa(self):
-        """ Ajude o indio a chegar na oca.
-        
-            CONSELHO DO PAGÉ:
-               "A lança está para a zarabatana, assim como a vitória está para a pedra."
-        """
-        
 
 
 class Vitollino(Jogo):
