@@ -82,6 +82,7 @@ class For(Indio):
                          self.o_que_você_deseja()"
         """
         self.direita()
+        self.o_que_você_deseja()
         
 class Apii(Indio):
     def executa(self):
