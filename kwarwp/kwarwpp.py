@@ -534,7 +534,7 @@ class Kwarwp():
         """
         coisa = Pedra(imagem, x=0, y=0, cena=cena, taba=self)
         vaga = Vazio("", x=x, y=y, cena=cena, ocupante=coisa, taba=self)
-        coisa.vazio.vai = lambda *_: self.o_indio.larga()
+        #coisa.vazio.vai = lambda *_: self.o_indio.larga()
         return vaga
         
     def maloc(self, imagem, x, y, cena):
