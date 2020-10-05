@@ -139,7 +139,7 @@ class JogoProxy():
         """Lida com modo de operação do JogoProxy"""
         #self.master.corrente(self)
         self.ativa() if self.master else None
-        print(self._ativa, self.proxy._ativa, metodo)
+        #print(self._ativa, self.proxy._ativa, metodo)
         self.corrente._enfileira(metodo) if self.proxy._ativa else self._executa(metodo)
         
     def c(self, *args, **kwargs):
@@ -442,7 +442,7 @@ class Kwarwp():
         "-": Fab(self.coisa, f"{IMGUR}m91mdWi.jpg"), # SOLO_CAVERNA
         "=": Fab(self.coisa, f"{IMGUR}m91mdWi.jpg"), # SOLO_BARRO
         "#": Fab(self.atora, f"{IMGUR}0jSB27g.png"), # TORA
-        "¨": Fab(self.atora, f"{IMGUR}Sx3OH66.png"), # PEDRA
+        "¨": Fab(self.apedra, f"{IMGUR}Sx3OH66.png"), # PEDRA
         "+": Fab(self.apedra, f"{IMGUR}K00K81F.png"), #VITORIAREGIA
         "@": Fab(self.barra, f"{IMGUR}tLLVjfN.png"), # PICHE
         "°": Fab(self.barra, f"{IMGUR}lEo5Ool.png"), # AGUA
@@ -475,7 +475,7 @@ class Kwarwp():
         """ O Kwarwp é aqui usado para falar algo que ficará escrito no céu.
         """
         self.ceu.elt.html = texto
-        
+        pass
         
     def sai(self, *_):
         """ O Kwarwp é aqui usado como uma vaga falsa, o pedido de sair é ignorado.
@@ -534,7 +534,7 @@ class Kwarwp():
         """
         coisa = Pedra(imagem, x=0, y=0, cena=cena, taba=self)
         vaga = Vazio("", x=x, y=y, cena=cena, ocupante=coisa, taba=self)
-        coisa.vazio.vai = lambda *_: self.o_indio.larga()
+        #coisa.vazio.vai = lambda *_: self.o_indio.larga()
         return vaga
         
     def maloc(self, imagem, x, y, cena):
