@@ -42,7 +42,7 @@
 
 """
 from collections import namedtuple as nt, deque
-from kwarwp.kwarwppart import Vazio, Piche, Oca, Tora, NULO
+from kwarwp.kwarwppart import Vazio, Piche, Oca, Tora, Pedra, NULO
 
 IMGUR = "https://imgur.com/"
 """Prefixo do site imgur."""
@@ -442,8 +442,8 @@ class Kwarwp():
         "-": Fab(self.coisa, f"{IMGUR}m91mdWi.jpg"), # SOLO_CAVERNA
         "=": Fab(self.coisa, f"{IMGUR}m91mdWi.jpg"), # SOLO_BARRO
         "#": Fab(self.atora, f"{IMGUR}0jSB27g.png"), # TORA
-        "¨": Fab(self.atora, f"{IMGUR}Sx3OH66.png"), # PEDRA
-        "+": Fab(self.atora, f"{IMGUR}K00K81F.png"), #VITORIAREGIA
+        "¨": Fab(self.pedra, f"{IMGUR}Sx3OH66.png"), # PEDRA
+        "+": Fab(self.pedra, f"{IMGUR}K00K81F.png"), #VITORIAREGIA
         "@": Fab(self.barra, f"{IMGUR}tLLVjfN.png"), # PICHE
         "°": Fab(self.barra, f"{IMGUR}lEo5Ool.png"), # AGUA
         "~": Fab(self.coisa, f"{IMGUR}UAETaiP.gif"), # CEU
@@ -521,6 +521,20 @@ class Kwarwp():
         coisa = Tora(imagem, x=0, y=0, cena=cena, taba=self)
         vaga = Vazio("", x=x, y=y, cena=cena, ocupante=coisa, taba=self)
         coisa.vazio.vai = lambda *_: self.o_indio.larga()
+        return vaga
+        
+    def pedra(self, imagem, x, y, cena):
+        """ Cria uma tora na arena do Kwarwp na posição definida.
+
+        :param x: coluna em que o elemento será posicionado.
+        :param y: linha em que o elemento será posicionado.
+        :param cena: cena em que o elemento será posicionado.
+        
+        Cria uma vaga vazia e coloca o componente dentro dela.
+        """
+        coisa = Tora(imagem, x=0, y=0, cena=cena, taba=self)
+        vaga = Vazio("", x=x, y=y, cena=cena, ocupante=coisa, taba=self)
+        coisa.vazio.vai = lambda *_: self.o_indio.empurra()
         return vaga
         
     def maloc(self, imagem, x, y, cena):
