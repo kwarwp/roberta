@@ -58,12 +58,13 @@ class Moangeko(Indio):
         self.direita()
         self.anda()
         self.anda()
-        self.esquerda()
-        self.empurra()
-        self.empurra()
-        self.direita()
+        self.anda()
+        
+        
+
 
 class For(Indio):
+
     def executa(self):
         """ Ajude o indio a chegar na oca.
         
