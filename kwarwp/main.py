@@ -129,7 +129,7 @@ class Apo(Indio):
         self.pega()
         self.direita()
         self.larga()
-        
+
         self.esquerda()
         self.anda()
         self.anda()
