@@ -111,7 +111,7 @@ class Apo(Indio):
         self.anda()
         self.anda()
         
-        self.esquerda
+        self.esquerda()
         self.anda()
         self.anda()
         
