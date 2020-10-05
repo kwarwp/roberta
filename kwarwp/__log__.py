@@ -125,3 +125,10 @@ SyntaxError: invalid syntax
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Oct 05 2020 18:05:13.802 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module kwarwp.kwarwppart line 365
+  :param requistante: O ator querendo pegar o objeto.
+  ^
+IndentationError: unexpected indent
+'''},
