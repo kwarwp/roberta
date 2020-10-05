@@ -350,7 +350,7 @@ class Pedra(Piche):
         """
         pass
         
-​    @property        
+    @property        
     def posicao(self):
         """ A propriedade posição faz parte do protocolo do double dispatch com o Indio .
 
