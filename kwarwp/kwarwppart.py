@@ -260,28 +260,16 @@ class Oca(Piche):
         self.taba.fala("Você chegou no seu objetivo")       
         ocupante.ocupa(self)
 
+class Pedra(Piche):
 
-class Tora(Piche):
-    """  A Tora é um pedaço de tronco cortado que o índio pode carregar ou empurrar.
-    
-        :param imagem: A figura representando o índio na posição indicada.
-        :param x: Coluna em que o elemento será posicionado.
-        :param y: Linha em que o elemento será posicionado.
-        :param cena: Cena em que o elemento será posicionado.
-        :param taba: Representa a taba onde o índio faz o desafio.
-    """
-        
+
     def pegar(self, requisitante):
         """ Consulta o ocupante atual se há permissão para pegar e entregar ao requistante.
 
             :param requistante: O ator querendo pegar o objeto.
         """
-        vaga = requisitante
-        self.vaga.sai()
-        # self.posicao = vaga.posicao
-        vaga.ocupou(self)
-        self.vaga = vaga
-
+        pass
+        
     @property        
     def posicao(self):
         """ A propriedade posição faz parte do protocolo do double dispatch com o Indio .
@@ -339,17 +327,28 @@ class Tora(Piche):
 
         self.empurrante.ocupa(self.vaga) if self.empurrante is not NULO else None
         self.vaga = vaga
-
-class Pedra(Piche):
-
-
+        
+class Tora(Piche):
+    """  A Tora é um pedaço de tronco cortado que o índio pode carregar ou empurrar.
+    
+        :param imagem: A figura representando o índio na posição indicada.
+        :param x: Coluna em que o elemento será posicionado.
+        :param y: Linha em que o elemento será posicionado.
+        :param cena: Cena em que o elemento será posicionado.
+        :param taba: Representa a taba onde o índio faz o desafio.
+    """
+        
     def pegar(self, requisitante):
         """ Consulta o ocupante atual se há permissão para pegar e entregar ao requistante.
 
             :param requistante: O ator querendo pegar o objeto.
         """
-        pass
-        
+        vaga = requisitante
+        self.vaga.sai()
+        # self.posicao = vaga.posicao
+        vaga.ocupou(self)
+        self.vaga = vaga
+
     @property        
     def posicao(self):
         """ A propriedade posição faz parte do protocolo do double dispatch com o Indio .
