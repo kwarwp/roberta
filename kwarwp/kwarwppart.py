@@ -341,7 +341,7 @@ class Tora(Piche):
         self.vaga = vaga
 
 class Pedra(Tora):
-    """  A Tora é um pedaço de tronco cortado que o índio pode carregar ou empurrar.
+    """  A Pedra o índio pode empurrar.
     
         :param imagem: A figura representando o índio na posição indicada.
         :param x: Coluna em que o elemento será posicionado.
