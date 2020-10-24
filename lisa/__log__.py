@@ -563,3 +563,10 @@ TypeError: 'module' object is not callable
     circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Sat Oct 24 2020 19:15:05.596 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  elif numero = 10
+               ^
+SyntaxError: invalid syntax
+'''},
