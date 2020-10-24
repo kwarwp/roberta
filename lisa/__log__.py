@@ -570,3 +570,10 @@ TypeError: 'module' object is not callable
                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sat Oct 24 2020 19:15:59.342 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  elif numero = 5
+               ^
+SyntaxError: invalid syntax
+'''},
