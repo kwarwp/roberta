@@ -619,3 +619,10 @@ SyntaxError: invalid syntax
                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sat Oct 24 2020 19:44:21.735 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  elif numero = 10:
+               ^
+SyntaxError: invalid syntax
+'''},
