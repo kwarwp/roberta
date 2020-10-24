@@ -647,3 +647,10 @@ SyntaxError: invalid syntax
                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sat Oct 24 2020 20:30:49.48 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  for x in animais
+                   ^
+SyntaxError: invalid syntax
+'''},
