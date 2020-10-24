@@ -2,7 +2,7 @@
 """     xxxxx
 
 .. codeauthor:: Luiza <luizaanjo2007@gmail.com>
-.. codeauthor:: Rodrigo Esquinelato <resquinelato@gmail.com>
+
 
 Changelog
 ---------
@@ -10,20 +10,22 @@ Changelog
        - xxx
 
 """
-# Na linha 14 você chamou o _spy! O import é apenas from circus.circus import circus
-from _spy.circus.circus import circus
+numero=8
 
-def desafio0():
-    TOPO_ESQUERDA = "AN"
-    TOPO_DIREITA = "AN"
-    TOPO_CENTRO = "AN"
-    MEIO_ESQUERDA, CENTRO, MEIO_DIREITA = "AN", "AN", "AN"
-    FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA =  "AN", "AN", "AN"
+def verifica():
+    if numero > 10:
+        print("Numero é maior que dez")
+    elif numero == 10:
+        print ("Opa! Igualdade")
+    else:
+        print("Numero não é maior que dez")
+#verifica()
 
-    # O comando abaixo voce vai entender no próximo desafio
-    circus(1, [[TOPO_ESQUERDA, TOPO_CENTRO, TOPO_DIREITA], [MEIO_ESQUERDA, CENTRO,
-            MEIO_DIREITA], [FUNDO_ESQUERDA, FUNDO_CENTRO, FUNDO_DIREITA]])
+animais = ["bolsonaro", "gato", "zebra", "vaca", "cavalo", "porco"]
+
+for x in animais:
+    if x == "vaca":
+        continue
+    print (x)
         
-
-if __name__ == "__main__":
-     desafio0()
+        
