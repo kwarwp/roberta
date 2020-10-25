@@ -745,3 +745,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Oct 25 2020 04:33:02.620 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 37
+  print("Suco de %s é o meu favorito!" %sfruta)
+  ^
+IndentationError: unexpected indent
+'''},
