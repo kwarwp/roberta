@@ -738,3 +738,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Oct 25 2020 04:32:41.958 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 37
+  print ("Suco de %s é o meu favorito!" %sfruta)
+  ^
+IndentationError: unexpected indent
+'''},
