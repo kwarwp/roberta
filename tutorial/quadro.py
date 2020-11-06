@@ -10,27 +10,29 @@ Changelog
        - xxx
 
 """
-from _spy.vitollino.main import Cena, Elemento, STYLE, Texto
+from _spy.vitollino.main import Cena, STYLE, Texto
 
 
 """ O objeto é o elementoclicável de alguma cena.
 """
-FUNDO = "https://img.elo7.com.br/product/original/1D27E33/painel-cenario-mundo-encantado-frete-gratis-cenario.jpg"
+FUNDO =
 LIVRO = "https://comunicamack.files.wordpress.com/2016/12/livro.png"
 
 STYLE["width"] = 900 # width = 300 (default) 
 STYLE["heigth"] = "900px" # min-height = "300px
 
-def chama_elemento(*args):
-    nome_do_elemento = Elemento(LIVRO, tit="título_do_elemento", 
-                       style=dict(height=60,widht=60, left=600, top=20))
-    nome_do_elemento.entra(nome_da_cena)
-    
-nome_da_cena = Cena(FUNDO)
+
+MINHA_CENA =  "https://img.elo7.com.br/product/original/1D27E33/painel-cenario-mundo-encantado-frete-gratis-cenario.jpg"
+   
+nome_da_cena = Cena(MINHA_CENA)
 nome_da_cena.vai()
+   
+dicionario = dict(A=10, B=20)
+texto = Texto(nome_da_cena, txt = "escolha", foi = foi, A=""10",B="20")
+texto.vai()
 
-texto_ = Texto(nome_da_cena, txt = "Mensagem desejada", foi = chama_elemento)
-texto_.vai()
-
+def foi(l):
+    r = Texto(nome_da_cena, txt=dicionario[l])
+    r.vai()
 
                               
