@@ -24,7 +24,7 @@ LIVRO = "https://comunicamack.files.wordpress.com/2016/12/livro.png"
 nome_da_cena = Cena(FUNDO)
 nome_da_cena.vai()
 texto_ = Texto(nome_da_cena, txt = "Mensagem desejada")
-nome_da_cena.meio,esquerda,direita = texto_.vai()
+texto_.entra(nome_da_cena)
 nome_do_elemento = Elemento(LIVRO, tit="título_do_elemento", 
                             style=dict(height=60,widht=60, left=600, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                             cena = nome_da_cena)
