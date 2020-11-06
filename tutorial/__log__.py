@@ -1070,3 +1070,10 @@ NameError: name 'nome_da_cena' is not defined
     nome_da_cena = Cena(FUNDO, vai = Texto(nome_da_cena, txt = "Mensagem desejada"))
 NameError: name 'nome_da_cena' is not defined
 '''},
+{'date': 'Fri Nov 06 2020 18:14:36.534 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  texto_ = Texto(nome_da_cena, txt = "Mensagem desejada"))
+                                                         ^
+SyntaxError: invalid syntax
+'''},
