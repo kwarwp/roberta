@@ -1316,3 +1316,10 @@ SyntaxError: EOL while scanning string literal
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Fri Nov 06 2020 20:09:08.514 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  from _spy.vitollino.main import Cena, Elemento
+  ^
+IndentationError: unexpected indent
+'''},
