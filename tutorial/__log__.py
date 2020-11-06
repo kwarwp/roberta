@@ -1242,3 +1242,10 @@ SyntaxError: invalid syntax
                                                                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Fri Nov 06 2020 19:33:02.271 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 33
+  texto = Texto(nome_da_cena, txt = "escolha", foi = foi, A=""10",B="20")
+                                                               ^
+SyntaxError: invalid syntax
+'''},
