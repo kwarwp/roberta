@@ -25,8 +25,7 @@ STYLE["heigth"] = "900px" # min-height = "300px
 nome_da_cena = Cena(FUNDO)
 nome_da_cena.vai()
 nome_do_elemento = Elemento(LIVRO, tit="título_do_elemento", 
-                       style=dict(height=60,widht=60, left=600, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                       cena = nome_da_cena)
+                       style=dict(height=60,widht=60, left=600, top=20))
 texto_ = Texto(nome_da_cena, txt = "Mensagem desejada",foi=chama)
 texto_.vai()
 
