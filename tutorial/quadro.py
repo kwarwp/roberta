@@ -25,12 +25,11 @@ STYLE["heigth"] = "900px" # min-height = "300px
 nome_da_cena = Cena(FUNDO)
 nome_da_cena.vai()
 
-texto_ = Texto(nome_da_cena, txt = "Mensagem desejada")
+texto_ = Texto(nome_da_cena, txt = "Mensagem desejada", foi = chama_elemento)
 texto_.vai()
 
-def chama(*_):
+def chama_elemento(*_):
     nome_do_elemento = Elemento(LIVRO, tit="título_do_elemento", 
                        style=dict(height=60,widht=60, left=600, top=20))
     nome_do_elemento.entra(nome_da_cena)
                               
-#nome_do_elemento.elt.bind("click", funcao_de_acao_do_botao)
