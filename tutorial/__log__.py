@@ -1330,3 +1330,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Fri Nov 06 2020 20:09:44.114 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  MINHA_MUSICA = "https://www.youtube.com/watch?v=FuedXyc2Dro" # Extensões aceitas: mp3, mp4
+  ^
+IndentationError: unexpected indent
+'''},
