@@ -1031,3 +1031,10 @@ AttributeError: 'GUI' object has no attribute 'funcao_de_acao_do_botao'
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Fri Nov 06 2020 17:56:35.331 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 28
+  texto_surpresa = Texto(nome_da_cena, txt = print(texto.sort)
+                                                                    ^
+SyntaxError: invalid syntax
+'''},
