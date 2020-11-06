@@ -10,8 +10,7 @@ Changelog
        - xxx
 
 """
-from _spy.vitollino.main import Cena, STYLE, Texto
-
+from _spy.vitollino.main import Cena, STYLE, Elemento
 
 """ O objeto é o elementoclicável de alguma cena.
 """
@@ -20,19 +19,14 @@ STYLE["width"] = 900 # width = 300 (default)
 STYLE["heigth"] = "900px" # min-height = "300px
 
 
-MINHA_CENA =  "https://img.elo7.com.br/product/original/1D27E33/painel-cenario-mundo-encantado-frete-gratis-cenario.jpg"
-   
-def resultado(l):
-    r = Texto(nome_da_cena, txt=dicionario[l])
-    r.vai()   
+ 
+
+MINHA_CENA = "string_correspondente_a_url_e_extensao_da_imagem" # Extensões aceitas: png, jpg, jpeg e gif
+MINHA_MUSICA = "https://www.youtube.com/watch?v=FuedXyc2Dro" # Extensões aceitas: mp3, mp4
 
 nome_da_cena = Cena(MINHA_CENA)
 nome_da_cena.vai()
    
-dicionario = dict(A=10, B=20)
-texto = Texto(nome_da_cena, txt = "Pergunta", foi = foii, A="resposta", B= "resposta")
-texto.vai()
-
-
+nome_da_musica = Musica(MINHA_MUSICA, loop = True, autoplay = True)
 
                               
