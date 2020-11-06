@@ -1309,3 +1309,10 @@ SyntaxError: EOL while scanning string literal
                                                             ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Fri Nov 06 2020 20:09:06.720 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  from _spy.vitollino.main import Cena, Elemento
+  ^
+IndentationError: unexpected indent
+'''},
