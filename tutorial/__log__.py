@@ -1295,3 +1295,10 @@ NameError: name 'foii' is not defined
                                                               ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Fri Nov 06 2020 19:43:48.287 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 34
+  dicionario = dict(A="Se clicou no A", B="Se clicou no B') 
+                                                            ^
+SyntaxError: EOL while scanning string literal
+'''},
