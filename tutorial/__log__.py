@@ -1288,3 +1288,10 @@ NameError: name 'foii' is not defined
     texto = Texto(nome_da_cena, txt = "Pergunta", foi = foii, A="resposta", B= "resposta")
 NameError: name 'foii' is not defined
 '''},
+{'date': 'Fri Nov 06 2020 19:43:33.948 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  dicionario = dict(A="Se clicou no A", B="Se clicou no B') # 
+                                                              ^
+SyntaxError: EOL while scanning string literal
+'''},
