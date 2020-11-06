@@ -21,15 +21,16 @@ LIVRO = "https://comunicamack.files.wordpress.com/2016/12/livro.png"
 STYLE["width"] = 900 # width = 300 (default) 
 STYLE["heigth"] = "900px" # min-height = "300px
 
-
+def chama_elemento(*args):
+    nome_do_elemento = Elemento(LIVRO, tit="título_do_elemento", 
+                       style=dict(height=60,widht=60, left=600, top=20))
+    nome_do_elemento.entra(nome_da_cena)
+    
 nome_da_cena = Cena(FUNDO)
 nome_da_cena.vai()
 
 texto_ = Texto(nome_da_cena, txt = "Mensagem desejada", foi = chama_elemento)
 texto_.vai()
 
-def chama_elemento(*_):
-    nome_do_elemento = Elemento(LIVRO, tit="título_do_elemento", 
-                       style=dict(height=60,widht=60, left=600, top=20))
-    nome_do_elemento.entra(nome_da_cena)
+
                               
