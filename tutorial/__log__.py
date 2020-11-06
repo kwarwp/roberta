@@ -1024,3 +1024,10 @@ AttributeError: 'GUI' object has no attribute 'funcao_de_acao_do_botao'
     nome_do_elemento.elt.bind("click", self.funcao_de_acao_do_botao)
 AttributeError: 'GUI' object has no attribute 'funcao_de_acao_do_botao'
 '''},
+{'date': 'Fri Nov 06 2020 17:30:37.397 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  if cla == 3:
+  ^
+IndentationError: unexpected indent
+'''},
