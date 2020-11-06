@@ -1125,3 +1125,19 @@ TypeError: 'bool' object is not iterable
     texto_.entra(nome_da_cena)
 AttributeError: 'Texto' object has no attribute 'entra'
 '''},
+{'date': 'Fri Nov 06 2020 18:46:56.575 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 180
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 310
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 282
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 299
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 27
+    texto_ = Texto(nome_da_cena, txt = "Mensagem desejada",foi=chama)
+NameError: name 'chama' is not defined
+'''},
