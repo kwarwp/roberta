@@ -25,7 +25,7 @@ STYLE["heigth"] = "900px" # min-height = "300px
 nome_da_cena = Cena(FUNDO)
 nome_da_cena.vai()
 
-texto_ = Texto(nome_da_cena, txt = "Mensagem desejada",foi = chama)
+texto_ = Texto(nome_da_cena, txt = "Mensagem desejada")
 texto_.vai()
 
 def chama(*_):
