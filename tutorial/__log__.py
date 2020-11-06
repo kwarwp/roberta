@@ -1221,3 +1221,10 @@ NameError: name 'chama' is not defined
     texto_ = Texto(nome_da_cena, txt = "Mensagem desejada", foi = chama_elemento)
 NameError: name 'chama_elemento' is not defined
 '''},
+{'date': 'Fri Nov 06 2020 19:31:19.662 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  FUNDO =
+          ^
+SyntaxError: invalid syntax
+'''},
