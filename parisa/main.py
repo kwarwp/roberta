@@ -1,5 +1,5 @@
 # roberta.parisa.main.py
-from _spy.vitollino.main import Cena, Inventario as inv 
+from _spy.vitollino.main import Cena, INVENTARIO as inv 
 
 IMG_1 = "https://www.searchpng.com/wp-content/uploads/2019/01/Tiger-PNG-1024x1024.png"
 IMG_2 = "https://i.imgur.com/GleAY3f.jpeg"
@@ -14,3 +14,5 @@ cena_um = Cena(img = IMG_1, esquerda=cena_dois,direita=cena_tres,nome="Tigre",
               #vai=None, nome='', xy=(0, 0), score=NOSC, **kwargs)
 inv.inicia()             
 cena_um.vai()
+
+print(cena_um.score())
