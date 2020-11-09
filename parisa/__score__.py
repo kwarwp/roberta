@@ -4,3 +4,4 @@
   {'doc_id': '60d4fcb4', 'carta': None, 'casa': None, 'move': (-100, -100), 'ponto': 0, 'valor': 0, '_level': 1, 'tempo': 1604966296641},
   {'doc_id': '60d4fcb4', 'carta': None, 'casa': None, 'move': None, 'ponto': 0, 'valor': 0, '_level': 1, 'tempo': 1604966296792},
   {'doc_id': '60d4fcb4', 'carta': None, 'casa': None, 'move': (-100, -100), 'ponto': 0, 'valor': 0, '_level': 1, 'tempo': 1604966303078},
+  {'doc_id': '60d4fcb4', 'carta': None, 'casa': None, 'move': None, 'ponto': 0, 'valor': 0, '_level': 1, 'tempo': 1604966303198},
