@@ -15,7 +15,6 @@ cena_tres = Cena(img = IMG_3, xy=(0, 0))
 
 cena_um = Cena(img = IMG_1, esquerda=cena_dois,direita=cena_tres,nome="Tigre",
                score=dict(ponto=0, valor=0, carta=None, casa=None, move=None))
-       
-           #(self, casa, carta, move, ponto, valor, _level=1):
+
 inv.inicia()             
 cena_um.vai()
