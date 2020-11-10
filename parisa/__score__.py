@@ -7,3 +7,4 @@
   {'doc_id': '60d4fcb4', 'carta': None, 'casa': None, 'move': None, 'ponto': 0, 'valor': 0, '_level': 1, 'tempo': 1604966303198},
   {'doc_id': 'bda9c386', 'carta': None, 'casa': None, 'move': (-100, -100), 'ponto': 0, 'valor': 0, '_level': 1, 'tempo': 1604966657443},
   {'doc_id': 'bda9c386', 'carta': None, 'casa': None, 'move': (-100, -100), 'ponto': 0, 'valor': 0, '_level': 1, 'tempo': 1604966896732},
+  {'doc_id': 'bda9c386', 'carta': 2, 'casa': 1, 'move': 3, 'ponto': 4, 'valor': 5, '_level': 1, 'tempo': 1604966898383},
