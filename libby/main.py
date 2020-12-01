@@ -31,7 +31,7 @@ def chama_elemento(*args):
                            vai = funcao_de_acao_do_botao)
     LIVRO.entra(cena1)
 
-cena1.vai() # instancia a cena
+
 texto_ = Texto(cena1, txt = "Mensagem desejada", foi = funcao_do_elemento) # o método foi() esconde o popup
 texto_.vai()
 LIVRO_ABERTO = Elemento(imagem_livroaberto, tit="título_do_elemento",
@@ -40,6 +40,8 @@ LIVRO_ABERTO = Elemento(imagem_livroaberto, tit="título_do_elemento",
 
 
 cena1.vai()
+texto_.vai()
+LIVRO.elt.bind("click", funcao_de_acao_do_botao)
 
 
 #LIVRO= Elemento(LIVRO, tit="título_do_elemento",
@@ -47,4 +49,4 @@ cena1.vai()
 #                           cena = cena1,
 #                           vai = funcao_de_acao_do_botao)
 
-#nome_do_elemento.elt.bind("click", funcao_de_acao_do_botao)
+#LIVRO.elt.bind("click", funcao_de_acao_do_botao)
