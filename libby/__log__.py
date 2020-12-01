@@ -217,3 +217,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Dec 01 2020 16:20:24.150 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  texto_surpresa.vai()
+  ^
+IndentationError: unexpected indent
+'''},
