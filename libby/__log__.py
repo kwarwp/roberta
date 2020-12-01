@@ -572,3 +572,10 @@ NameError: name 'funcao_de_acao_do_botao' is not defined
     LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
 NameError: name 'funcao_de_acao_do_botao' is not defined
 '''},
+{'date': 'Tue Dec 01 2020 17:47:47.396 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 64
+  def mostra_cena(self, *_ ):
+  ^
+IndentationError: unexpected indent
+'''},
