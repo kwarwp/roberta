@@ -58,4 +58,4 @@ LIVRO_ABERTO = Elemento(imagem_livroaberto, tit="título_do_elemento",
 
 cena1.vai()
 #texto_.vai()
-#LIVRO.elt.bind("click", funcao_de_acao_do_botao)
+LIVRO.elt.bind("click", funcao_de_acao_do_botao)
