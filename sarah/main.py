@@ -25,4 +25,4 @@ STYLE["width"] = 960 #  width = 300 (default)
 STYLE["heigth"] = '600px' # min-height = "300px"
 
 
-Cena1.vai()
+cena1.vai()
