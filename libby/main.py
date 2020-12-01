@@ -25,6 +25,10 @@ cena1 = Cena(imagem_quarto)
 STYLE["width"] = 960 #  width = 300 (default)
 STYLE["heigth"] = '600px' # min-height = "300px"
 
+cena2= Cena(imagem_livroaberto)
+STYLE["width"] = 960 #  width = 300 (default)
+STYLE["heigth"] = '600px' # min-height = "300px"
+
 #FUNCOES
 
 #def funcao_de_acao_do_botao(event = None):
@@ -36,7 +40,7 @@ STYLE["heigth"] = '600px' # min-height = "300px"
 #                           cena = cena1,
 #                           vai = funcao_de_acao_do_botao)
 #    LIVRO_ABERTO.entra(cena1)
-def funcao_de_acao_do_botao(event = None):
+def funcao_de_abrir_o_livro(event = None):
     #Funcao chamada no clique
     print("Você clicou no botão!") # evento associado ao clique: mensagem, cena, sala,módulo...
 
