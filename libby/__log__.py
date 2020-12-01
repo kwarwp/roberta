@@ -586,3 +586,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Dec 01 2020 17:49:46.927 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 67
+  self.cena2.entra(self., imagem_livroaberto)
+                         ^
+SyntaxError: invalid syntax
+'''},
