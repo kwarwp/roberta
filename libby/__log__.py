@@ -579,3 +579,10 @@ NameError: name 'funcao_de_acao_do_botao' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Dec 01 2020 17:49:15.345 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 64
+  def mostra_cena(self, *_ ):
+  ^
+IndentationError: unexpected indent
+'''},
