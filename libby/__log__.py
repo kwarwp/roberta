@@ -366,3 +366,10 @@ NameError: name 'funcao_do_elemento' is not defined
     texto_ = Texto(cena1, txt = "Mensagem desejada", foi = funcao_do_elemento) # o método foi() esconde o popup
 NameError: name 'funcao_do_elemento' is not defined
 '''},
+{'date': 'Tue Dec 01 2020 16:50:28.524 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  imagem_livroaberto = 'https://images.vexels.com/media/users/3/157260/isolated/preview/d48b34b2e855b69b29d5565edda69536-vetor-de-livro-aberto-em-branco-by-vexels.png
+                                                                                                                                                                      ^
+SyntaxError: EOL while scanning string literal
+'''},
