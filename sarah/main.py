@@ -32,7 +32,7 @@ LIVRO_ABERTO = Elemento(imagem_livroaberto, tit="título_do_elemento",
 LIVRO= Elemento(LIVRO, tit="título_do_elemento"),
                            style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = cena1,
-                           vai = funcao_de_acao_do_botao)
+                           vai = funcao_de_acao_do_botao
                            
 #FUNCOES
 
