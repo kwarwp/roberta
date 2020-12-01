@@ -717,3 +717,10 @@ NameError: name 'nome_do_elemento' is not defined
     LIVRO= Elemento(LIVRO, tit="título_do_elemento",
 NameError: name 'LIVRO' is not defined
 '''},
+{'date': 'Tue Dec 01 2020 17:02:33.677 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 33
+  style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+  ^
+IndentationError: unexpected indent
+'''},
