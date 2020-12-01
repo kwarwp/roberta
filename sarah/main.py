@@ -24,5 +24,42 @@ cena1 = Cena(imagem_quarto)
 STYLE["width"] = 960 #  width = 300 (default)
 STYLE["heigth"] = '600px' # min-height = "300px"
 
+cena2= Cena(imagem_livroaberto)
+STYLE["width"] = 960 #  width = 300 (default)
+STYLE["heigth"] = '600px' # min-height = "300px"
+
+#FUNCOES
+
+#def funcao_de_acao_do_botao(event = None):
+#    texto_surpresa = Texto(cena1, txt ="Mensagem que você deseja passar!")
+#    texto_surpresa.vai()
+#def chama_elemento(*args):
+#    LIVRO= Elemento(LIVRO, tit="título_do_elemento",
+#                           style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+#                           cena = cena1,
+#                           vai = funcao_de_acao_do_botao)
+#    LIVRO_ABERTO.entra(cena1)
+def funcao_de_abrir_o_livro(event = None):
+    #Funcao chamada no clique
+    print("Você clicou no botão!") # evento associado ao clique: mensagem, cena, sala,módulo...
+
+#ELEMENTOS
+
+LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
+                style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                cena = cena1,
+                vai = funcao_de_acao_do_botao)
+
+LIVRO_ABERTO = Elemento(imagem_livroaberto, tit="título_do_elemento",
+                        style=dict(height=60,widht=60, left=600, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                        cena = cena1)
+
+
+
+#texto_ = Texto(cena1, txt = "Mensagem desejada", foi = chama_elemento) # o método foi() esconde o popup
+
+#RODA 
 
 cena1.vai()
+#texto_.vai()
+#LIVRO.elt.bind("click", funcao_de_acao_do_botao)
