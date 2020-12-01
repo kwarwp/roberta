@@ -373,3 +373,10 @@ NameError: name 'funcao_do_elemento' is not defined
                                                                                                                                                                       ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Tue Dec 01 2020 16:53:10.929 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  imagem_livroaberto = 'https://images.vexels.com/media/users/3/157260/isolated/preview/d48b34b2e855b69b29d5565edda69536-vetor-de-livro-aberto-em-branco-by-vexels.png
+                                                                                                                                                                      ^
+SyntaxError: EOL while scanning string literal
+'''},
