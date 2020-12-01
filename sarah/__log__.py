@@ -788,3 +788,19 @@ NameError: name 'funcao_de_acao_do_botao' is not defined
     imagem_quarto.vai()
 AttributeError: 'str' object has no attribute 'vai'
 '''},
+{'date': 'Tue Dec 01 2020 17:21:17.655 GMt-0300 (Brasilia Standard Time) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 180
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 310
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 282
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 299
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 28
+    Cena1.vai()
+NameError: name 'Cena1' is not defined
+'''},
