@@ -168,3 +168,10 @@ NameError: name 'nome_da_cena' is not defined
     texto_ = Texto(nome_da_cena, txt = "Mensagem desejada")
 NameError: name 'nome_da_cena' is not defined
 '''},
+{'date': 'Tue Dec 01 2020 15:34:09.249 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  STYLE["heigth"] = 600px # min-height = "300px"
+                        ^
+SyntaxError: invalid syntax
+'''},
