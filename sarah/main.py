@@ -25,4 +25,4 @@ STYLE["width"] = 960 #  width = 300 (default)
 STYLE["heigth"] = '600px' # min-height = "300px"
 
 
-imagem_quarto.vai()
+Cena1.vai()
