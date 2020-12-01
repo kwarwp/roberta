@@ -60,6 +60,11 @@ LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
 #texto_ = Texto(cena1, txt = "Mensagem desejada", foi = chama_elemento) # o método foi() esconde o popup
 
 #RODA 
+class inical():
+
+ def mostra_cena(self, *_ ):
+        """Subordina o aparecimento do livro ao fechamento do texto de abertura"""
+        self.entra(self., cena2)
 
 cena1.vai()
 #texto_.vai()
