@@ -203,3 +203,10 @@ SyntaxError: invalid syntax
                                                                                                                            ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Dec 01 2020 15:53:52.219 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 28
+  botao_livro= Elemento(LIVRO, tit="título_do_elemento",
+                                                                                                                           ^
+SyntaxError: invalid syntax
+'''},
