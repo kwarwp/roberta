@@ -47,7 +47,7 @@ def funcao_de_abrir_o_livro(event = None):
 #ELEMENTOS
 
 LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
-                style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                style=dict(height=50,widht=56, left=450, top=350), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                 cena = cena1,
                 vai = funcao_de_abrir_o_livro)
 
