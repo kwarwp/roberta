@@ -37,7 +37,7 @@ STYLE["heigth"] = '600px' # min-height = "300px"
 #    LIVRO_ABERTO.entra(cena1)
 def funcao_de_acao_do_botao(event = None):
     #Funcao chamada no clique
-    print("Você clicou no botão!") # evento associado ao clique: mensagem, cena, sala,módulo...
+    print("imagem_livroaberto") # evento associado ao clique: mensagem, cena, sala,módulo...
 
 #ELEMENTOS
 
