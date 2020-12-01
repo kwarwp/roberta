@@ -26,7 +26,7 @@ def funcao_de_acao_do_botao(event = None):
 
 cena1.vai() # instancia a cena
 botao_livro= Elemento(LIVRO, tit="título_do_elemento",
-                           style=dict(height=500,widht=560, left=450, top=120), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           style=dict(height=5000,widht=5600, left=450, top=120), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = cena1,
                            vai = funcao_de_acao_do_botao)
 cena1.vai()
