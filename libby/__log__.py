@@ -175,3 +175,10 @@ NameError: name 'nome_da_cena' is not defined
                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Dec 01 2020 15:37:59.376 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  STYLE["heigth"] = 600px # min-height = "300px"
+                        ^
+SyntaxError: invalid syntax
+'''},
