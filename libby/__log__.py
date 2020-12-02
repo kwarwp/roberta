@@ -621,3 +621,10 @@ SyntaxError: invalid syntax
                    ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Dec 01 2020 21:34:57.955 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  self.livro= Elemento(imagem_livro, tit="Livro de Receita", x=0, y=100, w=100, h=100, cena1, vai=self.botao_17082020)
+                                                                                            ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
