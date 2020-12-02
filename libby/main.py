@@ -12,7 +12,27 @@ Changelog
 
 
 from _spy.vitollino.main import Cena, Elemento, STYLE, Texto
+from cenas.imix import Inicial
+#from cenas.ik import Passeio
+from cenas.ik import Passeio
 
+#Classes
+
+class Estrutura():
+
+    def __init__(self):
+        self.fundo = Cena(imagem_quarto)
+        self.fundo.vai()
+        """ Primeiro modo de criar um botão. Utiliza a função vai() do vitollino"""
+        self.livro= Elemento(imagem_livro, tit="Livro de Receita", x=0, y=100, w=100, h=100, cena1, vai=self.botao_17082020)
+        """ Segundo modo de criar um botão"""
+        self.livro.elt.bind("click", self.botao_17082020)
+        
+    def botao_17082020(self, event=None):
+        """ Função que será chamado no clique do IMIX"""
+        Inicial().chama()
+        
+        
 #IMAGENS
 
 imagem_quarto = 'https://i.pinimg.com/originals/66/88/9a/66889a5a4db243c94e3c0623df56e664.jpg'
@@ -59,14 +79,13 @@ LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
 
 #texto_ = Texto(cena1, txt = "Mensagem desejada", foi = chama_elemento) # o método foi() esconde o popup
 
+
+
 #RODA 
-class inical():
-
- def mostra_cena(self, *_ ):
-        """Subordina o aparecimento do livro ao fechamento do texto de abertura"""
-        self.entra(self., cena2)
-
+if __name__ == "__main__":        
+    Estrutura()
 cena1.vai()
+
 #texto_.vai()
 #LIVRO.elt.bind("click", funcao_de_acao_do_botao)
 
