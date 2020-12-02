@@ -54,8 +54,9 @@ cena1 = Cena(imagem_quarto)
 
 def funcao_de_acao_do_botao(event = None):
     cena2= Cena(imagem_livroaberto)
-    STYLE["width"] = 399 # modificação local do tamanho da cena. se voltar para a outra cena, o outro valor volta por causa do escopo
+    STYLE["width"] = 300 # modificação local do tamanho da cena. se voltar para a outra cena, o outro valor volta por causa do escopo
     STYLE["heigth"] = '300px' # min-height = "300px"
+    cena2 = Cena(imagem_livroaberto)
     cena2.vai()
 
 LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
