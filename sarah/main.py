@@ -19,8 +19,7 @@ STYLE["width"] = 550 # width = 300 (default)
 STYLE["heigth"] = "550px" # min-height = "300px"
 
 def funcao_de_acao_do_botao(event = None):
-    #Funcao chamada no clique
-    print("Você clicou no botão!") # evento associado ao clique: mensagem, cena, sala,módulo...
+       print("Você clicou no botão!") # evento associado ao clique: mensagem, cena, sala,módulo...
 
 Cena1 = Cena(imagem_computador)
 Cena1.vai()
@@ -28,3 +27,4 @@ SETA = Elemento(imagem_seta, tit="título_do_elemento",
                            style=dict(height=500,widht=500, left=280, top=400), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = nome_da_cena,
                            vai = funcao_de_acao_do_botao)
+
