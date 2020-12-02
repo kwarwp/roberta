@@ -63,7 +63,7 @@ LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
                 
                 
 PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
-                           style=dict(height=60,widht=60, left=600, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           style=dict(height=120,widht=120, left=700, top=80), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = cena2)
 
 #ELEMENTOS
