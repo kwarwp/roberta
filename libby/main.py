@@ -18,7 +18,7 @@ from cenas.ik import Passeio
 
 #Classes
 
-class Estrutura():
+'''class Estrutura():
 
     def __init__(self):
         self.fundo = Cena(imagem_quarto)
@@ -30,7 +30,7 @@ class Estrutura():
         
     def botao_17082020(self, event=None):
         """ Função que será chamado no clique do IMIX"""
-        Inicial().chama()
+        Inicial().chama(cena2)'''
         
         
 #IMAGENS
@@ -51,25 +51,27 @@ STYLE["heigth"] = '600px' # min-height = "300px"
 
 #FUNCOES
 
-#def funcao_de_acao_do_botao(event = None):
-#    texto_surpresa = Texto(cena1, txt ="Mensagem que você deseja passar!")
-#    texto_surpresa.vai()
-#def chama_elemento(*args):
-#    LIVRO= Elemento(LIVRO, tit="título_do_elemento",
-#                           style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-#                           cena = cena1,
-#                           vai = funcao_de_acao_do_botao)
-#    LIVRO_ABERTO.entra(cena1)
-def funcao_de_abrir_o_livro(event = None):
+def funcao_de_acao_do_botao(event = None):
+    cena2= Cena(imagem_livroaberto)
+    STYLE["width"] = 960 #  width = 300 (default)
+    STYLE["heigth"] = '600px' # min-height = "300px"
+    cena2.vai()
+def chama_elemento(*args):
+    LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
+                    style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                    cena = cena1,
+                    vai = funcao_de_acao_do_botao)
+LIVRO.elt.bind("click", funcao_de_acao_do_botao)
+#def funcao_de_abrir_o_livro(event = None):
     #Funcao chamada no clique
-    print("Você clicou no botão!") # evento associado ao clique: mensagem, cena, sala,módulo...
+#    print("Você clicou no botão!") # evento associado ao clique: mensagem, cena, sala,módulo...
 
 #ELEMENTOS
 
-LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
-                style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                cena = cena1,
-                vai = funcao_de_abrir_o_livro)
+#LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
+#                style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+#                cena = cena1,
+#                vai = funcao_de_abrir_o_livro)
 
 #LIVRO_ABERTO = Elemento(imagem_livroaberto, tit="título_do_elemento",
 #                        style=dict(height=60,widht=60, left=600, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
@@ -82,9 +84,9 @@ LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
 
 
 #RODA 
-if __name__ == "__main__":        
-    Estrutura()
+
 cena1.vai()
+LIVRO.elt.bind("click", funcao_de_acao_do_botao)
 
 #texto_.vai()
 #LIVRO.elt.bind("click", funcao_de_acao_do_botao)
