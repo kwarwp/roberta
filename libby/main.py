@@ -60,8 +60,8 @@ def funcao_de_acao_do_botao(event = None):
 
 LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
                 style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                cena = cena1,
-                vai = funcao_de_acao_do_botao)
+                cena = cena1)
+                #vai = funcao_de_acao_do_botao)
 
 #def funcao_de_abrir_o_livro(event = None):
     #Funcao chamada no clique
@@ -87,7 +87,7 @@ LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
 #RODA 
 
 cena1.vai()
-#LIVRO.elt.bind("click", funcao_de_acao_do_botao)
+LIVRO.elt.bind("click", funcao_de_acao_do_botao)
 
 #texto_.vai()
 #LIVRO.elt.bind("click", funcao_de_acao_do_botao)
