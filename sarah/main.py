@@ -18,13 +18,13 @@ botao_seta = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIHBhM
 STYLE["width"] = 450 # width = 300 (default)
 STYLE["heigth"] = "450px" # min-height = "300px"
 
-def clique_seta(event = None):
+def funcao_de_acao_do_botao(event = None):
     #Funcao chamada no clique
-    print("Você clicou no botão!")
+    print("Você clicou no botão!") # evento associado ao clique: mensagem, cena, sala,módulo...
 
 Cena1 = Cena(imagem_computador)
-Cena1.vai()
-Seta = Elemento(botao_seta, tit="título_do_elemento",
+Cena1.vai() # instancia a cena
+Seta1 = Elemento(botao_seta, tit="título_do_elemento",
                            style=dict(height=60,widht=60, left=600, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                           cena = nome_da_cena,
-                           vai = clique_seta)
+                           cena = Cena1,
+                           vai = funcao_de_acao_do_botao)
