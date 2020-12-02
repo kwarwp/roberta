@@ -53,8 +53,8 @@ STYLE["heigth"] = '600px' # min-height = "300px"
 
 def funcao_de_acao_do_botao(event = None):
     cena2= Cena(imagem_livroaberto)
-    STYLE["width"] = 960 #  width = 300 (default)
-    STYLE["heigth"] = '600px' # min-height = "300px"
+    #STYLE["width"] = 960 #  width = 300 (default)
+    #STYLE["heigth"] = '600px' # min-height = "300px"
     cena2.vai()
 
 LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
