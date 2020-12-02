@@ -614,3 +614,10 @@ SyntaxError: invalid syntax
                    ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Dec 01 2020 21:17:52.55 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 67
+  self.entra(self., cena2)
+                   ^
+SyntaxError: invalid syntax
+'''},
