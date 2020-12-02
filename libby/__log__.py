@@ -706,3 +706,10 @@ NameError: name 'LIVRO' is not defined
     LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
 NameError: name 'cena1' is not defined
 '''},
+{'date': 'Wed Dec 02 2020 14:21:51.880 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 67
+  PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento", STYLE["width"] = 700, STYLE["heigth"] = '600px',  cena = cena2)
+                                                                                   ^
+SyntaxError: keyword can't be an expression
+'''},
