@@ -57,6 +57,8 @@ cena2= Cena(imagem_livroaberto)
 def funcao_de_acao_do_botao(event = None):
     cena2.vai()
 
+texto_1 = Texto(cena1, txt = "Encontre o livro")
+
 LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
                 style=dict(height=50,widht=56, left=450, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                 cena = cena1)
@@ -86,6 +88,7 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 #RODA 
 
 cena1.vai()
+texto_1.vai()
 LIVRO.elt.bind("click", funcao_de_acao_do_botao)
 
 
