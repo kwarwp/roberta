@@ -64,7 +64,7 @@ LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
                 cena = cena1)
          
                 
-PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento", STYLE["width"] = 700, STYLE["heigth"] = '600px',  cena = cena2)
+PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento", style=dict(height=50,widht=56, left=450, top=250),  cena = cena2)
 
 #ELEMENTOS
 
