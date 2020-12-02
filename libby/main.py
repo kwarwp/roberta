@@ -12,9 +12,9 @@ Changelog
 
 
 from _spy.vitollino.main import Cena, Elemento, STYLE, Texto
-from cenas.imix import Inicial
+#from cenas.imix import Inicial
 #from cenas.ik import Passeio
-from cenas.ik import Passeio
+#from cenas.ik import Passeio
 
 #Classes
 
