@@ -25,6 +25,6 @@ def funcao_de_acao_do_botao(event = None):
 Cena1 = Cena(imagem_computador)
 Cena1.vai()
 nome_do_elemento = Elemento(imagem_seta, tit="título_do_elemento",
-                           style=dict(height=60,widht=60, left=600, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           style=dict(height=500,widht=500, left=600, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = nome_da_cena,
                            vai = funcao_de_acao_do_botao)
