@@ -46,9 +46,10 @@ STYLE["heigth"] = '600px' # min-height = "300px"
 
 cena1 = Cena(imagem_quarto)
 
-cena2= Cena(imagem_livroaberto)
-STYLE["width"] = 750 #  width = 300 (default)
+STYLE["width"] = 700 #  width = 300 (default)
 STYLE["heigth"] = '600px' # min-height = "300px"
+
+cena2= Cena(imagem_livroaberto)
 
 #FUNCOES
 
