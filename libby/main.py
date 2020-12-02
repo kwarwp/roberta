@@ -40,21 +40,21 @@ imagem_livro = 'https://livrariaconcreta.com.br/wp-content/uploads/2017/01/Hardc
 imagem_livroaberto = 'https://images.vexels.com/media/users/3/157260/isolated/preview/d48b34b2e855b69b29d5565edda69536-vetor-de-livro-aberto-em-branco-by-vexels.png'
 
 #CENAS
+STYLE["width"] = 960 #  width = 300 (default)
+STYLE["heigth"] = '600px' # min-height = "300px"
 
 cena1 = Cena(imagem_quarto)
-STYLE["width"] = 960 #  width = 300 (default)
-STYLE["heigth"] = '600px' # min-height = "300px"
 
-cena2= Cena(imagem_livroaberto)
-STYLE["width"] = 960 #  width = 300 (default)
-STYLE["heigth"] = '600px' # min-height = "300px"
+#cena2= Cena(imagem_livroaberto)
+#STYLE["width"] = 960 #  width = 300 (default)
+#STYLE["heigth"] = '600px' # min-height = "300px"
 
 #FUNCOES
 
 def funcao_de_acao_do_botao(event = None):
     cena2= Cena(imagem_livroaberto)
-    #STYLE["width"] = 960 #  width = 300 (default)
-    #STYLE["heigth"] = '600px' # min-height = "300px"
+    STYLE["width"] = 399 #  width = 300 (default)
+    STYLE["heigth"] = '300px' # min-height = "300px"
     cena2.vai()
 
 LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
