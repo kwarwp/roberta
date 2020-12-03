@@ -20,10 +20,9 @@ STYLE["width"] = 450 # width = 300 (default)
 STYLE["heigth"] = "450px" # min-height = "300px"
 
 Cena2 = Cena(imagem_computador2)
-Cena2.vai()
 
-def clique_computador(event = Cena2):
-    print("Next step") # evento associado ao clique: mensagem, cena, sala,módulo...
+def clique_computador (event = None):
+    Cena2.vai()
 
 Cena1 = Cena(imagem_computador)
 Cena1.vai()
