@@ -913,3 +913,10 @@ SyntaxError: invalid syntax
                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Dec 03 2020 14:18:56.883 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 84
+  elif resposta1== 'Vá a biblioteca:
+                                    ^
+SyntaxError: EOL while scanning string literal
+'''},
