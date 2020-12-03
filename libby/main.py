@@ -39,13 +39,14 @@ imagem_quarto = 'https://i.pinimg.com/originals/66/88/9a/66889a5a4db243c94e3c062
 imagem_livro = 'https://livrariaconcreta.com.br/wp-content/uploads/2017/01/Hardcover-Book-MockUp-LIVRO-VERMELHO.png'
 imagem_livroaberto = 'https://images.vexels.com/media/users/3/157260/isolated/preview/d48b34b2e855b69b29d5565edda69536-vetor-de-livro-aberto-em-branco-by-vexels.png'
 papel_rasgado = 'https://cdn.pixabay.com/photo/2019/03/18/15/10/torn-paper-4063317_960_720.png'
-
+imagem_mapa ='https://comps.canstockphoto.com.br/cidade-mapa-pequeno-sub%C3%BArbio-vila-vetor-clip-arte_csp14479563.jpg'
 #CENAS
 #tamanho padrão das cenas
 STYLE["width"] = 960 #  width = 300 (default)
 STYLE["heigth"] = '600px' # min-height = "300px"
 
 cena1 = Cena(imagem_quarto)
+cena4 = Cena(imagem_mapa)
 
 STYLE["width"] = 700 #  width = 300 (default)
 STYLE["heigth"] = '600px' # min-height = "300px"
@@ -80,12 +81,13 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 def desafio1(resposta1):
     resposta1=input('Qual e a resposta do desafio?')
     if resposta1== 'va a biblioteca':
-        print('Parabéns, voce acertou!')
-    elif resposta1== 'Vá a biblioteca:
+        input (print('Parabéns, voce acertou!'))
+        cena4.vai()
+    elif resposta1== 'Vá a biblioteca':
         print('Parabéns, voce acertou!')
     elif resposta1 == 'vá a biblioteca':
         print('Parabéns, voce acertou!')
-    elif resposta1 == Va a biblioteca:
+    elif resposta1 == 'Va a biblioteca':
         print('Parabéns, voce acertou!')
     else:
         print('Tente novamente.')
