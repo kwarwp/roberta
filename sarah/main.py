@@ -25,6 +25,6 @@ def clique_computador(event = None):
 Cena1 = Cena(imagem_computador)
 Cena1.vai() # instancia a cena
 Seta1 = Elemento(botao_seta, tit="título_do_elemento",
-                           style=dict(height=100,widht=100, left=300, top=400), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           style=dict(height=100,widht=100, left=300, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = Cena1,
                            vai = clique_computador)
