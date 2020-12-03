@@ -58,7 +58,7 @@ texto1 = Texto(Cena3, txt = "Acorde a Nome_Fulana")
 texto1.vai()
 
 boneca_acordada = Elemento(boneca_acordada, tit = "CLIQUE",
-                           style=dict(height=60,widht=60, left=600, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           style=dict(height=40,widht=60, left=100, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = Cena4)
                            
 texto2 = Texto(Cena4, txt = "Nome_Fulana gosta de ler um livro quando acorda. Encontre-o")
