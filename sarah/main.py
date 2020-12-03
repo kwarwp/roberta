@@ -19,16 +19,13 @@ imagem_computador2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOkAAADZCAMA
 STYLE["width"] = 450 # width = 300 (default)
 STYLE["heigth"] = "450px" # min-height = "300px"
 
-Cena2 = Cena(imagem_computador2)
-Cena2.vai()
-
-def clique_computador(event = Cena2):
+def clique_computador(event = None):
     #Funcao chamada no clique
-    print("Cena2") # evento associado ao clique: mensagem, cena, sala,módulo...
+    print("Voce clicou no botao!") # evento associado ao clique: mensagem, cena, sala,módulo...
 
 Cena1 = Cena(imagem_computador)
 Cena1.vai() # instancia a cena
-Seta1 = Elemento(botao_seta, tit="título_do_elemento",
+Seta1 = Elemento(botao_seta, tit="CLIQUE",
                            style=dict(height=100,widht=100, left=300, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = Cena1,
                            vai = clique_computador)
