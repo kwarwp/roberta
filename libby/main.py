@@ -52,10 +52,17 @@ STYLE["heigth"] = '600px' # min-height = "300px"
 
 cena2= Cena(imagem_livroaberto)
 
+STYLE["width"] = 394 #  width = 300 (default)
+STYLE["heigth"] = '521px'
+
+cena3= Cena(papel_rasgado)
+
 #FUNCOES
 
 def funcao_de_acao_do_botao(event = None):
     cena2.vai()
+def funcao_de_acao_do_botao2(event = None):
+    cena3.vai()
 
 texto_1 = Texto(cena1, txt = "Encontre o livro")
 
@@ -69,13 +76,13 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
                          cena = cena2)
 
 #resposta_desafio1= input('Qual é a resposta do desafio?')
-def resultado(B):
+def resultado(A):
 # O novo popupque será gerado quando o foi() do texto forchamado
-        dicionario = dict(A="Você clicou no A", B="Você clicou no B") # dicionário que guarda a devolutiva da opção escolhida
-        devolutiva = Texto(cena2, txt=dicionario[B])
+        dicionario = dict(A=input('qual e a resposta?')) # dicionário que guarda a devolutiva da opção escolhida
+        devolutiva = Texto(cena2, txt=dicionario[A])
         devolutiva.vai()
 
-pergunta = Texto(cena2, txt = "Qual e a resposta paraa o desafio?", foi = resultado, A= "resposta", B= "resposta")
+pergunta = Texto(cena3, txt = "Qual e a resposta paraa o desafio?", foi = resultado, A= "resposta")
 #ELEMENTOS
 
 #LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
@@ -98,7 +105,9 @@ pergunta = Texto(cena2, txt = "Qual e a resposta paraa o desafio?", foi = result
 cena1.vai()
 texto_1.vai()
 LIVRO.elt.bind("click", funcao_de_acao_do_botao)
-resposta_desafio1.vai()
+PAPEL_RASGADO.elt.bind("click", funcao_de_acao_do_botao2)
+pergunta.vai()
+
 
 
 #texto_.vai()
