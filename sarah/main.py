@@ -49,7 +49,7 @@ Seta2 = Elemento(botao_seta2, tit="CLIQUE",
                            cena = Cena2,
                            vai = clique_computador2)
 Boneca1 = Elemento(botao_boneca, tit="CLIQUE",
-                           style=dict(height=200,widht=200, left=300, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           style=dict(height=300,widht=300, left=500, top=400), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = Cena3,
                            vai = acorda_boneca)
                            
