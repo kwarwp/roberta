@@ -19,9 +19,9 @@ imagem_computador2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOkAAADZCAMA
 STYLE["width"] = 450 # width = 300 (default)
 STYLE["heigth"] = "450px" # min-height = "300px"
 
-def clique_computador(event = None):
+def clique_computador(event = imagem_computador2):
     #Funcao chamada no clique
-    print("Voce clicou no botao!") # evento associado ao clique: mensagem, cena, sala,módulo...
+    event("Cena2") # evento associado ao clique: mensagem, cena, sala,módulo...
 
 Cena1 = Cena(imagem_computador)
 Cena1.vai() # instancia a cena
