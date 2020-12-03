@@ -94,6 +94,12 @@ def desafio1(resposta1):
     elif resposta1 == 'Va a biblioteca':
         cena4.vai()
         parabens.vai()
+    elif resposta1== 'Vá à biblioteca':
+        cena4.vai()
+        parabens.vai()
+    elif resposta1 == 'vá à biblioteca':
+        cena4.vai()
+        parabens.vai()
     else:
         tente_novamente.vai()
 #def resultado(A):
