@@ -77,7 +77,7 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 
 #resposta_desafio1= input('Qual é a resposta do desafio?')
 
-def desafio1(reposta1):
+def desafio1(resposta1):
     resposta1=input('Qual e a resposta do desafio?')
     if resposta1= 'va a biblioteca':
         print('Parabéns, voce acertou!')
