@@ -79,8 +79,8 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 #resposta_desafio1= input('Qual é a resposta do desafio?')
 
 def desafio1(resposta1):
-    resposta1=input('Qual e a resposta do desafio?')
-    parabens = Texto(cena4, txt = "Parabéns, voce acertou!")
+    resposta1=input('Qual é a resposta do desafio?')
+    parabens = Texto(cena4, txt = "Parabéns, você acertou!")
     tente_novamente=Texto(cena3, txt = "Tente novamente.")
     if resposta1== 'va a biblioteca':
         cena4.vai()
