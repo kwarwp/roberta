@@ -80,17 +80,22 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 
 def desafio1(resposta1):
     resposta1=input('Qual e a resposta do desafio?')
+    parabens = Texto(cena3, txt = "Parabéns, voce acertou!")
+    tente_novamente=Texto(cena3, txt = "Tente novamente.")
     if resposta1== 'va a biblioteca':
-        input (print('Parabéns, voce acertou!'))
+        parabens.vai()
         cena4.vai()
     elif resposta1== 'Vá a biblioteca':
-        print('Parabéns, voce acertou!')
+        parabens.vai()
+        cena4.vai()
     elif resposta1 == 'vá a biblioteca':
-        print('Parabéns, voce acertou!')
+        parabens.vai()
+        cena4.vai()
     elif resposta1 == 'Va a biblioteca':
-        print('Parabéns, voce acertou!')
+        parabens.vai()
+        cena4.vai()
     else:
-        print('Tente novamente.')
+        tente_novamente.vai()
 #def resultado(A):
 # O novo popupque será gerado quando o foi() do texto forchamado
 #        dicionario = dict(A=('vc clicou no A')) # dicionário que guarda a devolutiva da opção escolhida
