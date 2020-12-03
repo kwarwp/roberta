@@ -841,3 +841,10 @@ NameError: name 'resposta_desafio1' is not defined
     resposta_desafio1.vai()
 NameError: name 'resposta_desafio1' is not defined
 '''},
+{'date': 'Thu Dec 03 2020 13:56:43.854 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 81
+  dicionario = dict(A=input('qual e a resposta?') # dicionário que guarda a devolutiva da opção escolhida
+                                                                                                                   ^
+SyntaxError: invalid syntax
+'''},
