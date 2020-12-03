@@ -76,15 +76,27 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
                          cena = cena2)
 
 #resposta_desafio1= input('Qual é a resposta do desafio?')
-def resultado(A):
+
+def desafio1(reposta1):
+    resposta1=input('Qual e a resposta do desafio?')
+    if resposta1= 'va a biblioteca':
+        print('Parabéns, voce acertou!')
+    elif resposta1= 'Vá a biblioteca:
+        print('Parabéns, voce acertou!')
+    elif resposta1 = 'vá a biblioteca':
+        print('Parabéns, voce acertou!')
+    elif resposta1 = Va a biblioteca:
+        print('Parabéns, voce acertou!')
+    else:
+        print('Tente novamente.')
+#def resultado(A):
 # O novo popupque será gerado quando o foi() do texto forchamado
-        dicionario = dict(A=('vc clicou no A')) # dicionário que guarda a devolutiva da opção escolhida
-        devolutiva = Texto(cena2, txt=dicionario[A])
-        devolutiva.vai()
+#        dicionario = dict(A=('vc clicou no A')) # dicionário que guarda a devolutiva da opção escolhida
+#        devolutiva = Texto(cena2, txt=dicionario[A])
+#        devolutiva.vai()
 
-pergunta2="Qual e a resposta paraa o desafio?"
 
-pergunta = Texto(cena3, txt = pergunta2, foi = resultado, A=input(pergunta2))
+#pergunta = Texto(cena3, txt = pergunta2, foi = resultado, A=input(pergunta2))
 
 
 #ELEMENTOS
@@ -110,7 +122,8 @@ cena1.vai()
 texto_1.vai()
 LIVRO.elt.bind("click", funcao_de_acao_do_botao)
 PAPEL_RASGADO.elt.bind("click", funcao_de_acao_do_botao2)
-pergunta.vai()
+cena3.elt.bind("click", desafio1)
+
 
 
 
