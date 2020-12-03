@@ -54,7 +54,7 @@ Boneca1 = Elemento(botao_boneca, tit="CLIQUE",
                            cena = Cena3,
                            vai = acorda_boneca)
                            
-texto1 = Texto(Cena3, txt = "Acorde a Nome_Fulana")
+texto1 = Texto(Cena2, txt = "Acorde a Nome_Fulana")
 texto1.vai()
 
 boneca_acordada = Elemento(boneca_acordada, tit = "CLIQUE",
