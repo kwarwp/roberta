@@ -68,6 +68,7 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
                          style=dict(height=5780,widht=4370, left=450, top=250), 
                          cena = cena2)
 
+resposta_desafio1= input('Qual é a resposta do desafio?')
 #ELEMENTOS
 
 #LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
@@ -90,6 +91,7 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 cena1.vai()
 texto_1.vai()
 LIVRO.elt.bind("click", funcao_de_acao_do_botao)
+resposta_desafio1.vai()
 
 
 #texto_.vai()
