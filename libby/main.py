@@ -68,7 +68,14 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
                          style=dict(height=5780,widht=4370, left=450, top=250), 
                          cena = cena2)
 
-resposta_desafio1= input('Qual é a resposta do desafio?')
+#resposta_desafio1= input('Qual é a resposta do desafio?')
+def resultado(B):
+# O novo popupque será gerado quando o foi() do texto forchamado
+        dicionario = dict(A="Você clicou no A", B="Você clicou no B") # dicionário que guarda a devolutiva da opção escolhida
+        devolutiva = Texto(cena2, txt=dicionario[B])
+        devolutiva.vai()
+
+pergunta = Texto(cena2, txt = "Qual e a resposta paraa o desafio?", foi = resultado, A= "resposta", B= "resposta")
 #ELEMENTOS
 
 #LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
