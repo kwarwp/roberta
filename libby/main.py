@@ -80,23 +80,19 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 
 def desafio1(resposta1):
     resposta1=input('Qual e a resposta do desafio?')
-    parabens = Texto(cena3, txt = "Parabéns, voce acertou!")
-    tente_novamente=Texto(cena4, txt = "Tente novamente.")
+    parabens = Texto(cena4, txt = "Parabéns, voce acertou!")
+    tente_novamente=Texto(cena3, txt = "Tente novamente.")
     if resposta1== 'va a biblioteca':
         cena4.vai()
-        time.sleep(2)
         parabens.vai()
     elif resposta1== 'Vá a biblioteca':
         cena4.vai()
-        time.sleep(2)
         parabens.vai()
     elif resposta1 == 'vá a biblioteca':
         cena4.vai()
-        time.sleep(2)
         parabens.vai()
     elif resposta1 == 'Va a biblioteca':
         cena4.vai()
-        time.sleep(2)
         parabens.vai()
     else:
         tente_novamente.vai()
