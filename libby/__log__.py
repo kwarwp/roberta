@@ -848,3 +848,10 @@ NameError: name 'resposta_desafio1' is not defined
                                                                                                                    ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Dec 03 2020 13:59:11.419 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 81
+  dicionario = dict(A=(vc clicou no A')) # dicionário que guarda a devolutiva da opção escolhida
+                           ^
+SyntaxError: invalid syntax
+'''},
