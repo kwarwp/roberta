@@ -871,3 +871,10 @@ SyntaxError: invalid syntax
     pergunta = Texto(cena3, txt = "Qual e a resposta paraa o desafio?", foi = resultado, A=input(txt))
 NameError: name 'txt' is not defined
 '''},
+{'date': 'Thu Dec 03 2020 14:14:28.525 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 82
+  if resposta1= 'va a biblioteca':
+               ^
+SyntaxError: invalid syntax
+'''},
