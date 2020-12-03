@@ -920,3 +920,10 @@ SyntaxError: invalid syntax
                                     ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Thu Dec 03 2020 14:19:08.282 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 88
+  elif resposta1 == Va a biblioteca:
+                        ^
+SyntaxError: invalid syntax
+'''},
