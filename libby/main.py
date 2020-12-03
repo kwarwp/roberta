@@ -79,13 +79,13 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 
 def desafio1(resposta1):
     resposta1=input('Qual e a resposta do desafio?')
-    if resposta1= 'va a biblioteca':
+    if resposta1== 'va a biblioteca':
         print('Parabéns, voce acertou!')
-    elif resposta1= 'Vá a biblioteca:
+    elif resposta1== 'Vá a biblioteca:
         print('Parabéns, voce acertou!')
-    elif resposta1 = 'vá a biblioteca':
+    elif resposta1 == 'vá a biblioteca':
         print('Parabéns, voce acertou!')
-    elif resposta1 = Va a biblioteca:
+    elif resposta1 == Va a biblioteca:
         print('Parabéns, voce acertou!')
     else:
         print('Tente novamente.')
