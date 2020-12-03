@@ -43,5 +43,5 @@ Seta2 = Elemento(botao_seta2, tit="CLIQUE",
                            cena = Cena2,
                            vai = clique_computador2)
                            
-texto1 = Texto(Cena3, txt = "Acorde a Nome_Fulana"
+texto1 = Texto(Cena3, txt = "Acorde a Nome_Fulana")
 texto1.vai()
