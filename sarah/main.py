@@ -24,7 +24,7 @@ Cena2.vai()
 
 def clique_computador(event = Cena2):
     #Funcao chamada no clique
-    print("Você clicou no botão!") # evento associado ao clique: mensagem, cena, sala,módulo...
+    print("Cena2") # evento associado ao clique: mensagem, cena, sala,módulo...
 
 Cena1 = Cena(imagem_computador)
 Cena1.vai() # instancia a cena
