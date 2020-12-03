@@ -23,6 +23,9 @@ STYLE["heigth"] = "450px" # min-height = "300px"
 
 Cena2 = Cena(imagem_computador2)
 Cena3 = Cena(imagem_quarto)
+Cena1 = Cena(imagem_computador)
+Cena1.vai()
+
 
 def clique_computador (event = None):
     Cena2.vai()
@@ -30,8 +33,7 @@ def clique_computador (event = None):
 def clique_computador2 (event = None):
     Cena3.vai()
 
-Cena1 = Cena(imagem_computador)
-Cena1.vai()
+
 Seta1 = Elemento(botao_seta, tit="CLIQUE",
                            style=dict(height=100,widht=100, left=300, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = Cena1,
