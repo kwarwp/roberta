@@ -885,3 +885,10 @@ SyntaxError: invalid syntax
                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Dec 03 2020 14:16:48.548 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 82
+  if resposta1= 'va a biblioteca':
+               ^
+SyntaxError: invalid syntax
+'''},
