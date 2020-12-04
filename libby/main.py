@@ -79,21 +79,23 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 #resposta_desafio1= input('Qual é a resposta do desafio?')
 
 def desafio1(resposta1):
+    possivel_resposta=""
     resposta1=input('Qual é a resposta do desafio?')
+    resposta2=resposta1.lower()
     parabens = Texto(cena4, txt = "Parabéns, você acertou!")
     tente_novamente=Texto(cena3, txt = "Tente novamente.")
-    if resposta1== 'va para a biblioteca':
+    if resposta2 == 'va para a biblioteca' or 'vá para a biblioteca' :
         cena4.vai()
         parabens.vai()
-    elif resposta1== 'Vá para a biblioteca':
-        cena4.vai()
-        parabens.vai()
-    elif resposta1 == 'vá para a biblioteca':
-        cena4.vai()
-        parabens.vai()
-    elif resposta1 == 'Va para a biblioteca':
-        cena4.vai()
-        parabens.vai()
+#    elif resposta1== 'Vá para a biblioteca':
+#        cena4.vai()
+#        parabens.vai()
+#    elif resposta1 == 'vá para a biblioteca':
+#        cena4.vai()
+#        parabens.vai()
+#    elif resposta1 == 'Va para a biblioteca':
+#        cena4.vai()
+#        parabens.vai()
     else:
         tente_novamente.vai()
 #def resultado(A):
