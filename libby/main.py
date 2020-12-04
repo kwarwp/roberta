@@ -79,7 +79,7 @@ PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento",
 #resposta_desafio1= input('Qual é a resposta do desafio?')
 
 def desafio1(resposta2):
-    resposta1=input('Qual é a resposta do desafio?')
+    resposta1=str(input('Qual é a resposta do desafio?'))
     resposta2=resposta1.lower()
     if resposta2 == 'va para a biblioteca' or 'vá para a biblioteca' :
         cena4.vai()
