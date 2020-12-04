@@ -73,7 +73,7 @@ LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
          
                 
 PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento", 
-                         w=5780, h=4370, x=450, y=250, 
+                         w=578, h=437, x=450, y=250, 
                          cena = cena2)
 
 #resposta_desafio1= input('Qual é a resposta do desafio?')
