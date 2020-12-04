@@ -49,14 +49,15 @@ Seta2 = Elemento(botao_seta2, tit="CLIQUE",
                            style=dict(height=100,widht=100, left=300, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = Cena2,
                            vai = clique_computador2)
+                           
+texto1 = Texto(Cena3, txt = "Acorde a Nome_Fulana.")
+texto1.vai()
+
 Boneca1 = Elemento(botao_boneca, tit="CLIQUE",
                            style=dict(height=300,widht=300, left=300, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = Cena3,
                            vai = acorda_boneca)
                            
-texto1 = Texto(Cena3, txt = "Acorde a Nome_Fulana.")
-texto1.vai()
-
 boneca_acordada = Elemento(boneca_acordada, tit = "CLIQUE",
                            style=dict(height=40,widht=60, left=100, top=20), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = Cena4)
