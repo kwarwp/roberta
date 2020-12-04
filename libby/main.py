@@ -82,22 +82,16 @@ def desafio1(resposta1):
     resposta1=input('Qual é a resposta do desafio?')
     parabens = Texto(cena4, txt = "Parabéns, você acertou!")
     tente_novamente=Texto(cena3, txt = "Tente novamente.")
-    if resposta1== 'va a biblioteca':
+    if resposta1== 'va para a biblioteca':
         cena4.vai()
         parabens.vai()
-    elif resposta1== 'Vá a biblioteca':
+    elif resposta1== 'Vá para a biblioteca':
         cena4.vai()
         parabens.vai()
-    elif resposta1 == 'vá a biblioteca':
+    elif resposta1 == 'vá para a biblioteca':
         cena4.vai()
         parabens.vai()
-    elif resposta1 == 'Va a biblioteca':
-        cena4.vai()
-        parabens.vai()
-    elif resposta1== 'Vá à biblioteca':
-        cena4.vai()
-        parabens.vai()
-    elif resposta1 == 'vá à biblioteca':
+    elif resposta1 == 'Va para a biblioteca':
         cena4.vai()
         parabens.vai()
     else:
