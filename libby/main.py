@@ -73,7 +73,7 @@ LIVRO= Elemento(imagem_livro, tit="título_do_elemento",
          
                 
 PAPEL_RASGADO = Elemento(papel_rasgado, tit="título_do_elemento", 
-                         style=dict(height=5780,widht=4370, left=450, top=250), 
+                         w=5780, h=4370, x=450, y=250, 
                          cena = cena2)
 
 #resposta_desafio1= input('Qual é a resposta do desafio?')
