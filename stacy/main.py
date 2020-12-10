@@ -11,3 +11,17 @@ STYLE["heigth"] = '600px' # min-height = "300px"
 Biblioteca_entrada=Cena(Imagem_Biblioteca_porta)
 Biblioteca_entrada.vai()
 
+Biblioteca_dentro=Cena(Imagem_Biblioteca_dentro)
+
+Imagem_botao="https://images-na.ssl-images-amazon.com/images/I/71nQDXqkyDL.png"
+
+def desafio2_entrar (event = None):
+    Biblioteca_dentro.vai()
+    
+BOTAO= Elemento(Imagem_botao, tit="click",w=30,h=36,  x=450, y=300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                cena = Biblioteca_entrada)
+                                
+BOTAO.elt.bind("click", desafio2_entrar)
+
+
+
