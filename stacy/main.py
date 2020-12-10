@@ -11,6 +11,8 @@ STYLE["heigth"] = '600px' # min-height = "300px"
 Biblioteca_entrada=Cena(Imagem_Biblioteca_porta)
 Biblioteca_entrada.vai()
 
+Biblioteca_porta2=Cena(Imagem_Biblioteca_porta2)
+
 Biblioteca_dentro=Cena(Imagem_Biblioteca_dentro)
 
 Imagem_botao="https://images-na.ssl-images-amazon.com/images/I/71nQDXqkyDL.png"
