@@ -18,7 +18,7 @@ Biblioteca_dentro=Cena(Imagem_Biblioteca_dentro)
 Imagem_botao="https://images-na.ssl-images-amazon.com/images/I/71nQDXqkyDL.png"
 
 def desafio2_porta (event = None):
-    Biblioteca_porta2.vai()
+    Biblioteca_porta1.vai()
     
 BOTAO= Elemento(Imagem_botao, tit="click",w=30,h=36,  x=450, y=300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                 cena = Biblioteca_entra)
