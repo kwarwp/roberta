@@ -17,13 +17,21 @@ Biblioteca_dentro=Cena(Imagem_Biblioteca_dentro)
 
 Imagem_botao="https://images-na.ssl-images-amazon.com/images/I/71nQDXqkyDL.png"
 
-def desafio2_entrar (event = None):
-    Biblioteca_dentro.vai()
+def desafio2_porta (event = None):
+    Biblioteca_porta2.vai()
     
 BOTAO= Elemento(Imagem_botao, tit="click",w=30,h=36,  x=450, y=300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                cena = Biblioteca_entrada)
+                cena = Biblioteca_entra)
                                 
-BOTAO.elt.bind("click", desafio2_entrar)
+BOTAO.elt.bind("click", desafio2_porta1)
+
+def desafio2_porta2 (event = None):
+    Biblioteca_dentro.vai()
+    
+BOTAO2= Elemento(Imagem_botao, tit="click",w=30,h=36,  x=450, y=300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                cena = Biblioteca_porta2)
+                                
+BOTAO.elt.bind("click", desafio2_porta2)
 
 
 
