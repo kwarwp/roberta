@@ -21,7 +21,7 @@ def desafio_porta1 (event = None):
     Biblioteca_porta.vai()
     
 BOTAO= Elemento(Imagem_botao, tit="click",w=30,h=36,  x=450, y=300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                cena = Biblioteca_entra)
+                cena = Biblioteca_entrada)
                                 
 BOTAO.elt.bind("click", desafio_porta1)
 
