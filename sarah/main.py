@@ -40,6 +40,9 @@ def clique_computador2 (event = None):
 def acorda_boneca (event = None):
     Cena4.vai()
 
+texto1 = Texto(Cena3, txt = "Acorde a Nome_Fulana.")
+texto1.vai() 
+
 
 Seta1 = Elemento(botao_seta, tit="CLIQUE",
                            style=dict(height=100,widht=100, left=300, top=250), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
@@ -60,7 +63,5 @@ boneca_acordada = Elemento(boneca_acordada, tit = "CLIQUE",
                            cena = Cena4)
                            
                            
-texto1 = Texto(Cena3, txt = "Acorde a Nome_Fulana.")
-texto1.vai()                          
 texto2 = Texto(Cena4, txt = "Nome_Fulana gosta de ler um livro quando acorda. Encontre-o")
 texto2.vai()
