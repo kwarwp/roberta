@@ -24,13 +24,13 @@ STYLE["heigth"] = "900px" # min-height = "300px"
 
 
 fundo_estatico = Cena(BACKGROUND)
-criteriado = Elemento(GEOMETRICO_CIRCULO, tit="Este é o tronco da árvore",x=300, y=350, w = 50, h=50, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+criteriado = Elemento(GEOMETRICO_CIRCULO, tit="Este é o tronco da árvore",x=355, y=230, w = 50, h=50, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = fundo_estatico)
 
-criterio_vermelho = Elemento(CRITERIO_VERMELHO, tit="Este é o tronco da árvore", x=440, y=320, w=30, h=30, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+criterio_vermelho = Elemento(CRITERIO_VERMELHO, tit="Este é o tronco da árvore", x=445, y=340, w=30, h=30, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = fundo_estatico)
                            
-ramo_criterio_tres = Elemento(BRANCH_TRES_CRITERIO, tit="Este é o tronco da árvore", x =380, y=150, w=170, h=170, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+ramo_criterio_tres = Elemento(BRANCH_TRES_CRITERIO, tit="Este é o tronco da árvore", x =375, y=197, w=170, h=170, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = fundo_estatico)
 
 tronco_base = Elemento(TRONCO_BASE, tit="Este é o tronco da árvore", x =300, y= 365, w = 300, h = 300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
