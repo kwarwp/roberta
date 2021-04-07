@@ -1454,3 +1454,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Apr 07 2021 12:16:59.260 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 35
+  cena = fundo_estatico)
+  ^
+IndentationError: unexpected indent
+'''},
