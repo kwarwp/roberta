@@ -39,6 +39,25 @@ ramo_criteriado_tres = Elemento(BRANCH_TRES_CRITERIADO, tit="Este é o tronco da
 
 tronco_base = Elemento(TRONCO_BASE, tit="Este é o tronco da árvore", x =300, y= 365, w = 300, h = 300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = fundo_estatico)
+                           
+                           
+                           
+                           
+                           
+criteriado = Elemento(GEOMETRICO_CIRCULO, tit="Este é o tronco da árvore",x=100, y=245, w=100, h=100,  # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           cena = fundo_estatico)
+
+criterio_vermelho = Elemento(CRITERIO_VERMELHO, tit="Este é o tronco da árvore", x=100, y=350, w=100, h=100, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           cena = fundo_estatico)
+                           
+#ramo_criterio_tres = Elemento(BRANCH_TRES_CRITERIO, tit="Este é o tronco da árvore", x =375, y=197, w=170, h=170, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+#                           cena = fundo_estatico)
+                           
+ramo_criteriado_tres = Elemento(BRANCH_TRES_CRITERIADO, tit="Este é o tronco da árvore", x =100, y=135, w=100, h=100, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           cena = fundo_estatico)
+
+tronco_base = Elemento(TRONCO_BASE, tit="Este é o tronco da árvore", x =100, y= 365, w=100, h=100, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                           cena = fundo_estatico)                      
                           
                            
 fundo_estatico.vai()
