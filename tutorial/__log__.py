@@ -1433,3 +1433,10 @@ NameError: name 'STYLE' is not defined
     STYLE["width"] = 900 # width = 300 (default)
 NameError: name 'STYLE' is not defined
 '''},
+{'date': 'Wed Apr 07 2021 11:51:32.743 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  STYLE["heigth"] = 900px # min-height = "300px"
+                        ^
+SyntaxError: invalid syntax
+'''},
