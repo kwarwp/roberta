@@ -31,7 +31,7 @@ criterio_vermelho = Elemento(CRITERIO_VERMELHO, tit="Este é o tronco da árvore
                            style=dict(left=300, top=450), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = fundo_estatico)
                            
-ramo_criterio_tres = Elemento(BRANCH_TRES_CRITERIO, tit="Este é o tronco da árvore", x =300, y=400, w=100, h=100, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+ramo_criterio_tres = Elemento(BRANCH_TRES_CRITERIO, tit="Este é o tronco da árvore", x =350, y=150, w=180, h=180, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = fundo_estatico)
 
 tronco_base = Elemento(TRONCO_BASE, tit="Este é o tronco da árvore", x =300, y= 365, w = 300, h = 300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
