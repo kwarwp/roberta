@@ -27,11 +27,10 @@ fundo_estatico = Cena(BACKGROUND)
 criteriado = Elemento(GEOMETRICO_CIRCULO, tit="Este é o tronco da árvore",x=300, y=350, w = 50, h=50, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = fundo_estatico)
 
-criterio_vermelho = Elemento(CRITERIO_VERMELHO, tit="Este é o tronco da árvore",
-                           style=dict(left=300, top=450), # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+criterio_vermelho = Elemento(CRITERIO_VERMELHO, tit="Este é o tronco da árvore", x=440, y=320, w=30, h=30, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = fundo_estatico)
                            
-ramo_criterio_tres = Elemento(BRANCH_TRES_CRITERIO, tit="Este é o tronco da árvore", x =350, y=150, w=180, h=180, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+ramo_criterio_tres = Elemento(BRANCH_TRES_CRITERIO, tit="Este é o tronco da árvore", x =380, y=150, w=170, h=170, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
                            cena = fundo_estatico)
 
 tronco_base = Elemento(TRONCO_BASE, tit="Este é o tronco da árvore", x =300, y= 365, w = 300, h = 300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
