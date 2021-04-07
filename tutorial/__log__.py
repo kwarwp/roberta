@@ -1461,3 +1461,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Apr 07 2021 17:10:47.404 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 56
+  ramo_criteriado_tres = Elemento(BRANCH_TRES_CRITERIADO, tit="Este é o tronco da árvore", x =100, y=135, x=0, y=0, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
+                                                                                                           ^
+SyntaxError: keyword argument repeated
+'''},
