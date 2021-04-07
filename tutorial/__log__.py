@@ -1440,3 +1440,10 @@ NameError: name 'STYLE' is not defined
                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Apr 07 2021 12:10:20.913 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 40
+  cena = fundo_estatico)
+  ^
+IndentationError: unexpected indent
+'''},
