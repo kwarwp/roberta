@@ -17,6 +17,12 @@ BRANCH_TRES_CRITERIADO = "https://i.imgur.com/AC8DivF.png"
 CRITERIO_VERMELHO = "https://i.imgur.com/KU344jS.png"
 GEOMETRICO_CIRCULO = "https://i.imgur.com/Ch4uiED.png"
 
+from browser import document
+pdiv = document["pydiv"]
+pdiv.style.minheight = "1100px"
+pdiv.style.marginleft = "-120px"
+pdiv.style.marginTop = "-40px"
+
 from _spy.vitollino.main import Cena, Elemento, STYLE
 
 STYLE.update(width = 1920, height = '1080px') # width = 300 (default)
