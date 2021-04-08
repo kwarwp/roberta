@@ -19,7 +19,7 @@ GEOMETRICO_CIRCULO = "https://i.imgur.com/Ch4uiED.png"
 
 from _spy.vitollino.main import Cena, Elemento, STYLE
 
-STYLE["width"] = 1920 # width = 300 (default)
+STYLE.update(width = 1920, height = '1080px') # width = 300 (default)
 #STYLE["heigth"] = "300px" # min-height = "300px"
 
 
