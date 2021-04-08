@@ -19,8 +19,8 @@ GEOMETRICO_CIRCULO = "https://i.imgur.com/Ch4uiED.png"
 
 from browser import document
 pdiv = document["pydiv"]
-pdiv.style.minheight = "1100px"
-pdiv.style.marginleft = "-120px"
+pdiv.style.minHeight = "1100px"
+pdiv.style.marginLeft = "-120px"
 pdiv.style.marginTop = "-40px"
 
 from _spy.vitollino.main import Cena, Elemento, STYLE
