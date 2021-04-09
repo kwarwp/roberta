@@ -15,7 +15,7 @@ BACKGROUND = "https://i.imgur.com/15vsHKm.jpg"
 TRONCO_BASE = "https://i.imgur.com/FiV74AD.png"
 
 BRANCH_TRES_CRITERIO_NIVEL_UM = "https://imgur.com/RNrW0L9.png"
-BRANCH_TRES_CRITERIADO_NIVEL_2 = "https://imgur.com/Sl5USH5.png"
+BRANCH_TRES_CRITERIADO_NIVEL_DOIS = "https://imgur.com/Sl5USH5.png"
 BRANCH_UM_CRITERIADO = "https://imgur.com/9HEwnOX.png"
 
 CRITERIO_AZUL = "https://imgur.com/bSutiDv.png"
@@ -45,9 +45,9 @@ criterio_circulo = Elemento(CRITERIO_CIRCULO, x=450, y=350, w=20, h=20,  cena = 
 criterio_grande = Elemento(CRITERIO_GRANDE, x=450, y=350, w=20, h=20,  cena = fundo_estatico)
 
        
-ramo_criteriado_tres = Elemento(BRANCH_TRES_CRITERIADO,  x =379, y=193, w=175, h=175,cena = fundo_estatico)
+ramo_criteriado_tres_nivel_um = Elemento(BRANCH_TRES_CRITERIO_NIVEL_UM,  x =379, y=193, w=175, h=175,cena = fundo_estatico)
 
-ramo_criterio_tres = Elemento(BRANCH_TRES_CRITERIO,  x =379, y=193, w=175, h=175,cena = fundo_estatico)
+ramo_criterio_tres_nivel_dois = Elemento(BRANCH_TRES_CRITERIADO_NIVEL_DOIS,  x =379, y=193, w=175, h=175,cena = fundo_estatico)
 
 ramo_criterio_um = Elemento(BRANCH_UM_CRITERIADO,  x =379, y=193, w=175, h=175,cena = fundo_estatico)
 
