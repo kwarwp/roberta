@@ -37,14 +37,14 @@ tronco_base = Elemento(TRONCO_BASE, x =550, y= 675, w = 400, h = 400,  cena = fu
 
 circulo_azul = Elemento(GEOMETRICO_CIRCULO_AZUL, x=370, y=500, cena = fundo_estatico)
 
-criterio_azul = Elemento(CRITERIO_AZUL, x=739, y=645, w = 55, h = 55,  cena = fundo_estatico)
+criterio_azul = Elemento(CRITERIO_AZUL, x=739, y=645, w = 50, h = 50,  cena = fundo_estatico)
 criterio_circulo = Elemento(CRITERIO_CIRCULO, x=450, y=450,  cena = fundo_estatico)
 criterio_grande = Elemento(CRITERIO_GRANDE, x=450, y=350,  cena = fundo_estatico)
 
        
-ramo_criteriado_tres_nivel_um = Elemento(BRANCH_TRES_CRITERIO_NIVEL_UM,  x =570, y=500, w=200, h=200,cena = fundo_estatico)
+ramo_criteriado_tres_nivel_um = Elemento(BRANCH_TRES_CRITERIO_NIVEL_UM,  x =67, y=50, w=180, h=180,cena = fundo_estatico)
 
-ramo_criterio_tres_nivel_dois = Elemento(BRANCH_TRES_CRITERIADO_NIVEL_DOIS,  x =379, y=540, w=175, h=175,cena = fundo_estatico)
+ramo_criterio_tres_nivel_dois = Elemento(BRANCH_TRES_CRITERIADO_NIVEL_DOIS,  x =640, y=410, w=250, h=270,cena = fundo_estatico)
 
 ramo_criterio_um = Elemento(BRANCH_UM_CRITERIADO,  x =379, y=193, w=175, h=175,cena = fundo_estatico)
        
