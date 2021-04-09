@@ -12,15 +12,16 @@ Changelog
 """
 BACKGROUND = "https://i.imgur.com/15vsHKm.jpg"
 
-TRONCO_BASE = "https://imgur.com/MvuKMHs.png"
-BRACH_UM = "https://imgur.com/9HEwnOX.png"
-BRANCH_TRES_CRITERIO = "https://imgur.com/Sl5USH5.png"
-BRANCH_TRES_CRITERIADO = "https://imgur.com/RNrW0L9.png"
+TRONCO_BASE = "https://i.imgur.com/FiV74AD.png"
 
-CRITERIO_AZUL= "https://imgur.com/bSutiDv.png"
-CRITERIO_CIRCULO = "https://imgur.com/lWXEv57.png"
-CRITERIO_GRANDE = "https://imgur.com/yBD04Wg"
-GEOMETRICO_CIRCULO_AZUL = "https://imgur.com/JKHhspj.png"
+BRANCH_TRES_CRITERIO = "https://i.imgur.com/E4VF4sb.png"
+BRANCH_TRES_CRITERIADO = "https://i.imgur.com/AC8DivF.png"
+BRANCH_UM_CRITERIADO = "https://i.imgur.com/AC8DivF.png"
+
+CRITERIO_AZUL = "https://i.imgur.com/KU344jS.png"
+CRITERIO_CIRCULO = "https://i.imgur.com/KU344jS.png"
+CRITERIO_GRANDE = "https://i.imgur.com/KU344jS.png"
+GEOMETRICO_CIRCULO_AZUL = "https://i.imgur.com/Ch4uiED.png"
 
 from browser import document
 pdiv = document["pydiv"]
