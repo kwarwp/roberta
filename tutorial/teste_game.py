@@ -12,7 +12,7 @@ Changelog
 """
 BACKGROUND = "https://i.imgur.com/15vsHKm.jpg"
 
-TRONCO_BASE = "https://i.imgur.com/FiV74AD.png"
+TRONCO_BASE = "https://imgur.com/MvuKMHs.png"
 
 BRANCH_TRES_CRITERIO_NIVEL_UM = "https://imgur.com/RNrW0L9.png"
 BRANCH_TRES_CRITERIADO_NIVEL_DOIS = "https://imgur.com/Sl5USH5.png"
@@ -35,12 +35,14 @@ STYLE.update(width = 1920, height = '1080px') # width = 300 (default)
 #STYLE["heigth"] = "300px" # min-height = "300px"
 
 fundo_estatico = Cena(BACKGROUND)
-""""
-criteriado = Elemento(GEOMETRICO_CIRCULO_AZUL, x=370, y=245, w = 30, h=30, cena = fundo_estatico)
 
-criterio_azul = Elemento(CRITERIO_AZUL, x=450, y=350, w=20, h=20,  cena = fundo_estatico)
-criterio_circulo = Elemento(CRITERIO_CIRCULO, x=450, y=350, w=20, h=20,  cena = fundo_estatico)
-criterio_grande = Elemento(CRITERIO_GRANDE, x=450, y=350, w=20, h=20,  cena = fundo_estatico)
+tronco_base = Elemento(TRONCO_BASE, x =550, y= 675, w = 400, h = 400,  cena = fundo_estatico)
+
+circulo_azul = Elemento(GEOMETRICO_CIRCULO_AZUL, x=370, y=500, cena = fundo_estatico)
+
+criterio_azul = Elemento(CRITERIO_AZUL, x=450, y=350,  cena = fundo_estatico)
+criterio_circulo = Elemento(CRITERIO_CIRCULO, x=450, y=450,  cena = fundo_estatico)
+criterio_grande = Elemento(CRITERIO_GRANDE, x=450, y=350,  cena = fundo_estatico)
 
        
 ramo_criteriado_tres_nivel_um = Elemento(BRANCH_TRES_CRITERIO_NIVEL_UM,  x =379, y=193, w=175, h=175,cena = fundo_estatico)
@@ -50,8 +52,7 @@ ramo_criterio_tres_nivel_dois = Elemento(BRANCH_TRES_CRITERIADO_NIVEL_DOIS,  x =
 ramo_criterio_um = Elemento(BRANCH_UM_CRITERIADO,  x =379, y=193, w=175, h=175,cena = fundo_estatico)
 
 
-tronco_base = Elemento(TRONCO_BASE, x =300, y= 365, w = 300, h = 300,  cena = fundo_estatico)
-"""                          
+"""
 criteriado = Elemento(GEOMETRICO_CIRCULO_AZUL, x=370, y=245, cena = fundo_estatico)
 
 criterio_azul = Elemento(CRITERIO_AZUL, x=450, y=350,  cena = fundo_estatico)
@@ -66,6 +67,7 @@ ramo_criterio_tres_nivel_dois = Elemento(BRANCH_TRES_CRITERIADO_NIVEL_DOIS,  x =
 ramo_criterio_um = Elemento(BRANCH_UM_CRITERIADO,  x =379, y=193,cena = fundo_estatico)
 
 
-tronco_base = Elemento(TRONCO_BASE, x =300, y= 365,  cena = fundo_estatico)                   
+tronco_base = Elemento(TRONCO_BASE, x =300, y= 365,  cena = fundo_estatico)        
+"""
                            
 fundo_estatico.vai()
