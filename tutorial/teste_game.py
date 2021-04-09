@@ -33,11 +33,11 @@ STYLE.update(width = 1920, height = '1080px') # width = 300 (default)
 
 fundo_estatico = Cena(BACKGROUND)
 
-tronco_base = Elemento(TRONCO_BASE, x =550, y= 675, w = 400, h = 400,  cena = fundo_estatico)
+tronco_base = Elemento(TRONCO_BASE, x =550, y= 675, w = 400, h = 350,  cena = fundo_estatico)
 
 circulo_azul = Elemento(GEOMETRICO_CIRCULO_AZUL, x=370, y=500, cena = fundo_estatico)
 
-criterio_azul = Elemento(CRITERIO_AZUL, x=739, y=645, w = 50, h = 50,  cena = fundo_estatico)
+criterio_azul = Elemento(CRITERIO_AZUL, x=739, y=645, w = 55, h = 55,  cena = fundo_estatico)
 criterio_circulo = Elemento(CRITERIO_CIRCULO, x=450, y=450,  cena = fundo_estatico)
 criterio_grande = Elemento(CRITERIO_GRANDE, x=450, y=350,  cena = fundo_estatico)
 
