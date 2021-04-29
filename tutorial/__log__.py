@@ -1628,3 +1628,10 @@ NameError: name 'GEOMETRICO_CIRCULO' is not defined
     criteriado = Elemento(GEOMETRICO_CIRCULO, tit="Este é o tronco da árvore",x=370, y=245, w = 30, h=30, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
 NameError: name 'GEOMETRICO_CIRCULO' is not defined
 '''},
+{'date': 'Wed Apr 28 2021 23:46:50.426 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 46
+  criterio_circulo_A = Elemento(CRITERIO_CIRCULO_A,  x =640, y=410, w=52 h=52,cena = fundo_estatico)
+                                                                          ^
+SyntaxError: invalid syntax
+'''},
