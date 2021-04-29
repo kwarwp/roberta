@@ -1635,3 +1635,10 @@ NameError: name 'GEOMETRICO_CIRCULO' is not defined
                                                                           ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Apr 28 2021 23:48:37.996 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 46
+  criterio_circulo_A = Elemento(CRITERIO_CIRCULO_A,  x 590, y=800, w=52, h=52,cena = fundo_estatico)
+                                                        ^
+SyntaxError: invalid syntax
+'''},
