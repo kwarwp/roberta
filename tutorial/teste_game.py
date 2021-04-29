@@ -9,16 +9,17 @@ Changelog
 """
 BACKGROUND = "https://i.imgur.com/15vsHKm.jpg"
 
-TRONCO_BASE = "https://imgur.com/MvuKMHs.png"
+TRONCO_BASE = "https://imgur.com/PMAoGcd.png"
 
-BRANCH_TRES_CRITERIO_NIVEL_UM = "https://imgur.com/Sl5USH5.png"
-BRANCH_TRES_CRITERIADO_NIVEL_DOIS = "https://imgur.com/RNrW0L9.png"
-BRANCH_UM_CRITERIADO = "https://imgur.com/9HEwnOX.png"
+BRANCH_TRES_NIVEL_ = "https://imgur.com/Eumtp6h.png"
+BRANCH_TRES_UM_UM ="https://imgur.com/7tz9P1X.png"
+BRANCH_TRES_UM_DOIS = "https://imgur.com/F6yRq5f.png"
+BRANCH_TRES_UM_TRES = "https://imgur.com/MRgb5pH.png"
 
-CRITERIO_AZUL = "https://imgur.com/bSutiDv.png"
-CRITERIO_CIRCULO = "https://imgur.com/lWXEv57.png"
-CRITERIO_GRANDE = "https://imgur.com/yBD04Wg.png"
-GEOMETRICO_CIRCULO_AZUL = "https://imgur.com/JKHhspj.png"
+CRITERIO_VERMELHO = "https://imgur.com/ggv9wva.png"
+CRITERIO_CIRCULO = "https://imgur.com/E5GTyil.png"
+#CRITERIO_GRANDE = "https://imgur.com/yBD04Wg.png"
+GEOMETRICO_CIRCULO_VERMELHO = "https://imgur.com/CZJ0xTb.png"
 
 from browser import document
 pdiv = document["pydiv"]
@@ -33,42 +34,12 @@ STYLE.update(width = 1920, height = '1080px') # width = 300 (default)
 
 fundo_estatico = Cena(BACKGROUND)
 
-tronco_base = Elemento(TRONCO_BASE, x =550, y= 675, w = 400, h = 350,  cena = fundo_estatico)
-
-circulo_azul = Elemento(GEOMETRICO_CIRCULO_AZUL, x=370, y=500, cena = fundo_estatico)
-
-criterio_azul = Elemento(CRITERIO_AZUL, x=739, y=645, w = 55, h = 55,  cena = fundo_estatico)
-criterio_circulo = Elemento(CRITERIO_CIRCULO, x=450, y=450,  cena = fundo_estatico)
-criterio_grande = Elemento(CRITERIO_GRANDE, x=450, y=350,  cena = fundo_estatico)
-
-       
-ramo_criteriado_tres_nivel_um = Elemento(BRANCH_TRES_CRITERIO_NIVEL_UM,  x =67, y=50, w=180, h=180,cena = fundo_estatico)
-
-ramo_criterio_tres_nivel_dois = Elemento(BRANCH_TRES_CRITERIADO_NIVEL_DOIS,  x =640, y=410, w=250, h=270,cena = fundo_estatico)
-
-ramo_criterio_um = Elemento(BRANCH_UM_CRITERIADO,  x =379, y=193, w=175, h=175,cena = fundo_estatico)
-       
-"""
-                           
-fundo_estatico.vai()
+tronco_base = Elemento(TRONCO_BASE, x =550, y= 675, w = 416, h = 523,  cena = fundo_estatico)
+ramo_nivel_tres = Elemento(BRANCH_TRES_NIVEL_,  x =67, y=50, w=160, h=98,cena = fundo_estatico)
+ramo_nivel_tres_um = Elemento(BRANCH_TRES_UM_UM,  x =640, y=410, w=81, h=100,cena = fundo_estatico)
+ramo_nivel_tres_dois = Elemento(BRANCH_TRES_UM_DOIS,  x =640, y=410, w=52, h=93,cena = fundo_estatico)
+ramo_nivel_tres_dois = Elemento(BRANCH_TRES_UM_TRES,  x =640, y=410, w=98, h=85,cena = fundo_estatico)
 
 
-fundo_estatico = Cena(BACKGROUND)
-criteriado = Elemento(GEOMETRICO_CIRCULO, tit="Este é o tronco da árvore",x=370, y=245, w = 30, h=30, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                           cena = fundo_estatico)
-
-criterio_vermelho = Elemento(CRITERIO_VERMELHO, tit="Este é o tronco da árvore", x=450, y=350, w=20, h=20, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                           cena = fundo_estatico)
-                           
-#ramo_criterio_tres = Elemento(BRANCH_TRES_CRITERIO, tit="Este é o tronco da árvore", x =375, y=197, w=170, h=170, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-#                           cena = fundo_estatico)
-                           
-ramo_criteriado_tres = Elemento(BRANCH_TRES_CRITERIADO, tit="Este é o tronco da árvore", x =379, y=193, w=175, h=175, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                           cena = fundo_estatico)
-
-tronco_base = Elemento(TRONCO_BASE, tit="Este é o tronco da árvore", x =300, y= 365, w = 300, h = 300, # ou x=eixo_x, y=eixo_y, w=largura, h=altura
-                           cena = fundo_estatico)
-                           
-"""                   
                            
 fundo_estatico.vai()
