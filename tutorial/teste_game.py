@@ -33,18 +33,18 @@ from _spy.vitollino.main import Cena, Elemento, STYLE
 STYLE.update(width = 1920, height = '1080px') # width = 300 (default)
 #STYLE["heigth"] = "300px" # min-height = "300px"
 
-fundo_estatico = Cena(BACKGROUND)
+fundo_estatico        = Cena    (BACKGROUND)
 
-tronco_base = Elemento(TRONCO_BASE, x =550, y= 675, w = 416, h = 523,  cena = fundo_estatico)
-ramo_nivel_tres = Elemento(BRANCH_TRES_NIVEL_UM,  x =430, y=695, w=169, h=239,cena = fundo_estatico)
-ramo_nivel_tres__ = Elemento(BRANCH_TRES_NIVEL_DOIS,  x =67, y=50, w=169, h=239,cena = fundo_estatico)
-ramo_nivel_tres_um = Elemento(BRACO_UM_UM,  x =635, y=410, w=81, h=100,cena = fundo_estatico)
-ramo_nivel_tres_dois = Elemento(BRACO_UM_DOIS,  x =640, y=410, w=52, h=93,cena = fundo_estatico)
-ramo_nivel_tres_dois = Elemento(BRACO_UM_TRES,  x =640, y=410, w=98, h=85,cena = fundo_estatico)
+tronco_base           = Elemento(TRONCO_BASE                , x =550, y=675, w=416, h=523, cena = fundo_estatico)
+ramo_nivel_tres       = Elemento(BRANCH_TRES_NIVEL_UM       , x =430, y=695, w=169, h=239, cena = fundo_estatico)
+ramo_nivel_tres__     = Elemento(BRANCH_TRES_NIVEL_DOIS     , x =67 , y=50 , w=169, h=239, cena = fundo_estatico)
+ramo_nivel_tres_um    = Elemento(BRACO_UM_UM                , x =635, y=410, w=81 , h=100, cena = fundo_estatico)
+ramo_nivel_tres_dois  = Elemento(BRACO_UM_DOIS              , x =640, y=410, w=52 , h=93 , cena = fundo_estatico)
+ramo_nivel_tres_dois  = Elemento(BRACO_UM_TRES              , x =640, y=410, w=98 , h=85 , cena = fundo_estatico)
 
-criterio_cor_vermelho =Elemento(CRITERIO_COR_VERMELHO,  x =640, y=410, w=52, h=52,cena = fundo_estatico)
-criterio_circulo_A = Elemento(CRITERIO_CIRCULO_A,  x = 540, y=800, w=52, h=52,cena = fundo_estatico)
-geometrico_vermelho = Elemento(GEOMETRICO_CIRCULO_VERMELHO,  x =640, y=410, w=33, h=33,cena = fundo_estatico)
+criterio_cor_vermelho = Elemento(CRITERIO_COR_VERMELHO      , x =640, y=410, w=52 , h=52 , cena = fundo_estatico)
+criterio_circulo_A    = Elemento(CRITERIO_CIRCULO_A         , x =540, y=800, w=52 , h=52 , cena = fundo_estatico)
+geometrico_vermelho   = Elemento(GEOMETRICO_CIRCULO_VERMELHO, x =640, y=410, w=33 , h=33 , cena = fundo_estatico)
 
 
 fundo_estatico.vai()
