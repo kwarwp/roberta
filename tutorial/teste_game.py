@@ -42,9 +42,9 @@ ramo_nivel_tres_um    = Elemento(BRACO_UM_UM                , x =561, y=892, w=8
 ramo_nivel_tres_dois  = Elemento(BRACO_UM_DOIS              , x =478, y=928, w=52 , h=93 , cena = fundo_estatico)# ok
 ramo_nivel_tres_dois  = Elemento(BRACO_UM_TRES              , x =359, y=873, w=98 , h=85 , cena = fundo_estatico)# ok
 
-criterio_cor_vermelho = Elemento(CRITERIO_COR_VERMELHO      , x =490, y=1050, w=52 , h=52 , cena = fundo_estatico)# ok
+criterio_cor_vermelho = Elemento(CRITERIO_COR_VERMELHO      , x =490, y=805, w=52 , h=52 , cena = fundo_estatico)# ok
 criterio_circulo_A    = Elemento(CRITERIO_CIRCULO_A         , x =535, y=672, w=52 , h=52 , cena = fundo_estatico)# ok
-geometrico_vermelho   = Elemento(GEOMETRICO_CIRCULO_VERMELHO, x =640, y=410, w=33 , h=33 , cena = fundo_estatico)
+geometrico_vermelho   = Elemento(GEOMETRICO_CIRCULO_VERMELHO, x =640, y=900, w=33 , h=33 , cena = fundo_estatico)
 
 
 fundo_estatico.vai()
