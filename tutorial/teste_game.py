@@ -43,7 +43,7 @@ ramo_nivel_tres_dois  = Elemento(BRACO_UM_DOIS              , x =640, y=410, w=5
 ramo_nivel_tres_dois  = Elemento(BRACO_UM_TRES              , x =640, y=410, w=98 , h=85 , cena = fundo_estatico)
 
 criterio_cor_vermelho = Elemento(CRITERIO_COR_VERMELHO      , x =640, y=410, w=52 , h=52 , cena = fundo_estatico)
-criterio_circulo_A    = Elemento(CRITERIO_CIRCULO_A         , x =540, y=600, w=52 , h=52 , cena = fundo_estatico)
+criterio_circulo_A    = Elemento(CRITERIO_CIRCULO_A         , x =540, y=700, w=52 , h=52 , cena = fundo_estatico)
 geometrico_vermelho   = Elemento(GEOMETRICO_CIRCULO_VERMELHO, x =640, y=410, w=33 , h=33 , cena = fundo_estatico)
 
 
