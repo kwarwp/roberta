@@ -44,7 +44,7 @@ ramo_nivel_tres_dois  = Elemento(BRACO_UM_TRES              , x =359, y=873, w=9
 
 criterio_cor_vermelho = Elemento(CRITERIO_COR_VERMELHO      , x =490, y=805, w=52 , h=52 , cena = fundo_estatico)# ok
 criterio_circulo_A    = Elemento(CRITERIO_CIRCULO_A         , x =535, y=672, w=52 , h=52 , cena = fundo_estatico)# ok
-geometrico_vermelho   = Elemento(GEOMETRICO_CIRCULO_VERMELHO, x =640, y=900, w=33 , h=33 , cena = fundo_estatico)
+geometrico_vermelho   = Elemento(GEOMETRICO_CIRCULO_VERMELHO, x =630, y=950, w=33 , h=33 , cena = fundo_estatico)
 
 
 fundo_estatico.vai()
