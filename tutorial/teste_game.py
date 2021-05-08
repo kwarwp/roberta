@@ -35,7 +35,7 @@ STYLE.update(width = 1920, height = '1080px') # width = 300 (default)
 
 fundo_estatico        = Cena    (BACKGROUND)
 
-tronco_base           = Elemento(TRONCO_BASE                , x =550, y=575, w=416, h=523, cena = fundo_estatico)
+tronco_base           = Elemento(TRONCO_BASE                , x =550, y=550, w=416, h=523, cena = fundo_estatico)
 ramo_nivel_tres       = Elemento(BRANCH_TRES_NIVEL_UM       , x =430, y=695, w=169, h=239, cena = fundo_estatico)
 ramo_nivel_tres__     = Elemento(BRANCH_TRES_NIVEL_DOIS     , x =67 , y=50 , w=160, h=98 , cena = fundo_estatico)
 ramo_nivel_tres_um    = Elemento(BRACO_UM_UM                , x =635, y=410, w=81 , h=100, cena = fundo_estatico)
