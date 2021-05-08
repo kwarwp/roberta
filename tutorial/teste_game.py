@@ -39,8 +39,8 @@ tronco_base           = Elemento(TRONCO_BASE                , x =550, y=550, w=4
 ramo_nivel_tres       = Elemento(BRANCH_TRES_NIVEL_UM       , x =402, y=593, w=169, h=239, cena = fundo_estatico)# ok
 ramo_nivel_tres__     = Elemento(BRANCH_TRES_NIVEL_DOIS     , x =433, y=830, w=160, h=98 , cena = fundo_estatico)# ok
 ramo_nivel_tres_um    = Elemento(BRACO_UM_UM                , x =561, y=892, w=81 , h=100, cena = fundo_estatico)# ok
-ramo_nivel_tres_dois  = Elemento(BRACO_UM_DOIS              , x =478, y=928, w=52 , h=93 , cena = fundo_estatico)
-ramo_nivel_tres_dois  = Elemento(BRACO_UM_TRES              , x =640, y=410, w=98 , h=85 , cena = fundo_estatico)
+ramo_nivel_tres_dois  = Elemento(BRACO_UM_DOIS              , x =478, y=928, w=52 , h=93 , cena = fundo_estatico)# ok
+ramo_nivel_tres_dois  = Elemento(BRACO_UM_TRES              , x =361, y=892, w=98 , h=85 , cena = fundo_estatico)
 
 criterio_cor_vermelho = Elemento(CRITERIO_COR_VERMELHO      , x =640, y=410, w=52 , h=52 , cena = fundo_estatico)
 criterio_circulo_A    = Elemento(CRITERIO_CIRCULO_A         , x =535, y=672, w=52 , h=52 , cena = fundo_estatico)# ok
