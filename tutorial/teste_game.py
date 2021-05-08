@@ -11,16 +11,16 @@ BACKGROUND = "https://i.imgur.com/15vsHKm.jpg"
 
 TRONCO_BASE = "https://imgur.com/PMAoGcd.png"
 
-BRANCH_TRES_NIVEL_ = "https://imgur.com/pYDzqJr.png"
-BRANCH_TRES_NIVEL_DOIS = "https://imgur.com/Eumtp6h.png"
-BRANCH_TRES_UM_UM ="https://imgur.com/7tz9P1X.png"
-BRANCH_TRES_UM_DOIS = "https://imgur.com/F6yRq5f.png"
-BRANCH_TRES_UM_TRES = "https://imgur.com/MRgb5pH.png"
+BRANCH_TRES_NIVEL_UM = "https://imgur.com/pYDzqJr.png" #dimensões= 169x239
+BRANCH_TRES_NIVEL_DOIS = "https://imgur.com/Eumtp6h.png" #dimensoes = 160x98
+BRACO_UM_UM ="https://imgur.com/7tz9P1X.png" #dimensoes = 81x100
+BRACO_UM_DOIS = "https://imgur.com/F6yRq5f.png" #dimensoes = 52x93
+BRACO_UM_TRES = "https://imgur.com/MRgb5pH.png" # dimensoes = 98x85
 
-CRITERIO_COR_VERMELHO = "https://imgur.com/ggv9wva.png"
-CRITERIO_CIRCULO_A = "https://imgur.com/E5GTyil.png"
+CRITERIO_COR_VERMELHO = "https://imgur.com/ggv9wva.png" #domensoes = 52x52
+CRITERIO_CIRCULO_A = "https://imgur.com/E5GTyil.png" #domensoes = 52x52
 #CRITERIO_GRANDE = "https://imgur.com/yBD04Wg.png"
-GEOMETRICO_CIRCULO_VERMELHO = "https://imgur.com/CZJ0xTb.png"
+GEOMETRICO_CIRCULO_VERMELHO = "https://imgur.com/CZJ0xTb.png" #domensoes = 33x33
 
 from browser import document
 pdiv = document["pydiv"]
@@ -36,11 +36,11 @@ STYLE.update(width = 1920, height = '1080px') # width = 300 (default)
 fundo_estatico = Cena(BACKGROUND)
 
 tronco_base = Elemento(TRONCO_BASE, x =550, y= 675, w = 416, h = 523,  cena = fundo_estatico)
-ramo_nivel_tres = Elemento(BRANCH_TRES_NIVEL_,  x =430, y=695, w=169, h=239,cena = fundo_estatico)
+ramo_nivel_tres = Elemento(BRANCH_TRES_NIVEL_UM,  x =430, y=695, w=169, h=239,cena = fundo_estatico)
 ramo_nivel_tres__ = Elemento(BRANCH_TRES_NIVEL_DOIS,  x =67, y=50, w=169, h=239,cena = fundo_estatico)
-ramo_nivel_tres_um = Elemento(BRANCH_TRES_UM_UM,  x =635, y=410, w=81, h=100,cena = fundo_estatico)
-ramo_nivel_tres_dois = Elemento(BRANCH_TRES_UM_DOIS,  x =640, y=410, w=52, h=93,cena = fundo_estatico)
-ramo_nivel_tres_dois = Elemento(BRANCH_TRES_UM_TRES,  x =640, y=410, w=98, h=85,cena = fundo_estatico)
+ramo_nivel_tres_um = Elemento(BRACO_UM_UM,  x =635, y=410, w=81, h=100,cena = fundo_estatico)
+ramo_nivel_tres_dois = Elemento(BRACO_UM_DOIS,  x =640, y=410, w=52, h=93,cena = fundo_estatico)
+ramo_nivel_tres_dois = Elemento(BRACO_UM_TRES,  x =640, y=410, w=98, h=85,cena = fundo_estatico)
 
 criterio_cor_vermelho =Elemento(CRITERIO_COR_VERMELHO,  x =640, y=410, w=52, h=52,cena = fundo_estatico)
 criterio_circulo_A = Elemento(CRITERIO_CIRCULO_A,  x = 540, y=800, w=52, h=52,cena = fundo_estatico)
